@@ -1,0 +1,354 @@
+<html>
+<head>
+	<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="report.css" type="text/css"/>
+	<title>Sequence Diagram - co.edu.sena.cot.controlador.dao.mysql.EditionDaoImpl.findByLikeIdEdition(String)</title>
+	<script type="text/javascript" src="report.js"></script>
+	<script type="text/javascript" src="link_popup.js"></script>
+	<script type="text/javascript" src="tooltip.js"></script>
+</head>
+<body style="margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;" onload="initPage();initDiagram();initGridDiagram();">
+	<div style="position:absolute; z-index:2; visibility:hidden;border-top: 2px #FF0000 solid;" id="spotlight_top">
+	</div>
+	<div style="position:absolute; z-index:2; visibility:hidden;border-top: 2px #FF0000 solid;" id="spotlight_bottom">
+	</div>
+	<div style="position:absolute; z-index:2; visibility:hidden;border-left: 2px #FF0000 solid;" id="spotlight_left">
+	</div>
+	<div style="position:absolute; z-index:2; visibility:hidden;border-left: 2px #FF0000 solid;" id="spotlight_right">
+	</div>
+	<canvas width="100" style="position:absolute; z-index:2; visibility:hidden" id="spotlight_c" height="100">
+	</canvas>
+	<div style="position:absolute; width:100px; height:100px; z-index:1; visibility:hidden" id="spotLightResourcesTop">
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td>
+<a href="#top"><img style="border:none" src="../images/icons/BackToTop.gif" alt="Back to top"/></a>				</td>
+				<td>
+<a href="javascript:clearSpotLightFromOpenSpecButton();"><img style="border:none" src="../images/icons/OpenSpecification.gif" alt="Open specification"/></a>				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="position:absolute; width:100px; height:100px; z-index:1; visibility:hidden" id="spotLightResourcesRight">
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td>
+<a href="#top"><img style="border:none" src="../images/icons/BackToTop.gif" alt="Back to top"/></a>				</td>
+			</tr>
+			<tr>
+				<td>
+<a href="javascript:clearSpotLightFromOpenSpecButton();"><img style="border:none" src="../images/icons/OpenSpecification.gif" alt="Open specification"/></a>				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="position:absolute;z-index:4;visibility:hidden" id="linkPopupMenuLayer">
+		<table border="0" width="100%" style="border-style:solid; border-width:1px; border-color:#000000; background:#FFFFFF; width:250px" id="linkPopupMenuTable">
+		</table>
+	</div>
+	<div style="position:absolute; z-index:1; visibility:hidden; " id="referenceIconLayer">
+		<table border="0" cellpadding="3" cellspacing="0" style="font-size:1;">
+			<tr>
+				<td>
+					<img src="../images/icons/Ref.gif" style="border:none" onclick="movePopupPositionToReferenceIconPosition();resetPopupForReference();switchPopupShowHideStatus();" />				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="position:absolute; z-index:1; visibility:hidden; " id="subdiagramIconLayer">
+		<table border="0" cellpadding="3" cellspacing="0" style="font-size:1;">
+			<tr>
+				<td>
+					<img src="../images/icons/Subdiagram.gif" style="border:none" onclick="movePopupPositionToSubdiagramIconPosition();resetPopupForSubdiagram();switchPopupShowHideStatus();" />				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="position:absolute; z-index:1; visibility:hidden; " id="transitorIconLayer">
+		<table border="0" cellpadding="3" cellspacing="0" style="font-size:1;">
+			<tr>
+				<td>
+					<img src="../images/icons/Transitor.gif" style="border:none" onclick="movePopupPositionToTransitorIconPosition();resetPopupForTransitor();switchPopupShowHideStatus();" />				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="position:absolute; z-index:1; visibility:hidden; " id="documentationIconLayer">
+		<table border="0" cellpadding="3" cellspacing="0" style="font-size:1;">
+			<tr>
+				<td>
+					<img src="../images/icons/Documentation.png" style="border:none" />				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="HeaderText">
+		doagrams	</div>
+	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+		<tr>
+			<td class="HeaderLine1">
+			</td>
+		</tr>
+		<tr>
+			<td class="HeaderLine2">
+			</td>
+		</tr>
+		<tr>
+			<td class="HeaderLine3">
+			</td>
+		</tr>
+	</table>
+	<div style="position:absolute; z-index:21; visibility:hidden" id="referencedBys">
+		<table border="0" width="100%" style="border-style:solid; border-width:1px; border-color:#000000; background:#FFFFFF; width:250px" id="referencedBysTable">
+		</table>
+	</div>
+	<div style="position:absolute; z-index:21; visibility:hidden" id="vplink">
+		<table border="1" cellpadding="0" cellspacing="0" bordercolor="#A9BFD3">
+			<tr>
+				<td>
+					<table border="0" cellpadding="0" width="100%" cellspacing="0">
+						<tr style="background:#DDDDDD">
+							<td style="font-size: 12px;" align="left">
+								<select onchange="vpLinkToggleName()" id="vplink-linkType">
+	<option value="Project Link">Project Link</option>
+	<option value="Page URL">Page URL</option>
+</select>
+							</td>
+							<td style="font-size: 12px;" align="right">
+								<input onclick="javascript: vpLinkToggleName()" id="vplink-checkbox" type="checkbox" />
+								<label for="vplink-checkbox">with Name</label>							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<textarea id="vplink-text" style="width: 348px; height: 60px; border-color: #7EADD9; outline: none;"></textarea>				</td>
+			</tr>
+		</table>
+	</div>
+	<p class="PageTitle">
+		<span id="PageTitleText">
+			Sequence Diagram - co.edu.sena.cot.controlador.dao.mysql.EditionDaoImpl.findByLikeIdEdition(String)		</span>
+<a onclick="javascript: showVpLink('secuencia.vpp://diagram/WIcKX_qGAqAAGS64', 'co.edu.sena.cot.controlador.dao.mysql.EditionDaoImpl.findByLikeIdEdition(String)\nsecuencia.vpp://diagram/WIcKX_qGAqAAGS64', 'co.edu.sena.cot.controlador.dao.mysql.EditionDaoImpl.findByLikeIdEdition(String)', this); return false;" style="padding-left: 16px; font-size: 12px" href="#"><img src="../images/icons/link.png" border="0"> link</a>	</p>
+	<div style="position: relative; padding-bottom: 20px;">
+		<table border="0" cellpadding="0" width="100%" cellspacing="0" style="position: absolute; top: 0; left: 0; z-index: 20;" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),hideLinkPopup(),hideReferencedBys();">
+			<tr>
+				<td>
+<span class="TableContent">Jump to:</span>					<select id="SelectShape" class="TableContent" onChange="scrollWin('diagram', this.value);hideLinkPopup();showSpotLight('diagram', this.value)">
+<option value="">Please select a model element</option>
+<option value="shape|120.0|2.0|104.0|35.0|InteractionLifeLine_R0cKX_qGAqAAGS7v.html|InteractionLifeLine_R0cKX_qGAqAAGS7v.html|10cKX_qGAqAAGS7w" id="option10cKX_qGAqAAGS7w">Unnamed Lifeline : Lifeline</option>
+<option value="shape|168.0|62.0|8.0|352.0|Activation_5McKX_qGAqAAGS8C.html|Activation_5McKX_qGAqAAGS8C.html|VMcKX_qGAqAAGS8E" id="optionVMcKX_qGAqAAGS8E">Activation : Activation</option>
+<option value="shape|110.0|102.0|494.0|260.0|CombinedFragment_TMcKX_qGAqAAGS8I.html|CombinedFragment_TMcKX_qGAqAAGS8I.html|TMcKX_qGAqAAGS8H" id="optionTMcKX_qGAqAAGS8H">CombinedFragment36 : Combined Fragment</option>
+<option value="shape|110.0|119.0|494.0|243.0|InteractionOperand_vMcKX_qGAqAAGS8M.html|InteractionOperand_vMcKX_qGAqAAGS8M.html|vMcKX_qGAqAAGS8L" id="optionvMcKX_qGAqAAGS8L">Operand36 : Interaction Operand</option>
+<option value="shape|264.0|2.0|204.0|35.0|InteractionLifeLine_dccKX_qGAqAAGS8k.html|InteractionLifeLine_dccKX_qGAqAAGS8k.html|DccKX_qGAqAAGS8l" id="optionDccKX_qGAqAAGS8l">em : Lifeline</option>
+<option value="shape|362.0|232.0|8.0|12.0|Activation_x8cKX_qGAqAAGS87.html|Activation_x8cKX_qGAqAAGS87.html|F8cKX_qGAqAAGS89" id="optionF8cKX_qGAqAAGS89">Activation : Activation</option>
+<option value="shape|508.0|2.0|86.0|35.0|InteractionLifeLine_LCcKX_qGAqAAGS9B.html|InteractionLifeLine_LCcKX_qGAqAAGS9B.html|bCcKX_qGAqAAGS9C" id="optionbCcKX_qGAqAAGS9C">query : Lifeline</option>
+<option value="shape|547.0|282.0|8.0|12.0|Activation_3icKX_qGAqAAGS9Y.html|Activation_3icKX_qGAqAAGS9Y.html|wScKX_qGAqAAGS9a" id="optionwScKX_qGAqAAGS9a">Activation : Activation</option>
+<option value="shape|547.0|332.0|8.0|12.0|Activation_BycKX_qGAqAAGS9t.html|Activation_BycKX_qGAqAAGS9t.html|pycKX_qGAqAAGS9v" id="optionpycKX_qGAqAAGS9v">Activation : Activation</option>
+</select>				</td>
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" width="100%" cellspacing="0" style="position: relative; top: 24;">
+			<tr>
+				<td>
+					<img id="diagram" src="../images/coedusenacotcontroladordaomysqlEditionDaoImplfindByLikeIdEditionString.png" usemap="#diagram_map" class="Image" width="608" height="438"/>
+					<map name="diagram_map">
+<area imageId="diagram" coords="35.0, 55.0, 35.0, 69.0, 178.0, 69.0, 178.0, 55.0" coords2="35.0, 55.0, 35.0, 69.0, 178.0, 69.0, 178.0, 55.0" shape="poly" alt="1: findByLikeIdEdition(idEdition : String) : List&lt;Edition&gt;:Message" id="areadiagram_map_0McKX_qGAqAAGS72" href="Message_0McKX_qGAqAAGS73.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="195.0, 152.0, 195.0, 155.0, 166.0, 155.0, 166.0, 169.0, 195.0, 169.0, 195.0, 175.0, 166.0, 175.0, 166.0, 189.0, 195.0, 189.0, 195.0, 192.0, 209.0, 192.0, 209.0, 189.0, 212.0, 189.0, 212.0, 175.0, 209.0, 175.0, 209.0, 169.0, 212.0, 169.0, 212.0, 155.0, 209.0, 155.0, 209.0, 152.0" coords2="195.0, 152.0, 195.0, 155.0, 166.0, 155.0, 166.0, 169.0, 195.0, 169.0, 195.0, 175.0, 166.0, 175.0, 166.0, 189.0, 195.0, 189.0, 195.0, 192.0, 209.0, 192.0, 209.0, 189.0, 212.0, 189.0, 212.0, 175.0, 209.0, 175.0, 209.0, 169.0, 212.0, 169.0, 212.0, 155.0, 209.0, 155.0, 209.0, 152.0" shape="poly" alt="1.1: getEntityManager() : EntityManager:Message" id="areadiagram_map_0scKX_qGAqAAGS8S" href="Message_0scKX_qGAqAAGS8T.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="166.0, 225.0, 166.0, 239.0, 372.0, 239.0, 372.0, 225.0" coords2="166.0, 225.0, 166.0, 239.0, 372.0, 239.0, 372.0, 225.0" shape="poly" alt="1.2: createNativeQuery("SELECT * FROM cot.edition e WHERE ide_edition LIKE ?;", Edition.class):Message" id="areadiagram_map_S8cKX_qGAqAAGS8t" href="Message_S8cKX_qGAqAAGS8u.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="166.0, 275.0, 166.0, 289.0, 557.0, 289.0, 557.0, 275.0" coords2="166.0, 275.0, 166.0, 289.0, 557.0, 289.0, 557.0, 275.0" shape="poly" alt="1.3: setParameter(1, idEdition):Message" id="areadiagram_map_picKX_qGAqAAGS9K" href="Message_picKX_qGAqAAGS9L.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="166.0, 325.0, 166.0, 339.0, 557.0, 339.0, 557.0, 325.0" coords2="166.0, 325.0, 166.0, 339.0, 557.0, 339.0, 557.0, 325.0" shape="poly" alt="1.4: getResultList():Message" id="areadiagram_map_cycKX_qGAqAAGS9f" href="Message_cycKX_qGAqAAGS9g.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="35.0, 395.0, 35.0, 409.0, 178.0, 409.0, 178.0, 395.0" coords2="35.0, 395.0, 35.0, 409.0, 178.0, 409.0, 178.0, 395.0" shape="poly" alt="1.5: :Message" id="areadiagram_map_MqcKX_qGAqAAGS99" href="Message_MqcKX_qGAqAAGS9_.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="110, 119, 604, 362" coords2="110, 119, 604, 362" shape="rect" alt="Operand36:Interaction Operand" id="areadiagram_map_vMcKX_qGAqAAGS8L" href="InteractionOperand_vMcKX_qGAqAAGS8M.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="547, 332, 555, 344" coords2="547, 332, 555, 344" shape="rect" alt="Activation:Activation" id="areadiagram_map_pycKX_qGAqAAGS9v" href="Activation_BycKX_qGAqAAGS9t.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="547, 282, 555, 294" coords2="547, 282, 555, 294" shape="rect" alt="Activation:Activation" id="areadiagram_map_wScKX_qGAqAAGS9a" href="Activation_3icKX_qGAqAAGS9Y.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="110, 102, 604, 362" coords2="110, 102, 604, 362" shape="rect" alt="CombinedFragment36:Combined Fragment" id="areadiagram_map_TMcKX_qGAqAAGS8H" href="CombinedFragment_TMcKX_qGAqAAGS8I.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="508, 2, 594, 37" coords2="508, 2, 594, 37" shape="rect" alt="query : Query:Lifeline" id="areadiagram_map_bCcKX_qGAqAAGS9C" href="InteractionLifeLine_LCcKX_qGAqAAGS9B.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="362, 232, 370, 244" coords2="362, 232, 370, 244" shape="rect" alt="Activation:Activation" id="areadiagram_map_F8cKX_qGAqAAGS89" href="Activation_x8cKX_qGAqAAGS87.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="264, 2, 468, 37" coords2="264, 2, 468, 37" shape="rect" alt="em : javax.persistence.EntityManager:Lifeline" id="areadiagram_map_DccKX_qGAqAAGS8l" href="InteractionLifeLine_dccKX_qGAqAAGS8k.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="168, 62, 176, 414" coords2="168, 62, 176, 414" shape="rect" alt="Activation:Activation" id="areadiagram_map_VMcKX_qGAqAAGS8E" href="Activation_5McKX_qGAqAAGS8C.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="120, 2, 224, 37" coords2="120, 2, 224, 37" shape="rect" alt=" : EditionDaoImpl:Lifeline" id="areadiagram_map_10cKX_qGAqAAGS7w" href="InteractionLifeLine_R0cKX_qGAqAAGS7v.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+</map>
+				</td>
+			</tr>
+		</table>
+		<p>
+		</p>
+	</div>
+	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+		<tr>
+			<td class="Category">
+				Model Elements			</td>
+		</tr>
+		<tr>
+			<td style="height: 5px">
+			</td>
+		</tr>
+	</table>
+	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+		<tr>
+			<td colSpan="4" class="TableHeaderLine">
+			</td>
+		</tr>
+		<tr>
+			<td colSpan="4" class="TableHeaderLine1">
+			</td>
+		</tr>
+		<tr class="TableHeader">
+			<td class="TableCellSpaceHolder10Px">
+			</td>
+			<td width="30%">
+<span class="TableHeaderText">Name</span>			</td>
+			<td class="TableCellSpaceHolder20Px">
+			</td>
+			<td>
+<span class="TableHeaderText">Description</span>			</td>
+		</tr>
+		<tr>
+			<td colSpan="4" class="TableHeaderLine2">
+			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/LifeLine.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/LifeLine.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="InteractionLifeLine_R0cKX_qGAqAAGS7v.html" class="ItemLink">:EditionDaoImpl : Lifeline</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Activation.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Activation.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Activation_5McKX_qGAqAAGS8C.html" class="ItemLink">Activation : Activation</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/CombinedFragmentAlt.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/CombinedFragmentAlt.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="CombinedFragment_TMcKX_qGAqAAGS8I.html" class="ItemLink">CombinedFragment36 : Combined Fragment</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/InteractionOperand.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/InteractionOperand.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="InteractionOperand_vMcKX_qGAqAAGS8M.html" class="ItemLink">Operand36 : Interaction Operand</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/LifeLine.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/LifeLine.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="InteractionLifeLine_dccKX_qGAqAAGS8k.html" class="ItemLink">em : Lifeline</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Activation.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Activation.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Activation_x8cKX_qGAqAAGS87.html" class="ItemLink">Activation : Activation</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/LifeLine.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/LifeLine.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="InteractionLifeLine_LCcKX_qGAqAAGS9B.html" class="ItemLink">query : Lifeline</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Activation.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Activation.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Activation_3icKX_qGAqAAGS9Y.html" class="ItemLink">Activation : Activation</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Activation.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Activation.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Activation_BycKX_qGAqAAGS9t.html" class="ItemLink">Activation : Activation</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+	</table>
+	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+		<tr>
+			<td class="TableCellSpaceHolder1PxTall">
+			</td>
+		</tr>
+		<tr>
+			<td class="TableFooter">
+			</td>
+		</tr>
+	</table>
+	<div style="height: 20px">
+	</div>
+	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+		<tr>
+			<td class="FooterLine">
+			</td>
+		</tr>
+	</table>
+	<div class="HeaderText">
+		doagrams	</div>
+</body>
+</html>
