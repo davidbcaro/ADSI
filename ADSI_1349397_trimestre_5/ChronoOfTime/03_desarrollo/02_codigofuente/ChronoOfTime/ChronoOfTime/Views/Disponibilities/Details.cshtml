@@ -1,0 +1,50 @@
+﻿@model ChronoOfTime.Models.Disponibility
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Disponibility</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.WorkingDays.initials)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WorkingDays.initials)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.typeDis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.typeDis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.startDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.startDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EndDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EndDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IDDisponibility }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

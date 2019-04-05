@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="co.edu.sena_ChronoOfTimeDAO_jar_2.0.0PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>co.edu.sena.cot.modelo.dto.Activity</class>
+    <class>co.edu.sena.cot.modelo.dto.Competence</class>
+    <class>co.edu.sena.cot.modelo.dto.Dayi</class>
+    <class>co.edu.sena.cot.modelo.dto.Disponibility</class>
+    <class>co.edu.sena.cot.modelo.dto.Document</class>
+    <class>co.edu.sena.cot.modelo.dto.Edition</class>
+    <class>co.edu.sena.cot.modelo.dto.EmailServer</class>
+    <class>co.edu.sena.cot.modelo.dto.Environment</class>
+    <class>co.edu.sena.cot.modelo.dto.Headquaters</class>
+    <class>co.edu.sena.cot.modelo.dto.Instructor</class>
+    <class>co.edu.sena.cot.modelo.dto.LearningResult</class>
+    <class>co.edu.sena.cot.modelo.dto.LevelTrainig</class>
+    <class>co.edu.sena.cot.modelo.dto.LinkUp</class>
+    <class>co.edu.sena.cot.modelo.dto.LogAudit</class>
+    <class>co.edu.sena.cot.modelo.dto.LogError</class>
+    <class>co.edu.sena.cot.modelo.dto.Modality</class>
+    <class>co.edu.sena.cot.modelo.dto.NumberGroup</class>
+    <class>co.edu.sena.cot.modelo.dto.NumberGroupHasTrimester</class>
+    <class>co.edu.sena.cot.modelo.dto.Person</class>
+    <class>co.edu.sena.cot.modelo.dto.Phase</class>
+    <class>co.edu.sena.cot.modelo.dto.Program</class>
+    <class>co.edu.sena.cot.modelo.dto.Project</class>
+    <class>co.edu.sena.cot.modelo.dto.Rol</class>
+    <class>co.edu.sena.cot.modelo.dto.Speciality</class>
+    <class>co.edu.sena.cot.modelo.dto.StateNumberGroup</class>
+    <class>co.edu.sena.cot.modelo.dto.Timetable</class>
+    <class>co.edu.sena.cot.modelo.dto.Trimester</class>
+    <class>co.edu.sena.cot.modelo.dto.TrimesterHasLearningResult</class>
+    <class>co.edu.sena.cot.modelo.dto.TrimesterTerm</class>
+    <class>co.edu.sena.cot.modelo.dto.Useri</class>
+    <class>co.edu.sena.cot.modelo.dto.WorkingDay</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:4306/cot?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="123456789"/>
+      <property name="eclipselink.logging.level.sql" value="ALL"/>
+    </properties>
+  </persistence-unit>
+</persistence>

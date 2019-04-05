@@ -1,0 +1,91 @@
+﻿@model IEnumerable<ChronoOfTime.Models.Instructor>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.disponibility.typeDis)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.document.documento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.linkup.typeLink)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.document_number)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.second_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.last_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.second_last_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.state)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Photo)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.disponibility.typeDis)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.document.documento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.linkup.typeLink)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.document_number)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.second_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.last_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.second_last_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.state)
+        </td>
+        <td>
+            @if (!string.IsNullOrEmpty(item.Photo))
+    {
+        <img src="@Url.Content(item.Photo)" alt="Image"
+             style="width:100px;height:150px;max-width: 100%; height: auto;" />
+}
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IDInstructor }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IDInstructor }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IDInstructor })
+        </td>
+    </tr>
+}
+
+</table>

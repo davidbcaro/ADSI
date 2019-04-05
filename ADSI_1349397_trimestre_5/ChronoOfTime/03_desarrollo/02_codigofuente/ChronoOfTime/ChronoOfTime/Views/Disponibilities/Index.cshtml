@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ChronoOfTime.Models.Disponibility>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.WorkingDays.initials)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.typeDis)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.startDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EndDate)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.WorkingDays.initials)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.typeDis)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.startDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EndDate)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IDDisponibility }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IDDisponibility }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IDDisponibility })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ChronoOfTime.Models.LinkUp>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.typeLink)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hours)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.state)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.typeLink)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Hours)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.state)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IDLinkUp }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IDLinkUp }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IDLinkUp })
+        </td>
+    </tr>
+}
+
+</table>
