@@ -1,0 +1,57 @@
+﻿@model EON.Models.Ambience
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Ambience</h4>
+    @Html.ValidationSummary(true, " ", new { @class = "text-danger" })
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Headquarters.name_Headquarters)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Headquarters.name_Headquarters)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.number_Ambience)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.number_Ambience)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            @Html.ActionLink("Back to List", "Index", new { }, new { @class = "btn btn-success" })
+        </div>
+    }
+</div>

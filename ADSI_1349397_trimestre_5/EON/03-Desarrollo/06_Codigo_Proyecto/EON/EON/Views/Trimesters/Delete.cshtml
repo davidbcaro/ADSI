@@ -1,0 +1,48 @@
+﻿@model EON.Models.Trimester
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Trimester</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Speciality.speciality_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Speciality.speciality_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.workingDay.acronyms_Working_day)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.workingDay.acronyms_Working_day)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.quarter_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.quarter_Name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

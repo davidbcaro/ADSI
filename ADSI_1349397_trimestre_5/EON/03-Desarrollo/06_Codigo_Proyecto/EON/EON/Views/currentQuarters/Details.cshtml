@@ -1,0 +1,42 @@
+﻿@model EON.Models.currentQuarter
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>currentQuarter</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.idcurrent_Quarter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idcurrent_Quarter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.start_Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.start_Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.end_Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.end_Date)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_current_Quarter }, new { @class = "btn btn-info" }) |
+    @Html.ActionLink("Back to List", "Index", new { }, new { @class = "btn btn-success" })
+</p>

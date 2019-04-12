@@ -1,0 +1,138 @@
+﻿@model EON.Models.Schedule
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Schedule</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ambience.number_Ambience)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ambience.number_Ambience)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ficha.number_Ficha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ficha.number_Ficha)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.instructor.numberDocument)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.instructor.numberDocument)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.modality.modality_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.modality.modality_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.trimester.quarter_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.trimester.quarter_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.version.version_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.version.version_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.start_Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.start_Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.end_Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.end_Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Monday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Monday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tuesday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tuesday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Wednesday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Wednesday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Thursday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Thursday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Friday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Friday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Saturday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Saturday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sunday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sunday)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_Schedule }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

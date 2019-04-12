@@ -1,0 +1,50 @@
+﻿@model EON.Models.Ambience
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Ambience</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Headquarters.name_Headquarters)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Headquarters.name_Headquarters)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.number_Ambience)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.number_Ambience)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_Ambience }, new { @class = "btn btn-info" }) |
+    @Html.ActionLink("Back to List", "Index", new { }, new { @class = "btn btn-success" })
+</p>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="eon" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Bonding</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Client</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Role</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Trimester</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Version</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Schedule</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Headquarters</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.User</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Day</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Speciality</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Phase</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.LearningResult</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Modality</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.AuditoryLog</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Instructor</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.WorkingDay</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Ficha</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.TrainingLevel</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Document</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.MailServer</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Project</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Program</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.StatusFicha</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.CurrentQuarter</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Ambience</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.FichaHasTrimester</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Availability</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Competition</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.Activity</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.LogError</class>
+    <class>co.edu.sena.eon_jpa.model.jpa.entities.ClientHasRole</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:4306/EON?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="123456789"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+    </properties>
+  </persistence-unit>
+</persistence>

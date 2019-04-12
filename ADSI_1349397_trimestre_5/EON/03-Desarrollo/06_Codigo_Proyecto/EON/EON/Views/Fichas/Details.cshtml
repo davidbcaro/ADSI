@@ -1,0 +1,58 @@
+﻿@model EON.Models.Ficha
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Ficha</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StatusFicha.name_State)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StatusFicha.name_State)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.number_Ficha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.number_Ficha)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.start_Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.start_Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.end_Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.end_Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Route)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Route)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_Ficha }, new { @class = "btn btn-info" }) |
+    @Html.ActionLink("Back to List", "Index", new { }, new { @class = "btn btn-success" })
+</p>

@@ -1,0 +1,74 @@
+﻿@model EON.Models.Instructor
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Instructor</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Bonding.Type_Linkage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bonding.Type_Linkage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentType.typeDocument)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentType.typeDocument)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Speciality.speciality_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Speciality.speciality_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.numberDocument)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numberDocument)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Names)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Names)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.lastNames)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lastNames)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idInstructor }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

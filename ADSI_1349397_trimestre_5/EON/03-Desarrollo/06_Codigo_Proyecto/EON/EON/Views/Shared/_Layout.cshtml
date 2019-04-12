@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - EON Aplication</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("EON", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin<b class="=caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("User (Vacio)", "Index", "Users (Vacio)")</li>
+                            <li>@Html.ActionLink("Instructor", "Index", "Instructors")</li>
+                            <li>@Html.ActionLink("Speciality", "Index", "Specialities")</li>
+                            <li>@Html.ActionLink("Bonding", "Index", "Bondings")</li>
+                            <li>@Html.ActionLink("Document Type", "Index", "DocumentTypes")</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Formation<b class="=caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("trainingLevel", "Index", "trainingLevels")</li>
+                            <li>@Html.ActionLink("workingDay", "Index", "workingDays")</li>
+                            <li>@Html.ActionLink("Program", "Index", "Programs")</li>
+                            <li>@Html.ActionLink("Version", "Index", "Versions")</li>
+                            <li>@Html.ActionLink("ProgramVersion", "Index", "ProgramVersions")</li>
+                            <li>@Html.ActionLink("Activity (Vacio)", "Index", "Activities (Vacio)")</li>
+                            <li>@Html.ActionLink("LearningResult", "Index", "LearningResults")</li>
+                            <li>@Html.ActionLink("Competition", "Index", "Competitions")</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Project<b class="=caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Group (Vacio)", "Index", "Groups (Vacio)")</li>
+                            <li>@Html.ActionLink("Trimester", "Index", "Trimesters")</li>
+                            <li>@Html.ActionLink("GroupTrimester (Vacio)", "Index", "GroupTrimesters (Vacio)")</li>
+                            <li>@Html.ActionLink("Project (Vacio)", "Index", "Projects (Vacio)")</li>
+                            <li>@Html.ActionLink("Phase (Vacio)", "Index", "Phases (Vacio)")</li> 
+                            <li>@Html.ActionLink("PhaseProject (Vacio)", "Index", "PhaseProjects (Vacio)")</li>   
+                            <li>@Html.ActionLink("PhaseProjectTrimester (Vacio)", "Index", "PhaseProjectTrimesters (Vacio)")</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Schedules<b class="=caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Headquarters", "Index", "Headquarters")</li>
+                            <li>@Html.ActionLink("(Vacio)", "Index", "(Vacio)")</li>
+                            <li>@Html.ActionLink("Ambience", "Index", "Ambiences")</li>
+                        </ul>
+                    </li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - EON Aplication</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

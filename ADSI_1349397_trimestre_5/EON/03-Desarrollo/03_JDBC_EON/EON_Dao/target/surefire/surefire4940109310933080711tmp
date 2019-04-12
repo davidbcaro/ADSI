@@ -1,0 +1,11 @@
+#surefire
+#Thu Oct 19 11:41:43 CDT 2017
+jpda.address=11292
+maven.ext.class.path=C\:\\Program Files\\NetBeans 8.2\\java\\maven-nblib\\netbeans-eventspy.jar
+jpda.listen=true
+forkMode=once
+user.dir=C\:\\Users\\1349397\\Desktop\\EON_Dao
+localRepository=C\:\\Users\\1349397\\.m2\\repository
+test=co.edu.sena.eondao.controller.dao.mysql.MysqlRoleDAOTest
+basedir=C\:\\Users\\1349397\\Desktop\\EON_Dao
+maven.surefire.debug=-Xdebug -Xrunjdwp\:transport\=dt_socket,server\=n,address\=11292

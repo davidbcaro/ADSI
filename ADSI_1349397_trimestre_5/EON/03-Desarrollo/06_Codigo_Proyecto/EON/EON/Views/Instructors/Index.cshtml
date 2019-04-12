@@ -1,0 +1,87 @@
+﻿@model IEnumerable<EON.Models.Instructor>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@using (Html.BeginForm())
+{
+    <p>
+        Find by name: @Html.TextBox("SearchString")
+        <input type="submit" value="Search" />
+    </p>
+}
+<table class="table">
+    <tr>
+       
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentType.typeDocument)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.numberDocument)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Speciality.speciality_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Bonding.Type_Linkage)
+        </th>
+      
+        <th>
+            @Html.DisplayNameFor(model => model.Names)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lastNames)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentType.typeDocument)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.numberDocument)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Speciality.speciality_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Bonding.Type_Linkage)
+        </td>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.Names)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lastNames)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @if
+                       (!string.IsNullOrEmpty(item.image))
+            { <img src="@Url.Content(item.image)" alt="Image" style="width:100px;height:100px;max-width: 100%; height: auto;" /> }
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idInstructor }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idInstructor }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idInstructor })
+        </td>
+    </tr>
+}
+
+</table>

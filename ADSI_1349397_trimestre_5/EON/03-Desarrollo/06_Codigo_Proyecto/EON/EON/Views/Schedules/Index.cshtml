@@ -1,0 +1,126 @@
+﻿@model IEnumerable<EON.Models.Schedule>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@using (Html.BeginForm()) {
+
+<p>
+    <b>Search</b> @Html.TextBox("SearchString")
+    <input type="submit" value="Search" />
+</p>
+
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ambience)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ficha)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.instructor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.modality)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.trimester)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.version)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.start_Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.end_Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Monday)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tuesday)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Wednesday)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Thursday)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Friday)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Saturday)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sunday)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ambience.FullAmbience)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ficha.number_Ficha)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.instructor.FullInstructor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.modality.modality_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.trimester.quarter_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.version.FullVersion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.start_Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.end_Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Monday)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tuesday)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Wednesday)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Thursday)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Friday)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Saturday)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sunday)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id_Schedule }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id_Schedule }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_Schedule })
+        </td>
+    </tr>
+}
+
+</table>

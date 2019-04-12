@@ -1,0 +1,41 @@
+﻿@model EON.Models.Version
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Version</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.currentQuarters.idcurrent_Quarter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.currentQuarters.idcurrent_Quarter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Active)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Active)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.version_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.version_Name)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_Version }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

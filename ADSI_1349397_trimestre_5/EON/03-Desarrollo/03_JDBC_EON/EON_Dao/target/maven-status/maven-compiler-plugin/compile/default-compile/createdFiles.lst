@@ -1,0 +1,6 @@
+co\edu\sena\eondao\controller\dao\util\ResourceManager.class
+co\edu\sena\eondao\controller\factory\RoleDAOFactory.class
+co\edu\sena\eondao\controller\factory\mysql\MysqlRoleDAOFactory.class
+co\edu\sena\eondao\modelo\dto\RoleDTO.class
+co\edu\sena\eondao\controller\dao\mysql\MysqlRoleDAO.class
+co\edu\sena\eondao\controller\dao\RoleDAO.class

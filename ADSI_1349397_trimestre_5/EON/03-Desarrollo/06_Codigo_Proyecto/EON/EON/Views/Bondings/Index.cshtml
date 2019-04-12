@@ -1,0 +1,51 @@
+﻿@model IEnumerable<EON.Models.Bonding>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Type_Linkage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.hour_Start)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.hours_End)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Type_Linkage)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.hour_Start)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.hours_End)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id_Bonding }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id_Bonding }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_Bonding })
+        </td>
+    </tr>
+}
+
+</table>

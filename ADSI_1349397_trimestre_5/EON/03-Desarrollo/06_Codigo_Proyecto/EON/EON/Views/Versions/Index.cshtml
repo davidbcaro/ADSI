@@ -1,0 +1,45 @@
+﻿@model IEnumerable<EON.Models.Version>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.currentQuarters.idcurrent_Quarter)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Active)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.version_Name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.currentQuarters.idcurrent_Quarter)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Active)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.version_Name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id_Version }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id_Version }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_Version })
+        </td>
+    </tr>
+}
+
+</table>
