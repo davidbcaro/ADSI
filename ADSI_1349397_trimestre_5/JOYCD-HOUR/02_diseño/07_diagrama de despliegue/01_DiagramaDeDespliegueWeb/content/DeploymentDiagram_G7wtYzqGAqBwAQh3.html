@@ -1,0 +1,400 @@
+<html>
+<head>
+	<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="report.css" type="text/css"/>
+	<title>Deployment Diagram - Diagrama de distribucion</title>
+	<script type="text/javascript" src="report.js"></script>
+	<script type="text/javascript" src="link_popup.js"></script>
+	<script type="text/javascript" src="tooltip.js"></script>
+</head>
+<body style="margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;" onload="initPage();initDiagram();initGridDiagram();">
+	<div style="position:absolute; z-index:2; visibility:hidden;border-top: 2px #FF0000 solid;" id="spotlight_top">
+	</div>
+	<div style="position:absolute; z-index:2; visibility:hidden;border-top: 2px #FF0000 solid;" id="spotlight_bottom">
+	</div>
+	<div style="position:absolute; z-index:2; visibility:hidden;border-left: 2px #FF0000 solid;" id="spotlight_left">
+	</div>
+	<div style="position:absolute; z-index:2; visibility:hidden;border-left: 2px #FF0000 solid;" id="spotlight_right">
+	</div>
+	<canvas width="100" style="position:absolute; z-index:2; visibility:hidden" id="spotlight_c" height="100">
+	</canvas>
+	<div style="position:absolute; width:100px; height:100px; z-index:1; visibility:hidden" id="spotLightResourcesTop">
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td>
+<a href="#top"><img style="border:none" src="../images/icons/BackToTop.gif" alt="Back to top"/></a>				</td>
+				<td>
+<a href="javascript:clearSpotLightFromOpenSpecButton();"><img style="border:none" src="../images/icons/OpenSpecification.gif" alt="Open specification"/></a>				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="position:absolute; width:100px; height:100px; z-index:1; visibility:hidden" id="spotLightResourcesRight">
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td>
+<a href="#top"><img style="border:none" src="../images/icons/BackToTop.gif" alt="Back to top"/></a>				</td>
+			</tr>
+			<tr>
+				<td>
+<a href="javascript:clearSpotLightFromOpenSpecButton();"><img style="border:none" src="../images/icons/OpenSpecification.gif" alt="Open specification"/></a>				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="position:absolute;z-index:4;visibility:hidden" id="linkPopupMenuLayer">
+		<table border="0" width="100%" style="border-style:solid; border-width:1px; border-color:#000000; background:#FFFFFF; width:250px" id="linkPopupMenuTable">
+		</table>
+	</div>
+	<div style="position:absolute; z-index:1; visibility:hidden; " id="referenceIconLayer">
+		<table border="0" cellpadding="3" cellspacing="0" style="font-size:1;">
+			<tr>
+				<td>
+					<img src="../images/icons/Ref.gif" style="border:none" onclick="movePopupPositionToReferenceIconPosition();resetPopupForReference();switchPopupShowHideStatus();" />				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="position:absolute; z-index:1; visibility:hidden; " id="subdiagramIconLayer">
+		<table border="0" cellpadding="3" cellspacing="0" style="font-size:1;">
+			<tr>
+				<td>
+					<img src="../images/icons/Subdiagram.gif" style="border:none" onclick="movePopupPositionToSubdiagramIconPosition();resetPopupForSubdiagram();switchPopupShowHideStatus();" />				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="position:absolute; z-index:1; visibility:hidden; " id="transitorIconLayer">
+		<table border="0" cellpadding="3" cellspacing="0" style="font-size:1;">
+			<tr>
+				<td>
+					<img src="../images/icons/Transitor.gif" style="border:none" onclick="movePopupPositionToTransitorIconPosition();resetPopupForTransitor();switchPopupShowHideStatus();" />				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="position:absolute; z-index:1; visibility:hidden; " id="documentationIconLayer">
+		<table border="0" cellpadding="3" cellspacing="0" style="font-size:1;">
+			<tr>
+				<td>
+					<img src="../images/icons/Documentation.png" style="border:none" />				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="HeaderText">
+		diagreama de desplieque	</div>
+	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+		<tr>
+			<td class="HeaderLine1">
+			</td>
+		</tr>
+		<tr>
+			<td class="HeaderLine2">
+			</td>
+		</tr>
+		<tr>
+			<td class="HeaderLine3">
+			</td>
+		</tr>
+	</table>
+	<div style="position:absolute; z-index:21; visibility:hidden" id="referencedBys">
+		<table border="0" width="100%" style="border-style:solid; border-width:1px; border-color:#000000; background:#FFFFFF; width:250px" id="referencedBysTable">
+		</table>
+	</div>
+	<div style="position:absolute; z-index:21; visibility:hidden" id="vplink">
+		<table border="1" cellpadding="0" cellspacing="0" bordercolor="#A9BFD3">
+			<tr>
+				<td>
+					<table border="0" cellpadding="0" width="100%" cellspacing="0">
+						<tr style="background:#DDDDDD">
+							<td style="font-size: 12px;" align="left">
+								<select onchange="vpLinkToggleName()" id="vplink-linkType">
+	<option value="Project Link">Project Link</option>
+	<option value="Page URL">Page URL</option>
+</select>
+							</td>
+							<td style="font-size: 12px;" align="right">
+								<input onclick="javascript: vpLinkToggleName()" id="vplink-checkbox" type="checkbox" />
+								<label for="vplink-checkbox">with Name</label>							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<textarea id="vplink-text" style="width: 348px; height: 60px; border-color: #7EADD9; outline: none;"></textarea>				</td>
+			</tr>
+		</table>
+	</div>
+	<p class="PageTitle">
+		<span id="PageTitleText">
+			Deployment Diagram - Diagrama de distribucion		</span>
+<a onclick="javascript: showVpLink('diagreama de desplieque.vpp://diagram/G7wtYzqGAqBwAQh3', 'Diagrama de distribucion\ndiagreama de desplieque.vpp://diagram/G7wtYzqGAqBwAQh3', 'Diagrama de distribucion', this); return false;" style="padding-left: 16px; font-size: 12px" href="#"><img src="../images/icons/link.png" border="0"> link</a>	</p>
+	<div style="position: relative; padding-bottom: 20px;">
+		<table border="0" cellpadding="0" width="100%" cellspacing="0" style="position: absolute; top: 0; left: 0; z-index: 20;" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),hideLinkPopup(),hideReferencedBys();">
+			<tr>
+				<td>
+<span class="TableContent">Jump to:</span>					<select id="SelectShape" class="TableContent" onChange="scrollWin('diagram', this.value);hideLinkPopup();showSpotLight('diagram', this.value)">
+<option value="">Please select a model element</option>
+<option value="shape|505.0|437.0|143.0|40.0|Artifact_l7Is4zqGAqAEUAtA.html|Artifact_l7Is4zqGAqAEUAtA.html|l7Is4zqGAqAEUAs_" id="optionl7Is4zqGAqAEUAs_">APP-JOYCD-HOUR : Artifact</option>
+<option value="shape|1310.0|112.0|159.0|40.0|Artifact_MtaM4zqGAqAEUAsZ.html|Artifact_MtaM4zqGAqAEUAsZ.html|0taM4zqGAqAEUAsY" id="option0taM4zqGAqAEUAsY">Joycd-hour BaseDatos : Artifact</option>
+<option value="shape|53.0|73.0|156.0|89.0|Node_4lNdYzqGAqBwAQna.html|Node_4lNdYzqGAqBwAQna.html|4lNdYzqGAqBwAQnZ" id="option4lNdYzqGAqBwAQnZ">Navegador Google Chorme, etc. : Node</option>
+<option value="shape|2.0|11.0|258.0|196.0|Node_5uFdYzqGAqBwAQnO.html|Node_5uFdYzqGAqBwAQnO.html|5uFdYzqGAqBwAQnN" id="option5uFdYzqGAqBwAQnN">Workstation : Node</option>
+<option value="shape|925.0|567.0|233.0|68.0|Node_asbtYzqGAqBwAQke.html|Node_asbtYzqGAqBwAQke.html|asbtYzqGAqBwAQkd" id="optionasbtYzqGAqBwAQkd">Nginx : Node</option>
+<option value="shape|1283.0|62.0|213.0|115.0|Node_BYTtYzqGAqBwAQkN.html|Node_BYTtYzqGAqBwAQkN.html|BYTtYzqGAqBwAQkM" id="optionBYTtYzqGAqBwAQkM">Mysql : Node</option>
+<option value="shape|838.0|86.0|191.0|66.0|Node_ufdtYzqGAqBwAQj8.html|Node_ufdtYzqGAqBwAQj8.html|ufdtYzqGAqBwAQj7" id="optionufdtYzqGAqBwAQj7">Gmail : Node</option>
+<option value="shape|879.0|508.0|324.0|164.0|Node_8TJtYzqGAqBwAQjU.html|Node_8TJtYzqGAqBwAQjU.html|8TJtYzqGAqBwAQjT" id="option8TJtYzqGAqBwAQjT">Servidor web linux : Node</option>
+<option value="shape|1240.0|2.0|289.0|213.0|Node_8VetYzqGAqBwAQi_.html|Node_8VetYzqGAqBwAQi_.html|8VetYzqGAqBwAQi." id="option8VetYzqGAqBwAQi.">Servidor Data Base : Node</option>
+<option value="shape|814.0|11.0|239.0|195.0|Node_7x2tYzqGAqBwAQiu.html|Node_7x2tYzqGAqBwAQiu.html|7x2tYzqGAqBwAQit" id="option7x2tYzqGAqBwAQit">Servidor Gmail : Node</option>
+<option value="shape|485.0|389.0|206.0|99.0|Node_ziqtYzqGAqBwAQiY.html|Node_ziqtYzqGAqBwAQiY.html|ziqtYzqGAqBwAQiX" id="optionziqtYzqGAqBwAQiX">Payara : Node</option>
+<option value="shape|450.0|340.0|289.0|180.0|Node_oastYzqGAqBwAQiE.html|Node_oastYzqGAqBwAQiE.html|oastYzqGAqBwAQiD" id="optionoastYzqGAqBwAQiD">Servidor de aplicaciones java  : Node</option>
+</select>				</td>
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" width="100%" cellspacing="0" style="position: relative; top: 24;">
+			<tr>
+				<td>
+					<img id="diagram" src="../images/Diagrama_de_distribucion.png" usemap="#diagram_map" class="Image" width="1533" height="676"/>
+					<map name="diagram_map">
+<area imageId="diagram" coords="950.0, 206.0, 950.0, 299.0, 645.0, 299.0, 645.0, 296.0, 631.0, 296.0, 631.0, 299.0, 628.0, 299.0, 628.0, 313.0, 631.0, 313.0, 631.0, 340.0, 645.0, 340.0, 645.0, 313.0, 950.0, 313.0, 950.0, 316.0, 964.0, 316.0, 964.0, 313.0, 967.0, 313.0, 967.0, 299.0, 964.0, 299.0, 964.0, 206.0" coords2="950.0, 206.0, 950.0, 299.0, 645.0, 299.0, 645.0, 296.0, 631.0, 296.0, 631.0, 299.0, 628.0, 299.0, 628.0, 313.0, 631.0, 313.0, 631.0, 340.0, 645.0, 340.0, 645.0, 313.0, 950.0, 313.0, 950.0, 316.0, 964.0, 316.0, 964.0, 313.0, 967.0, 313.0, 967.0, 299.0, 964.0, 299.0, 964.0, 206.0" shape="poly" alt="Simple mail transfer Protocol (SMTP 587):Association" id="areadiagram_map_rhiE4zqGAqAEUAg7" href="Association_X_iE4zqGAqAEUAg0.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="1363.0, 215.0, 1363.0, 411.0, 739.0, 411.0, 739.0, 425.0, 1363.0, 425.0, 1363.0, 428.0, 1377.0, 428.0, 1377.0, 425.0, 1380.0, 425.0, 1380.0, 411.0, 1377.0, 411.0, 1377.0, 215.0" coords2="1363.0, 215.0, 1363.0, 411.0, 739.0, 411.0, 739.0, 425.0, 1363.0, 425.0, 1363.0, 428.0, 1377.0, 428.0, 1377.0, 425.0, 1380.0, 425.0, 1380.0, 411.0, 1377.0, 411.0, 1377.0, 215.0" shape="poly" alt="TCP/IP-Puerto 3306:Association" id="areadiagram_map_kg6E4zqGAqAEUAhy" href="Association_DfaE4zqGAqAEUAht.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="1067.0, 451.0, 1067.0, 454.0, 739.0, 454.0, 739.0, 468.0, 1067.0, 468.0, 1067.0, 508.0, 1081.0, 508.0, 1081.0, 468.0, 1084.0, 468.0, 1084.0, 454.0, 1081.0, 454.0, 1081.0, 451.0" coords2="1067.0, 451.0, 1067.0, 454.0, 739.0, 454.0, 739.0, 468.0, 1067.0, 468.0, 1067.0, 508.0, 1081.0, 508.0, 1081.0, 468.0, 1084.0, 468.0, 1084.0, 454.0, 1081.0, 454.0, 1081.0, 451.0" shape="poly" alt="http/ Puerto 8080:Association" id="areadiagram_map_bz8k4zqGAqAEUAi3" href="Association_YT8k4zqGAqAEUAiy.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="81.0, 207.0, 81.0, 603.0, 78.0, 603.0, 78.0, 617.0, 81.0, 617.0, 81.0, 620.0, 95.0, 620.0, 95.0, 617.0, 879.0, 617.0, 879.0, 603.0, 95.0, 603.0, 95.0, 207.0" coords2="81.0, 207.0, 81.0, 603.0, 78.0, 603.0, 78.0, 617.0, 81.0, 617.0, 81.0, 620.0, 95.0, 620.0, 95.0, 617.0, 879.0, 617.0, 879.0, 603.0, 95.0, 603.0, 95.0, 207.0" shape="poly" alt="HTTPS/PUERTO 443:Association" id="areadiagram_map__Yxc4zqGAqAEUAuI" href="Association_WIxc4zqGAqAEUAuD.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="505, 437, 648, 477" coords2="505, 437, 648, 477" shape="rect" alt="APP-JOYCD-HOUR:Artifact" id="areadiagram_map_l7Is4zqGAqAEUAs_" href="Artifact_l7Is4zqGAqAEUAtA.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="1310, 112, 1469, 152" coords2="1310, 112, 1469, 152" shape="rect" alt="Joycd-hour BaseDatos:Artifact" id="areadiagram_map_0taM4zqGAqAEUAsY" href="Artifact_MtaM4zqGAqAEUAsZ.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="53, 73, 209, 162" coords2="53, 73, 209, 162" shape="rect" alt="Navegador Google Chorme, etc.:Node" id="areadiagram_map_4lNdYzqGAqBwAQnZ" href="Node_4lNdYzqGAqBwAQna.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="2, 11, 260, 207" coords2="2, 11, 260, 207" shape="rect" alt="Workstation:Node" id="areadiagram_map_5uFdYzqGAqBwAQnN" href="Node_5uFdYzqGAqBwAQnO.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="925, 567, 1158, 635" coords2="925, 567, 1158, 635" shape="rect" alt="Nginx:Node" id="areadiagram_map_asbtYzqGAqBwAQkd" href="Node_asbtYzqGAqBwAQke.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="1283, 62, 1496, 177" coords2="1283, 62, 1496, 177" shape="rect" alt="Mysql:Node" id="areadiagram_map_BYTtYzqGAqBwAQkM" href="Node_BYTtYzqGAqBwAQkN.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="838, 86, 1029, 152" coords2="838, 86, 1029, 152" shape="rect" alt="Gmail:Node" id="areadiagram_map_ufdtYzqGAqBwAQj7" href="Node_ufdtYzqGAqBwAQj8.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="879, 508, 1203, 672" coords2="879, 508, 1203, 672" shape="rect" alt="Servidor web linux:Node" id="areadiagram_map_8TJtYzqGAqBwAQjT" href="Node_8TJtYzqGAqBwAQjU.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="1240, 2, 1529, 215" coords2="1240, 2, 1529, 215" shape="rect" alt="Servidor Data Base:Node" id="areadiagram_map_8VetYzqGAqBwAQi." href="Node_8VetYzqGAqBwAQi_.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="814, 11, 1053, 206" coords2="814, 11, 1053, 206" shape="rect" alt="Servidor Gmail:Node" id="areadiagram_map_7x2tYzqGAqBwAQit" href="Node_7x2tYzqGAqBwAQiu.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="485, 389, 691, 488" coords2="485, 389, 691, 488" shape="rect" alt="Payara:Node" id="areadiagram_map_ziqtYzqGAqBwAQiX" href="Node_ziqtYzqGAqBwAQiY.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="450, 340, 739, 520" coords2="450, 340, 739, 520" shape="rect" alt="Servidor de aplicaciones java :Node" id="areadiagram_map_oastYzqGAqBwAQiD" href="Node_oastYzqGAqBwAQiE.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+</map>
+				</td>
+			</tr>
+		</table>
+		<p>
+		</p>
+	</div>
+	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+		<tr>
+			<td class="Category">
+				Model Elements			</td>
+		</tr>
+		<tr>
+			<td style="height: 5px">
+			</td>
+		</tr>
+	</table>
+	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+		<tr>
+			<td colSpan="4" class="TableHeaderLine">
+			</td>
+		</tr>
+		<tr>
+			<td colSpan="4" class="TableHeaderLine1">
+			</td>
+		</tr>
+		<tr class="TableHeader">
+			<td class="TableCellSpaceHolder10Px">
+			</td>
+			<td width="30%">
+<span class="TableHeaderText">Name</span>			</td>
+			<td class="TableCellSpaceHolder20Px">
+			</td>
+			<td>
+<span class="TableHeaderText">Description</span>			</td>
+		</tr>
+		<tr>
+			<td colSpan="4" class="TableHeaderLine2">
+			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Artifact.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Artifact.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Artifact_l7Is4zqGAqAEUAtA.html" class="ItemLink">APP-JOYCD-HOUR : Artifact</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Artifact.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Artifact.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Artifact_MtaM4zqGAqAEUAsZ.html" class="ItemLink">Joycd-hour BaseDatos : Artifact</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Node.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Node.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Node_4lNdYzqGAqBwAQna.html" class="ItemLink">Navegador Google Chorme, etc. : Node</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Node.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Node.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Node_5uFdYzqGAqBwAQnO.html" class="ItemLink">Workstation : Node</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Node.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Node.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Node_asbtYzqGAqBwAQke.html" class="ItemLink">Nginx : Node</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Node.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Node.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Node_BYTtYzqGAqBwAQkN.html" class="ItemLink">Mysql : Node</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Node.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Node.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Node_ufdtYzqGAqBwAQj8.html" class="ItemLink">Gmail : Node</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Node.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Node.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Node_8TJtYzqGAqBwAQjU.html" class="ItemLink">Servidor web linux : Node</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Node.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Node.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Node_8VetYzqGAqBwAQi_.html" class="ItemLink">Servidor Data Base : Node</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Node.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Node.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Node_7x2tYzqGAqBwAQiu.html" class="ItemLink">Servidor Gmail : Node</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Node.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Node.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Node_ziqtYzqGAqBwAQiY.html" class="ItemLink">Payara : Node</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Node.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Node.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Node_oastYzqGAqBwAQiE.html" class="ItemLink">Servidor de aplicaciones java  : Node</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+	</table>
+	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+		<tr>
+			<td class="TableCellSpaceHolder1PxTall">
+			</td>
+		</tr>
+		<tr>
+			<td class="TableFooter">
+			</td>
+		</tr>
+	</table>
+	<div style="height: 20px">
+	</div>
+	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+		<tr>
+			<td class="FooterLine">
+			</td>
+		</tr>
+	</table>
+	<div class="HeaderText">
+		diagreama de desplieque	</div>
+</body>
+</html>
