@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="kintmas" transaction-type="RESOURCE_LOCAL">
+    <class>co.edu.sena.model.jpa.entities.Environment</class>
+    <class>co.edu.sena.model.jpa.entities.PhaseProject</class>
+    <class>co.edu.sena.model.jpa.entities.Activity</class>
+    <class>co.edu.sena.model.jpa.entities.Trimester</class>
+    <class>co.edu.sena.model.jpa.entities.LogAudit</class>
+    <class>co.edu.sena.model.jpa.entities.IdentificationCard</class>
+    <class>co.edu.sena.model.jpa.entities.Headquarters</class>
+    <class>co.edu.sena.model.jpa.entities.Customer</class>
+    <class>co.edu.sena.model.jpa.entities.Availability</class>
+    <class>co.edu.sena.model.jpa.entities.Speciality</class>
+    <class>co.edu.sena.model.jpa.entities.GroupNumber</class>
+    <class>co.edu.sena.model.jpa.entities.StatusGroupNumber</class>
+    <class>co.edu.sena.model.jpa.entities.Project</class>
+    <class>co.edu.sena.model.jpa.entities.Competence</class>
+    <class>co.edu.sena.model.jpa.entities.LevelFormation</class>
+    <class>co.edu.sena.model.jpa.entities.GroupNumberHasTrimester</class>
+    <class>co.edu.sena.model.jpa.entities.LogError</class>
+    <class>co.edu.sena.model.jpa.entities.Day</class>
+    <class>co.edu.sena.model.jpa.entities.VersionSchedule</class>
+    <class>co.edu.sena.model.jpa.entities.Modality</class>
+    <class>co.edu.sena.model.jpa.entities.LearningResult</class>
+    <class>co.edu.sena.model.jpa.entities.Role</class>
+    <class>co.edu.sena.model.jpa.entities.ActualityTrimester</class>
+    <class>co.edu.sena.model.jpa.entities.EmailServer</class>
+    <class>co.edu.sena.model.jpa.entities.WorkingDay</class>
+    <class>co.edu.sena.model.jpa.entities.Schedule</class>
+    <class>co.edu.sena.model.jpa.entities.User</class>
+    <class>co.edu.sena.model.jpa.entities.Bonding</class>
+    <class>co.edu.sena.model.jpa.entities.Instructor</class>
+    <class>co.edu.sena.model.jpa.entities.Program</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:4306/joycd?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="123456789"/>
+    </properties>
+  </persistence-unit>
+</persistence>
