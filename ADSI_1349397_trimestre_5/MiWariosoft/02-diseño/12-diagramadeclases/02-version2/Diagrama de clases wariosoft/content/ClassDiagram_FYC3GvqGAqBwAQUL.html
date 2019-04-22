@@ -1,0 +1,1914 @@
+<html>
+<head>
+	<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="report.css" type="text/css"/>
+	<title>Class Diagram - DaoWariosoft</title>
+	<script type="text/javascript" src="report.js"></script>
+	<script type="text/javascript" src="link_popup.js"></script>
+	<script type="text/javascript" src="tooltip.js"></script>
+</head>
+<body style="margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;" onload="initPage();initDiagram();initGridDiagram();">
+	<div style="position:absolute; z-index:2; visibility:hidden;border-top: 2px #FF0000 solid;" id="spotlight_top">
+	</div>
+	<div style="position:absolute; z-index:2; visibility:hidden;border-top: 2px #FF0000 solid;" id="spotlight_bottom">
+	</div>
+	<div style="position:absolute; z-index:2; visibility:hidden;border-left: 2px #FF0000 solid;" id="spotlight_left">
+	</div>
+	<div style="position:absolute; z-index:2; visibility:hidden;border-left: 2px #FF0000 solid;" id="spotlight_right">
+	</div>
+	<canvas width="100" style="position:absolute; z-index:2; visibility:hidden" id="spotlight_c" height="100">
+	</canvas>
+	<div style="position:absolute; width:100px; height:100px; z-index:1; visibility:hidden" id="spotLightResourcesTop">
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td>
+<a href="#top"><img style="border:none" src="../images/icons/BackToTop.gif" alt="Back to top"/></a>				</td>
+				<td>
+<a href="javascript:clearSpotLightFromOpenSpecButton();"><img style="border:none" src="../images/icons/OpenSpecification.gif" alt="Open specification"/></a>				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="position:absolute; width:100px; height:100px; z-index:1; visibility:hidden" id="spotLightResourcesRight">
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td>
+<a href="#top"><img style="border:none" src="../images/icons/BackToTop.gif" alt="Back to top"/></a>				</td>
+			</tr>
+			<tr>
+				<td>
+<a href="javascript:clearSpotLightFromOpenSpecButton();"><img style="border:none" src="../images/icons/OpenSpecification.gif" alt="Open specification"/></a>				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="position:absolute;z-index:4;visibility:hidden" id="linkPopupMenuLayer">
+		<table border="0" width="100%" style="border-style:solid; border-width:1px; border-color:#000000; background:#FFFFFF; width:250px" id="linkPopupMenuTable">
+		</table>
+	</div>
+	<div style="position:absolute; z-index:1; visibility:hidden; " id="referenceIconLayer">
+		<table border="0" cellpadding="3" cellspacing="0" style="font-size:1;">
+			<tr>
+				<td>
+					<img src="../images/icons/Ref.gif" style="border:none" onclick="movePopupPositionToReferenceIconPosition();resetPopupForReference();switchPopupShowHideStatus();" />				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="position:absolute; z-index:1; visibility:hidden; " id="subdiagramIconLayer">
+		<table border="0" cellpadding="3" cellspacing="0" style="font-size:1;">
+			<tr>
+				<td>
+					<img src="../images/icons/Subdiagram.gif" style="border:none" onclick="movePopupPositionToSubdiagramIconPosition();resetPopupForSubdiagram();switchPopupShowHideStatus();" />				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="position:absolute; z-index:1; visibility:hidden; " id="transitorIconLayer">
+		<table border="0" cellpadding="3" cellspacing="0" style="font-size:1;">
+			<tr>
+				<td>
+					<img src="../images/icons/Transitor.gif" style="border:none" onclick="movePopupPositionToTransitorIconPosition();resetPopupForTransitor();switchPopupShowHideStatus();" />				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="position:absolute; z-index:1; visibility:hidden; " id="documentationIconLayer">
+		<table border="0" cellpadding="3" cellspacing="0" style="font-size:1;">
+			<tr>
+				<td>
+					<img src="../images/icons/Documentation.png" style="border:none" />				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="HeaderText">
+		diagramadeclaseswariosoft	</div>
+	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+		<tr>
+			<td class="HeaderLine1">
+			</td>
+		</tr>
+		<tr>
+			<td class="HeaderLine2">
+			</td>
+		</tr>
+		<tr>
+			<td class="HeaderLine3">
+			</td>
+		</tr>
+	</table>
+	<div style="position:absolute; z-index:21; visibility:hidden" id="referencedBys">
+		<table border="0" width="100%" style="border-style:solid; border-width:1px; border-color:#000000; background:#FFFFFF; width:250px" id="referencedBysTable">
+		</table>
+	</div>
+	<div style="position:absolute; z-index:21; visibility:hidden" id="vplink">
+		<table border="1" cellpadding="0" cellspacing="0" bordercolor="#A9BFD3">
+			<tr>
+				<td>
+					<table border="0" cellpadding="0" width="100%" cellspacing="0">
+						<tr style="background:#DDDDDD">
+							<td style="font-size: 12px;" align="left">
+								<select onchange="vpLinkToggleName()" id="vplink-linkType">
+	<option value="Project Link">Project Link</option>
+	<option value="Page URL">Page URL</option>
+</select>
+							</td>
+							<td style="font-size: 12px;" align="right">
+								<input onclick="javascript: vpLinkToggleName()" id="vplink-checkbox" type="checkbox" />
+								<label for="vplink-checkbox">with Name</label>							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<textarea id="vplink-text" style="width: 348px; height: 60px; border-color: #7EADD9; outline: none;"></textarea>				</td>
+			</tr>
+		</table>
+	</div>
+	<p>
+<a href="Package_Ywz3GvqGAqBwAQUb.html" class="PageParentTitle">co : Package</a><span class="PageParentTitle">&nbsp;.&nbsp;</span><a href="Package_cwz3GvqGAqBwAQUc.html" class="PageParentTitle">edu : Package</a><span class="PageParentTitle">&nbsp;.&nbsp;</span><a href="Package_Cwz3GvqGAqBwAQUd.html" class="PageParentTitle">sena : Package</a><span class="PageParentTitle">&nbsp;.&nbsp;</span><a href="Package_iwz3GvqGAqBwAQUe.html" class="PageParentTitle">daowariosoft : Package</a>	</p>
+	<p class="PageTitle">
+		<span id="PageTitleText">
+			Class Diagram - DaoWariosoft		</span>
+<a onclick="javascript: showVpLink('diagramadeclaseswariosoft.vpp://diagram/FYC3GvqGAqBwAQUL', 'DaoWariosoft\ndiagramadeclaseswariosoft.vpp://diagram/FYC3GvqGAqBwAQUL', 'DaoWariosoft', this); return false;" style="padding-left: 16px; font-size: 12px" href="#"><img src="../images/icons/link.png" border="0"> link</a>	</p>
+	<div style="position: relative; padding-bottom: 20px;">
+		<table border="0" cellpadding="0" width="100%" cellspacing="0" style="position: absolute; top: 0; left: 0; z-index: 20;" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),hideLinkPopup(),hideReferencedBys();">
+			<tr>
+				<td>
+<span class="TableContent">Jump to:</span>					<select id="SelectShape" class="TableContent" onChange="scrollWin('diagram', this.value);hideLinkPopup();showSpotLight('diagram', this.value)">
+<option value="">Please select a model element</option>
+<option value="shape|1600.0|121.0|277.0|101.0|Class_6wz3GvqGAqBwAQUi.html|Class_6wz3GvqGAqBwAQUi.html|VCL3GvqGAqBwAQiT" id="optionVCL3GvqGAqBwAQiT">ClientDAO : Class</option>
+<option value="shape|1895.0|121.0|287.0|101.0|Class_CIz3GvqGAqBwAQU_.html|Class_CIz3GvqGAqBwAQU_.html|HCL3GvqGAqBwAQiV" id="optionHCL3GvqGAqBwAQiV">CurrentQuarterDAO : Class</option>
+<option value="shape|2200.0|121.0|281.0|101.0|Class_OIz3GvqGAqBwAQVU.html|Class_OIz3GvqGAqBwAQVU.html|XCL3GvqGAqBwAQiX" id="optionXCL3GvqGAqBwAQiX">DocumentDAO : Class</option>
+<option value="shape|2499.0|121.0|337.0|101.0|Class_ZIz3GvqGAqBwAQVq.html|Class_ZIz3GvqGAqBwAQVq.html|PCL3GvqGAqBwAQiZ" id="optionPCL3GvqGAqBwAQiZ">EnvironmentDAO : Class</option>
+<option value="shape|2855.0|121.0|295.0|101.0|Class_DIz3GvqGAqBwAQWA.html|Class_DIz3GvqGAqBwAQWA.html|fCL3GvqGAqBwAQib" id="optionfCL3GvqGAqBwAQib">HeadquartersDAO : Class</option>
+<option value="shape|1595.0|381.0|272.0|118.0|Class_HIz3GvqGAqBwAQWX.html|Class_HIz3GvqGAqBwAQWX.html|AiL3GvqGAqBwAQid" id="optionAiL3GvqGAqBwAQid">MysqlClientDAO : Class</option>
+<option value="shape|1886.0|381.0|287.0|118.0|Class_2oz3GvqGAqBwAQW5.html|Class_2oz3GvqGAqBwAQW5.html|AiL3GvqGAqBwAQif" id="optionAiL3GvqGAqBwAQif">MysqlCurrentQuarterDAO : Class</option>
+<option value="shape|2191.0|381.0|281.0|118.0|Class_Zoz3GvqGAqBwAQXY.html|Class_Zoz3GvqGAqBwAQXY.html|giL3GvqGAqBwAQih" id="optiongiL3GvqGAqBwAQih">MysqlDocumentDAO : Class</option>
+<option value="shape|2490.0|381.0|365.0|118.0|Class_joz3GvqGAqBwAQX3.html|Class_joz3GvqGAqBwAQX3.html|giL3GvqGAqBwAQij" id="optiongiL3GvqGAqBwAQij">MysqlEnvironmentDAO : Class</option>
+<option value="shape|2874.0|381.0|311.0|118.0|Class_3oz3GvqGAqBwAQYW.html|Class_3oz3GvqGAqBwAQYW.html|giL3GvqGAqBwAQil" id="optiongiL3GvqGAqBwAQil">MysqlHeadquartersDAO : Class</option>
+<option value="shape|3203.0|381.0|282.0|118.0|Class_oYz3GvqGAqBwAQY1.html|Class_oYz3GvqGAqBwAQY1.html|QiL3GvqGAqBwAQin" id="optionQiL3GvqGAqBwAQin">MysqlPhaseDAO : Class</option>
+<option value="shape|3504.0|381.0|252.0|118.0|Class_sYz3GvqGAqBwAQZU.html|Class_sYz3GvqGAqBwAQZU.html|QiL3GvqGAqBwAQip" id="optionQiL3GvqGAqBwAQip">MysqlProjectDAO : Class</option>
+<option value="shape|1384.0|381.0|192.0|118.0|Class_aYz3GvqGAqBwAQZz.html|Class_aYz3GvqGAqBwAQZz.html|QiL3GvqGAqBwAQir" id="optionQiL3GvqGAqBwAQir">MysqlRoleDAO : Class</option>
+<option value="shape|3168.0|121.0|282.0|101.0|Class_uYz3GvqGAqBwAQaS.html|Class_uYz3GvqGAqBwAQaS.html|wiL3GvqGAqBwAQit" id="optionwiL3GvqGAqBwAQit">PhaseDAO : Class</option>
+<option value="shape|3469.0|121.0|252.0|101.0|Class_xYz3GvqGAqBwAQao.html|Class_xYz3GvqGAqBwAQao.html|oiL3GvqGAqBwAQiv" id="optionoiL3GvqGAqBwAQiv">ProjectDAO : Class</option>
+<option value="shape|1389.0|121.0|192.0|101.0|Class_lYz3GvqGAqBwAQa_.html|Class_lYz3GvqGAqBwAQa_.html|4iL3GvqGAqBwAQix" id="option4iL3GvqGAqBwAQix">RoleDAO : Class</option>
+<option value="shape|3758.0|123.0|275.0|118.0|Class_DYz3GvqGAqBwAQbV.html|Class_DYz3GvqGAqBwAQbV.html|kiL3GvqGAqBwAQiz" id="optionkiL3GvqGAqBwAQiz">ResourceManager : Class</option>
+<option value="shape|259.0|189.0|100.0|47.0|Class_XYz3GvqGAqBwAQbs.html|Class_XYz3GvqGAqBwAQbs.html|kiL3GvqGAqBwAQi1" id="optionkiL3GvqGAqBwAQi1">ClientDAOFactory : Class</option>
+<option value="shape|377.0|189.0|141.0|47.0|Class_PYz3GvqGAqBwAQbw.html|Class_PYz3GvqGAqBwAQbw.html|0iL3GvqGAqBwAQi3" id="option0iL3GvqGAqBwAQi3">CurrentQuarterDAOFactory : Class</option>
+<option value="shape|537.0|189.0|120.0|47.0|Class__Yz3GvqGAqBwAQb0.html|Class__Yz3GvqGAqBwAQb0.html|siL3GvqGAqBwAQi5" id="optionsiL3GvqGAqBwAQi5">DocumentDAOFactory : Class</option>
+<option value="shape|675.0|189.0|130.0|47.0|Class_g4z3GvqGAqBwAQb4.html|Class_g4z3GvqGAqBwAQb4.html|ciL3GvqGAqBwAQi7" id="optionciL3GvqGAqBwAQi7">EnvironmentDAOFactory : Class</option>
+<option value="shape|824.0|189.0|135.0|47.0|Class_I4z3GvqGAqBwAQb8.html|Class_I4z3GvqGAqBwAQb8.html|CiL3GvqGAqBwAQi9" id="optionCiL3GvqGAqBwAQi9">HeadquartersDAOFactory : Class</option>
+<option value="shape|190.0|357.0|121.0|35.0|Class_44z3GvqGAqBwAQcB.html|Class_44z3GvqGAqBwAQcB.html|SiL3GvqGAqBwAQi_" id="optionSiL3GvqGAqBwAQi_">MysqlClientDAOFactory : Class</option>
+<option value="shape|330.0|357.0|165.0|35.0|Class_U4z3GvqGAqBwAQcG.html|Class_U4z3GvqGAqBwAQcG.html|yiL3GvqGAqBwAQjB" id="optionyiL3GvqGAqBwAQjB">MysqlCurrentQuarterDAOFactory : Class</option>
+<option value="shape|513.0|357.0|143.0|35.0|Class_M4z3GvqGAqBwAQcL.html|Class_M4z3GvqGAqBwAQcL.html|yiL3GvqGAqBwAQjD" id="optionyiL3GvqGAqBwAQjD">MysqlDocumentDAOFactory : Class</option>
+<option value="shape|675.0|357.0|155.0|35.0|Class_c4z3GvqGAqBwAQcQ.html|Class_c4z3GvqGAqBwAQcQ.html|yiL3GvqGAqBwAQjF" id="optionyiL3GvqGAqBwAQjF">MysqlEnvironmentDAOFactory : Class</option>
+<option value="shape|848.0|357.0|158.0|35.0|Class_i4z3GvqGAqBwAQcV.html|Class_i4z3GvqGAqBwAQcV.html|KiL3GvqGAqBwAQjH" id="optionKiL3GvqGAqBwAQjH">MysqlHeadquartersDAOFactory : Class</option>
+<option value="shape|1025.0|357.0|123.0|35.0|Class_y4z3GvqGAqBwAQca.html|Class_y4z3GvqGAqBwAQca.html|KiL3GvqGAqBwAQjJ" id="optionKiL3GvqGAqBwAQjJ">MysqlPhaseDAOFactory : Class</option>
+<option value="shape|1166.0|357.0|128.0|35.0|Class_q4z3GvqGAqBwAQcf.html|Class_q4z3GvqGAqBwAQcf.html|qiL3GvqGAqBwAQjL" id="optionqiL3GvqGAqBwAQjL">MysqlProjectDAOFactory : Class</option>
+<option value="shape|55.0|357.0|116.0|35.0|Class_G4z3GvqGAqBwAQck.html|Class_G4z3GvqGAqBwAQck.html|qiL3GvqGAqBwAQjN" id="optionqiL3GvqGAqBwAQjN">MysqlRoleDAOFactory : Class</option>
+<option value="shape|977.0|189.0|104.0|47.0|Class_24z3GvqGAqBwAQcp.html|Class_24z3GvqGAqBwAQcp.html|qiL3GvqGAqBwAQjP" id="optionqiL3GvqGAqBwAQjP">PhaseDAOFactory : Class</option>
+<option value="shape|1099.0|189.0|106.0|47.0|Class_u4z3GvqGAqBwAQct.html|Class_u4z3GvqGAqBwAQct.html|6iL3GvqGAqBwAQjR" id="option6iL3GvqGAqBwAQjR">ProjectDAOFactory : Class</option>
+<option value="shape|145.0|189.0|95.0|47.0|Class__4z3GvqGAqBwAQcx.html|Class__4z3GvqGAqBwAQcx.html|miL3GvqGAqBwAQjT" id="optionmiL3GvqGAqBwAQjT">RoleDAOFactory : Class</option>
+<option value="shape|38.0|674.0|184.0|158.0|Class_x4z3GvqGAqBwAQc3.html|Class_x4z3GvqGAqBwAQc3.html|2iL3GvqGAqBwAQjV" id="option2iL3GvqGAqBwAQjV">ClientDTO : Class</option>
+<option value="shape|2130.0|701.0|200.0|104.0|Class_j4z3GvqGAqBwAQdT.html|Class_j4z3GvqGAqBwAQdT.html|2iL3GvqGAqBwAQjX" id="option2iL3GvqGAqBwAQjX">ClientPkDTO : Class</option>
+<option value="shape|241.0|694.0|182.0|118.0|Class_b4z3GvqGAqBwAQdm.html|Class_b4z3GvqGAqBwAQdm.html|2iL3GvqGAqBwAQjZ" id="option2iL3GvqGAqBwAQjZ">CurrentQuarterDTO : Class</option>
+<option value="shape|1911.0|694.0|200.0|118.0|Class_v4z3GvqGAqBwAQd9.html|Class_v4z3GvqGAqBwAQd9.html|OiL3GvqGAqBwAQjb" id="optionOiL3GvqGAqBwAQjb">DocumentDTO : Class</option>
+<option value="shape|442.0|694.0|195.0|118.0|Class_wEz3GvqGAqBwAQeR.html|Class_wEz3GvqGAqBwAQeR.html|OiL3GvqGAqBwAQjd" id="optionOiL3GvqGAqBwAQjd">EnvironmentDTO : Class</option>
+<option value="shape|1697.0|707.0|195.0|91.0|Class_UEz3GvqGAqBwAQem.html|Class_UEz3GvqGAqBwAQem.html|OiL3GvqGAqBwAQjf" id="optionOiL3GvqGAqBwAQjf">EnvironmentPkDTO : Class</option>
+<option value="shape|655.0|701.0|192.0|104.0|Class_SEz3GvqGAqBwAQe3.html|Class_SEz3GvqGAqBwAQe3.html|uiL3GvqGAqBwAQjh" id="optionuiL3GvqGAqBwAQjh">HeadquartersDTO : Class</option>
+<option value="shape|1479.0|688.0|200.0|131.0|Class_BEz3GvqGAqBwAQfK.html|Class_BEz3GvqGAqBwAQfK.html|uiL3GvqGAqBwAQjj" id="optionuiL3GvqGAqBwAQjj">PhaseDTO : Class</option>
+<option value="shape|866.0|694.0|200.0|118.0|Class_9Ez3GvqGAqBwAQfh.html|Class_9Ez3GvqGAqBwAQfh.html|uiL3GvqGAqBwAQjl" id="optionuiL3GvqGAqBwAQjl">PhasePkDTO : Class</option>
+<option value="shape|1260.0|688.0|200.0|131.0|Class_vEz3GvqGAqBwAQf2.html|Class_vEz3GvqGAqBwAQf2.html|eiL3GvqGAqBwAQjn" id="optioneiL3GvqGAqBwAQjn">ProjectDTO : Class</option>
+<option value="shape|1085.0|694.0|156.0|118.0|Class_Ekz3GvqGAqBwAQgN.html|Class_Ekz3GvqGAqBwAQgN.html|eiL3GvqGAqBwAQjp" id="optioneiL3GvqGAqBwAQjp">RoleDTO : Class</option>
+<option value="shape|1349.0|43.0|2720.0|492.0|Package_Swz3GvqGAqBwAQUg.html|Package_Swz3GvqGAqBwAQUg.html|.iL3GvqGAqBwAQjr" id="option.iL3GvqGAqBwAQjr">dao : Package</option>
+<option value="shape|2.0|2.0|4085.0|550.0|Package_iwz3GvqGAqBwAQUf.html|Package_iwz3GvqGAqBwAQUf.html|.iL3GvqGAqBwAQjt" id="option.iL3GvqGAqBwAQjt">controller : Package</option>
+<option value="shape|1366.0|340.0|2408.0|176.0|Package_7Iz3GvqGAqBwAQWW.html|Package_7Iz3GvqGAqBwAQWW.html|BiL3GvqGAqBwAQjv" id="optionBiL3GvqGAqBwAQjv">mysql : Package</option>
+<option value="shape|3740.0|83.0|311.0|176.0|Package_DYz3GvqGAqBwAQbU.html|Package_DYz3GvqGAqBwAQbU.html|BiL3GvqGAqBwAQjx" id="optionBiL3GvqGAqBwAQjx">util : Package</option>
+<option value="shape|19.0|148.0|1311.0|280.0|Package_nYz3GvqGAqBwAQbr.html|Package_nYz3GvqGAqBwAQbr.html|BiL3GvqGAqBwAQjz" id="optionBiL3GvqGAqBwAQjz">factory : Package</option>
+<option value="shape|37.0|317.0|1275.0|94.0|Package_44z3GvqGAqBwAQcA.html|Package_44z3GvqGAqBwAQcA.html|hiL3GvqGAqBwAQj1" id="optionhiL3GvqGAqBwAQj1">mysql : Package</option>
+<option value="shape|20.0|634.0|2328.0|217.0|Package_R4z3GvqGAqBwAQc2.html|Package_R4z3GvqGAqBwAQc2.html|hiL3GvqGAqBwAQj3" id="optionhiL3GvqGAqBwAQj3">dto : Package</option>
+<option value="shape|2.0|593.0|2364.0|275.0|Package_R4z3GvqGAqBwAQc1.html|Package_R4z3GvqGAqBwAQc1.html|hiL3GvqGAqBwAQj5" id="optionhiL3GvqGAqBwAQj5">model : Package</option>
+</select>				</td>
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" width="100%" cellspacing="0" style="position: relative; top: 24;">
+			<tr>
+				<td>
+					<img id="diagram" src="../images/DaoWariosoft.png" usemap="#diagram_map" class="Image" width="4091" height="872"/>
+					<map name="diagram_map">
+<area imageId="diagram" coords="1731.0, 222.0, 1731.0, 381.0, 1745.0, 381.0, 1745.0, 222.0" coords2="1731.0, 222.0, 1731.0, 381.0, 1745.0, 381.0, 1745.0, 222.0" shape="poly" alt=":Realization" id="areadiagram_map_5iL3GvqGAqBwAQj7" href="Realization_Jkz3GvqGAqBwAQg0.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="2031.0, 222.0, 2031.0, 381.0, 2045.0, 381.0, 2045.0, 222.0" coords2="2031.0, 222.0, 2031.0, 381.0, 2045.0, 381.0, 2045.0, 222.0" shape="poly" alt=":Realization" id="areadiagram_map_FiL3GvqGAqBwAQj9" href="Realization_tkz3GvqGAqBwAQg4.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="2334.0, 222.0, 2334.0, 381.0, 2348.0, 381.0, 2348.0, 222.0" coords2="2334.0, 222.0, 2334.0, 381.0, 2348.0, 381.0, 2348.0, 222.0" shape="poly" alt=":Realization" id="areadiagram_map_liL3GvqGAqBwAQj_" href="Realization_Dkz3GvqGAqBwAQg8.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="2661.0, 222.0, 2661.0, 381.0, 2675.0, 381.0, 2675.0, 222.0" coords2="2661.0, 222.0, 2661.0, 381.0, 2675.0, 381.0, 2675.0, 222.0" shape="poly" alt=":Realization" id="areadiagram_map_liL3GvqGAqBwAQkB" href="Realization_zkz3GvqGAqBwAQhA.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="2996.0, 222.0, 2996.0, 381.0, 3010.0, 381.0, 3010.0, 222.0" coords2="2996.0, 222.0, 2996.0, 381.0, 3010.0, 381.0, 3010.0, 222.0" shape="poly" alt=":Realization" id="areadiagram_map_liL3GvqGAqBwAQkD" href="Realization_rkz3GvqGAqBwAQhE.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="3302.0, 222.0, 3302.0, 381.0, 3316.0, 381.0, 3316.0, 222.0" coords2="3302.0, 222.0, 3302.0, 381.0, 3316.0, 381.0, 3316.0, 222.0" shape="poly" alt=":Realization" id="areadiagram_map_liL3GvqGAqBwAQkF" href="Realization_Hkz3GvqGAqBwAQhI.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="3588.0, 222.0, 3588.0, 381.0, 3602.0, 381.0, 3602.0, 222.0" coords2="3588.0, 222.0, 3588.0, 381.0, 3602.0, 381.0, 3602.0, 222.0" shape="poly" alt=":Realization" id="areadiagram_map_liL3GvqGAqBwAQkH" href="Realization_3kz3GvqGAqBwAQhM.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="1478.0, 222.0, 1478.0, 381.0, 1492.0, 381.0, 1492.0, 222.0" coords2="1478.0, 222.0, 1478.0, 381.0, 1492.0, 381.0, 1492.0, 222.0" shape="poly" alt=":Realization" id="areadiagram_map_ViL3GvqGAqBwAQkJ" href="Realization_vkz3GvqGAqBwAQhQ.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="300.0, 236.0, 300.0, 357.0, 311.0, 357.0, 311.0, 367.0, 314.0, 367.0, 314.0, 236.0" coords2="300.0, 236.0, 300.0, 357.0, 311.0, 357.0, 311.0, 367.0, 314.0, 367.0, 314.0, 236.0" shape="poly" alt=":Realization" id="areadiagram_map_ViL3GvqGAqBwAQkL" href="Realization_UUz3GvqGAqBwAQhf.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="441.0, 236.0, 441.0, 357.0, 455.0, 357.0, 455.0, 236.0" coords2="441.0, 236.0, 441.0, 357.0, 455.0, 357.0, 455.0, 236.0" shape="poly" alt=":Realization" id="areadiagram_map_ViL3GvqGAqBwAQkN" href="Realization_0Uz3GvqGAqBwAQhg.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="590.0, 236.0, 590.0, 357.0, 604.0, 357.0, 604.0, 236.0" coords2="590.0, 236.0, 590.0, 357.0, 604.0, 357.0, 604.0, 236.0" shape="poly" alt=":Realization" id="areadiagram_map_ViL3GvqGAqBwAQkP" href="Realization_MUz3GvqGAqBwAQhh.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="733.0, 236.0, 733.0, 357.0, 747.0, 357.0, 747.0, 236.0" coords2="733.0, 236.0, 733.0, 357.0, 747.0, 357.0, 747.0, 236.0" shape="poly" alt=":Realization" id="areadiagram_map_ViL3GvqGAqBwAQkR" href="Realization_MUz3GvqGAqBwAQhi.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="884.0, 236.0, 884.0, 357.0, 898.0, 357.0, 898.0, 236.0" coords2="884.0, 236.0, 884.0, 357.0, 898.0, 357.0, 898.0, 236.0" shape="poly" alt=":Realization" id="areadiagram_map_ViL3GvqGAqBwAQkT" href="Realization_sUz3GvqGAqBwAQhj.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="1022.0, 236.0, 1022.0, 367.0, 1025.0, 367.0, 1025.0, 357.0, 1036.0, 357.0, 1036.0, 236.0" coords2="1022.0, 236.0, 1022.0, 367.0, 1025.0, 367.0, 1025.0, 357.0, 1036.0, 357.0, 1036.0, 236.0" shape="poly" alt=":Realization" id="areadiagram_map_1iL3GvqGAqBwAQkV" href="Realization_cUz3GvqGAqBwAQhk.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="1164.0, 236.0, 1164.0, 367.0, 1166.0, 367.0, 1166.0, 357.0, 1178.0, 357.0, 1178.0, 236.0" coords2="1164.0, 236.0, 1164.0, 367.0, 1166.0, 367.0, 1166.0, 357.0, 1178.0, 357.0, 1178.0, 236.0" shape="poly" alt=":Realization" id="areadiagram_map_1iL3GvqGAqBwAQkX" href="Realization_cUz3GvqGAqBwAQhl.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="160.0, 236.0, 160.0, 357.0, 171.0, 357.0, 171.0, 367.0, 174.0, 367.0, 174.0, 236.0" coords2="160.0, 236.0, 160.0, 357.0, 171.0, 357.0, 171.0, 367.0, 174.0, 367.0, 174.0, 236.0" shape="poly" alt=":Realization" id="areadiagram_map_1iL3GvqGAqBwAQkZ" href="Realization_8Uz3GvqGAqBwAQhm.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author Brayan
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="1595, 381, 1867, 499" coords2="1595, 381, 1867, 499" shape="rect" alt="MysqlClientDAO:Class" id="areadiagram_map_AiL3GvqGAqBwAQid" href="Class_HIz3GvqGAqBwAQWX.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author 1349397
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="1886, 381, 2173, 499" coords2="1886, 381, 2173, 499" shape="rect" alt="MysqlCurrentQuarterDAO:Class" id="areadiagram_map_AiL3GvqGAqBwAQif" href="Class_2oz3GvqGAqBwAQW5.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author 1349397
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="2191, 381, 2472, 499" coords2="2191, 381, 2472, 499" shape="rect" alt="MysqlDocumentDAO:Class" id="areadiagram_map_giL3GvqGAqBwAQih" href="Class_Zoz3GvqGAqBwAQXY.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author WINDOWS 8
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="2490, 381, 2855, 499" coords2="2490, 381, 2855, 499" shape="rect" alt="MysqlEnvironmentDAO:Class" id="areadiagram_map_giL3GvqGAqBwAQij" href="Class_joz3GvqGAqBwAQX3.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author WINDOWS 8
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="2874, 381, 3185, 499" coords2="2874, 381, 3185, 499" shape="rect" alt="MysqlHeadquartersDAO:Class" id="areadiagram_map_giL3GvqGAqBwAQil" href="Class_3oz3GvqGAqBwAQYW.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author SENA
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="3203, 381, 3485, 499" coords2="3203, 381, 3485, 499" shape="rect" alt="MysqlPhaseDAO:Class" id="areadiagram_map_QiL3GvqGAqBwAQin" href="Class_oYz3GvqGAqBwAQY1.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author SENA
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="3504, 381, 3756, 499" coords2="3504, 381, 3756, 499" shape="rect" alt="MysqlProjectDAO:Class" id="areadiagram_map_QiL3GvqGAqBwAQip" href="Class_sYz3GvqGAqBwAQZU.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author 1349397
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="1384, 381, 1576, 499" coords2="1384, 381, 1576, 499" shape="rect" alt="MysqlRoleDAO:Class" id="areadiagram_map_QiL3GvqGAqBwAQir" href="Class_aYz3GvqGAqBwAQZz.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author 1349397
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="3758, 123, 4033, 241" coords2="3758, 123, 4033, 241" shape="rect" alt="ResourceManager:Class" id="areadiagram_map_kiL3GvqGAqBwAQiz" href="Class_DYz3GvqGAqBwAQbV.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author Brayan
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="190, 357, 311, 392" coords2="190, 357, 311, 392" shape="rect" alt="MysqlClientDAOFactory:Class" id="areadiagram_map_SiL3GvqGAqBwAQi_" href="Class_44z3GvqGAqBwAQcB.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author 1349397
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="330, 357, 495, 392" coords2="330, 357, 495, 392" shape="rect" alt="MysqlCurrentQuarterDAOFactory:Class" id="areadiagram_map_yiL3GvqGAqBwAQjB" href="Class_U4z3GvqGAqBwAQcG.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author 1349397
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="513, 357, 656, 392" coords2="513, 357, 656, 392" shape="rect" alt="MysqlDocumentDAOFactory:Class" id="areadiagram_map_yiL3GvqGAqBwAQjD" href="Class_M4z3GvqGAqBwAQcL.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author WINDOWS 8
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="675, 357, 830, 392" coords2="675, 357, 830, 392" shape="rect" alt="MysqlEnvironmentDAOFactory:Class" id="areadiagram_map_yiL3GvqGAqBwAQjF" href="Class_c4z3GvqGAqBwAQcQ.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author WINDOWS 8
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="848, 357, 1006, 392" coords2="848, 357, 1006, 392" shape="rect" alt="MysqlHeadquartersDAOFactory:Class" id="areadiagram_map_KiL3GvqGAqBwAQjH" href="Class_i4z3GvqGAqBwAQcV.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author SENA
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="1025, 357, 1148, 392" coords2="1025, 357, 1148, 392" shape="rect" alt="MysqlPhaseDAOFactory:Class" id="areadiagram_map_KiL3GvqGAqBwAQjJ" href="Class_y4z3GvqGAqBwAQca.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author SENA
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="1166, 357, 1294, 392" coords2="1166, 357, 1294, 392" shape="rect" alt="MysqlProjectDAOFactory:Class" id="areadiagram_map_qiL3GvqGAqBwAQjL" href="Class_q4z3GvqGAqBwAQcf.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author 1349397
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="55, 357, 171, 392" coords2="55, 357, 171, 392" shape="rect" alt="MysqlRoleDAOFactory:Class" id="areadiagram_map_qiL3GvqGAqBwAQjN" href="Class_G4z3GvqGAqBwAQck.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author Brayan
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="1600, 121, 1877, 222" coords2="1600, 121, 1877, 222" shape="rect" alt="ClientDAO:Class" id="areadiagram_map_VCL3GvqGAqBwAQiT" href="Class_6wz3GvqGAqBwAQUi.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author 1349397
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="1895, 121, 2182, 222" coords2="1895, 121, 2182, 222" shape="rect" alt="CurrentQuarterDAO:Class" id="areadiagram_map_HCL3GvqGAqBwAQiV" href="Class_CIz3GvqGAqBwAQU_.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author 1349397
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="2200, 121, 2481, 222" coords2="2200, 121, 2481, 222" shape="rect" alt="DocumentDAO:Class" id="areadiagram_map_XCL3GvqGAqBwAQiX" href="Class_OIz3GvqGAqBwAQVU.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author WINDOWS 8
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="2499, 121, 2836, 222" coords2="2499, 121, 2836, 222" shape="rect" alt="EnvironmentDAO:Class" id="areadiagram_map_PCL3GvqGAqBwAQiZ" href="Class_ZIz3GvqGAqBwAQVq.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author WINDOWS 8
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="2855, 121, 3150, 222" coords2="2855, 121, 3150, 222" shape="rect" alt="HeadquartersDAO:Class" id="areadiagram_map_fCL3GvqGAqBwAQib" href="Class_DIz3GvqGAqBwAQWA.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author 1349397
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="3168, 121, 3450, 222" coords2="3168, 121, 3450, 222" shape="rect" alt="PhaseDAO:Class" id="areadiagram_map_wiL3GvqGAqBwAQit" href="Class_uYz3GvqGAqBwAQaS.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author SENA
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="3469, 121, 3721, 222" coords2="3469, 121, 3721, 222" shape="rect" alt="ProjectDAO:Class" id="areadiagram_map_oiL3GvqGAqBwAQiv" href="Class_xYz3GvqGAqBwAQao.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author 1349397
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="1389, 121, 1581, 222" coords2="1389, 121, 1581, 222" shape="rect" alt="RoleDAO:Class" id="areadiagram_map_4iL3GvqGAqBwAQix" href="Class_lYz3GvqGAqBwAQa_.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author Brayan
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="259, 189, 359, 236" coords2="259, 189, 359, 236" shape="rect" alt="ClientDAOFactory:Class" id="areadiagram_map_kiL3GvqGAqBwAQi1" href="Class_XYz3GvqGAqBwAQbs.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author 1349397
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="377, 189, 518, 236" coords2="377, 189, 518, 236" shape="rect" alt="CurrentQuarterDAOFactory:Class" id="areadiagram_map_0iL3GvqGAqBwAQi3" href="Class_PYz3GvqGAqBwAQbw.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" coords="537, 189, 657, 236" coords2="537, 189, 657, 236" shape="rect" alt="DocumentDAOFactory:Class" id="areadiagram_map_siL3GvqGAqBwAQi5" href="Class__Yz3GvqGAqBwAQb0.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author WINDOWS 8
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="675, 189, 805, 236" coords2="675, 189, 805, 236" shape="rect" alt="EnvironmentDAOFactory:Class" id="areadiagram_map_ciL3GvqGAqBwAQi7" href="Class_g4z3GvqGAqBwAQb4.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author WINDOWS 8
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="824, 189, 959, 236" coords2="824, 189, 959, 236" shape="rect" alt="HeadquartersDAOFactory:Class" id="areadiagram_map_CiL3GvqGAqBwAQi9" href="Class_I4z3GvqGAqBwAQb8.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author SENA
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="977, 189, 1081, 236" coords2="977, 189, 1081, 236" shape="rect" alt="PhaseDAOFactory:Class" id="areadiagram_map_qiL3GvqGAqBwAQjP" href="Class_24z3GvqGAqBwAQcp.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author SENA
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="1099, 189, 1205, 236" coords2="1099, 189, 1205, 236" shape="rect" alt="ProjectDAOFactory:Class" id="areadiagram_map_6iL3GvqGAqBwAQjR" href="Class_u4z3GvqGAqBwAQct.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author 1349397
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="145, 189, 240, 236" coords2="145, 189, 240, 236" shape="rect" alt="RoleDAOFactory:Class" id="areadiagram_map_miL3GvqGAqBwAQjT" href="Class__4z3GvqGAqBwAQcx.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author Brayan
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="38, 674, 222, 832" coords2="38, 674, 222, 832" shape="rect" alt="ClientDTO:Class" id="areadiagram_map_2iL3GvqGAqBwAQjV" href="Class_x4z3GvqGAqBwAQc3.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author Brayan
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="2130, 701, 2330, 805" coords2="2130, 701, 2330, 805" shape="rect" alt="ClientPkDTO:Class" id="areadiagram_map_2iL3GvqGAqBwAQjX" href="Class_j4z3GvqGAqBwAQdT.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author 1349397
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="241, 694, 423, 812" coords2="241, 694, 423, 812" shape="rect" alt="CurrentQuarterDTO:Class" id="areadiagram_map_2iL3GvqGAqBwAQjZ" href="Class_b4z3GvqGAqBwAQdm.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author 1349397
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="1911, 694, 2111, 812" coords2="1911, 694, 2111, 812" shape="rect" alt="DocumentDTO:Class" id="areadiagram_map_OiL3GvqGAqBwAQjb" href="Class_v4z3GvqGAqBwAQd9.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author WINDOWS 8
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="442, 694, 637, 812" coords2="442, 694, 637, 812" shape="rect" alt="EnvironmentDTO:Class" id="areadiagram_map_OiL3GvqGAqBwAQjd" href="Class_wEz3GvqGAqBwAQeR.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author WINDOWS 8
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="1697, 707, 1892, 798" coords2="1697, 707, 1892, 798" shape="rect" alt="EnvironmentPkDTO:Class" id="areadiagram_map_OiL3GvqGAqBwAQjf" href="Class_UEz3GvqGAqBwAQem.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author WINDOWS 8
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="655, 701, 847, 805" coords2="655, 701, 847, 805" shape="rect" alt="HeadquartersDTO:Class" id="areadiagram_map_uiL3GvqGAqBwAQjh" href="Class_SEz3GvqGAqBwAQe3.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author SENA
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="1479, 688, 1679, 819" coords2="1479, 688, 1679, 819" shape="rect" alt="PhaseDTO:Class" id="areadiagram_map_uiL3GvqGAqBwAQjj" href="Class_BEz3GvqGAqBwAQfK.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author SENA
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="866, 694, 1066, 812" coords2="866, 694, 1066, 812" shape="rect" alt="PhasePkDTO:Class" id="areadiagram_map_uiL3GvqGAqBwAQjl" href="Class_9Ez3GvqGAqBwAQfh.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author SENA
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="1260, 688, 1460, 819" coords2="1260, 688, 1460, 819" shape="rect" alt="ProjectDTO:Class" id="areadiagram_map_eiL3GvqGAqBwAQjn" href="Class_vEz3GvqGAqBwAQf2.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" docContent="&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p style=&amp;quot;margin-top:0;&amp;quot;&amp;gt;
+      @author 1349397
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+" coords="1085, 694, 1241, 812" coords2="1085, 694, 1241, 812" shape="rect" alt="RoleDTO:Class" id="areadiagram_map_eiL3GvqGAqBwAQjp" href="Class_Ekz3GvqGAqBwAQgN.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon(),showTooltip(this)" onmousedown="clearSpotLight();" onmouseout="hideTooltip()"/>
+<area imageId="diagram" coords="1366, 340, 3774, 516" coords2="1366, 340, 3774, 516" shape="rect" alt="mysql:Package" id="areadiagram_map_BiL3GvqGAqBwAQjv" href="Package_7Iz3GvqGAqBwAQWW.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="3740, 83, 4051, 259" coords2="3740, 83, 4051, 259" shape="rect" alt="util:Package" id="areadiagram_map_BiL3GvqGAqBwAQjx" href="Package_DYz3GvqGAqBwAQbU.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="37, 317, 1312, 411" coords2="37, 317, 1312, 411" shape="rect" alt="mysql:Package" id="areadiagram_map_hiL3GvqGAqBwAQj1" href="Package_44z3GvqGAqBwAQcA.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="1349, 43, 4069, 535" coords2="1349, 43, 4069, 535" shape="rect" alt="dao:Package" id="areadiagram_map_.iL3GvqGAqBwAQjr" href="Package_Swz3GvqGAqBwAQUg.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="19, 148, 1330, 428" coords2="19, 148, 1330, 428" shape="rect" alt="factory:Package" id="areadiagram_map_BiL3GvqGAqBwAQjz" href="Package_nYz3GvqGAqBwAQbr.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="20, 634, 2348, 851" coords2="20, 634, 2348, 851" shape="rect" alt="dto:Package" id="areadiagram_map_hiL3GvqGAqBwAQj3" href="Package_R4z3GvqGAqBwAQc2.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="2, 2, 4087, 552" coords2="2, 2, 4087, 552" shape="rect" alt="controller:Package" id="areadiagram_map_.iL3GvqGAqBwAQjt" href="Package_iwz3GvqGAqBwAQUf.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+<area imageId="diagram" coords="2, 593, 2366, 868" coords2="2, 593, 2366, 868" shape="rect" alt="model:Package" id="areadiagram_map_hiL3GvqGAqBwAQj5" href="Package_R4z3GvqGAqBwAQc1.html" onmouseover="hideReferenceIcon(),hideSubdiagramIcon(),hideTransitorIcon()" onmousedown="clearSpotLight();"/>
+</map>
+				</td>
+			</tr>
+		</table>
+		<p>
+		</p>
+	</div>
+	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+		<tr>
+			<td class="Category">
+				Model Elements			</td>
+		</tr>
+		<tr>
+			<td style="height: 5px">
+			</td>
+		</tr>
+	</table>
+	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+		<tr>
+			<td colSpan="4" class="TableHeaderLine">
+			</td>
+		</tr>
+		<tr>
+			<td colSpan="4" class="TableHeaderLine1">
+			</td>
+		</tr>
+		<tr class="TableHeader">
+			<td class="TableCellSpaceHolder10Px">
+			</td>
+			<td width="30%">
+<span class="TableHeaderText">Name</span>			</td>
+			<td class="TableCellSpaceHolder20Px">
+			</td>
+			<td>
+<span class="TableHeaderText">Description</span>			</td>
+		</tr>
+		<tr>
+			<td colSpan="4" class="TableHeaderLine2">
+			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_6wz3GvqGAqBwAQUi.html" class="ItemLink">ClientDAO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author Brayan
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_CIz3GvqGAqBwAQU_.html" class="ItemLink">CurrentQuarterDAO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author 1349397
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_OIz3GvqGAqBwAQVU.html" class="ItemLink">DocumentDAO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author 1349397
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_ZIz3GvqGAqBwAQVq.html" class="ItemLink">EnvironmentDAO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author WINDOWS 8
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_DIz3GvqGAqBwAQWA.html" class="ItemLink">HeadquartersDAO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author WINDOWS 8
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_HIz3GvqGAqBwAQWX.html" class="ItemLink">MysqlClientDAO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author Brayan
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_2oz3GvqGAqBwAQW5.html" class="ItemLink">MysqlCurrentQuarterDAO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author 1349397
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_Zoz3GvqGAqBwAQXY.html" class="ItemLink">MysqlDocumentDAO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author 1349397
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_joz3GvqGAqBwAQX3.html" class="ItemLink">MysqlEnvironmentDAO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author WINDOWS 8
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_3oz3GvqGAqBwAQYW.html" class="ItemLink">MysqlHeadquartersDAO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author WINDOWS 8
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_oYz3GvqGAqBwAQY1.html" class="ItemLink">MysqlPhaseDAO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author SENA
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_sYz3GvqGAqBwAQZU.html" class="ItemLink">MysqlProjectDAO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author SENA
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_aYz3GvqGAqBwAQZz.html" class="ItemLink">MysqlRoleDAO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author 1349397
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_uYz3GvqGAqBwAQaS.html" class="ItemLink">PhaseDAO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author 1349397
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_xYz3GvqGAqBwAQao.html" class="ItemLink">ProjectDAO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author SENA
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_lYz3GvqGAqBwAQa_.html" class="ItemLink">RoleDAO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author 1349397
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_DYz3GvqGAqBwAQbV.html" class="ItemLink">ResourceManager : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author 1349397
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_XYz3GvqGAqBwAQbs.html" class="ItemLink">ClientDAOFactory : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author Brayan
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_PYz3GvqGAqBwAQbw.html" class="ItemLink">CurrentQuarterDAOFactory : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author 1349397
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class__Yz3GvqGAqBwAQb0.html" class="ItemLink">DocumentDAOFactory : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_g4z3GvqGAqBwAQb4.html" class="ItemLink">EnvironmentDAOFactory : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author WINDOWS 8
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_I4z3GvqGAqBwAQb8.html" class="ItemLink">HeadquartersDAOFactory : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author WINDOWS 8
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_44z3GvqGAqBwAQcB.html" class="ItemLink">MysqlClientDAOFactory : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author Brayan
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_U4z3GvqGAqBwAQcG.html" class="ItemLink">MysqlCurrentQuarterDAOFactory : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author 1349397
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_M4z3GvqGAqBwAQcL.html" class="ItemLink">MysqlDocumentDAOFactory : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author 1349397
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_c4z3GvqGAqBwAQcQ.html" class="ItemLink">MysqlEnvironmentDAOFactory : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author WINDOWS 8
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_i4z3GvqGAqBwAQcV.html" class="ItemLink">MysqlHeadquartersDAOFactory : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author WINDOWS 8
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_y4z3GvqGAqBwAQca.html" class="ItemLink">MysqlPhaseDAOFactory : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author SENA
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_q4z3GvqGAqBwAQcf.html" class="ItemLink">MysqlProjectDAOFactory : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author SENA
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_G4z3GvqGAqBwAQck.html" class="ItemLink">MysqlRoleDAOFactory : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author 1349397
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_24z3GvqGAqBwAQcp.html" class="ItemLink">PhaseDAOFactory : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author SENA
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_u4z3GvqGAqBwAQct.html" class="ItemLink">ProjectDAOFactory : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author SENA
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class__4z3GvqGAqBwAQcx.html" class="ItemLink">RoleDAOFactory : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author 1349397
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_x4z3GvqGAqBwAQc3.html" class="ItemLink">ClientDTO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author Brayan
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_j4z3GvqGAqBwAQdT.html" class="ItemLink">ClientPkDTO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author Brayan
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_b4z3GvqGAqBwAQdm.html" class="ItemLink">CurrentQuarterDTO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author 1349397
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_v4z3GvqGAqBwAQd9.html" class="ItemLink">DocumentDTO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author 1349397
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_wEz3GvqGAqBwAQeR.html" class="ItemLink">EnvironmentDTO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author WINDOWS 8
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_UEz3GvqGAqBwAQem.html" class="ItemLink">EnvironmentPkDTO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author WINDOWS 8
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_SEz3GvqGAqBwAQe3.html" class="ItemLink">HeadquartersDTO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author WINDOWS 8
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_BEz3GvqGAqBwAQfK.html" class="ItemLink">PhaseDTO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author SENA
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_9Ez3GvqGAqBwAQfh.html" class="ItemLink">PhasePkDTO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author SENA
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_vEz3GvqGAqBwAQf2.html" class="ItemLink">ProjectDTO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author SENA
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Class.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Class.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Class_Ekz3GvqGAqBwAQgN.html" class="ItemLink">RoleDTO : Class</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top:0;">
+      @author 1349397
+    </p>
+  </body>
+</html>
+</span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Package.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Package.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Package_Swz3GvqGAqBwAQUg.html" class="ItemLink">dao : Package</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Package.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Package.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Package_iwz3GvqGAqBwAQUf.html" class="ItemLink">controller : Package</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Package.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Package.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Package_7Iz3GvqGAqBwAQWW.html" class="ItemLink">mysql : Package</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Package.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Package.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Package_DYz3GvqGAqBwAQbU.html" class="ItemLink">util : Package</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Package.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Package.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Package_nYz3GvqGAqBwAQbr.html" class="ItemLink">factory : Package</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Package.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Package.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Package_44z3GvqGAqBwAQcA.html" class="ItemLink">mysql : Package</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Package.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Package.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Package_R4z3GvqGAqBwAQc2.html" class="ItemLink">dto : Package</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+		<tr class="TableRow2">
+			<td>
+			</td>
+			<td>
+				<span class="TableContent">
+					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Package.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Package.png'); background-repeat: no-repeat;">
+					</div>
+					&nbsp; <a href="Package_R4z3GvqGAqBwAQc1.html" class="ItemLink">model : Package</a>				</span>
+			</td>
+			<td>
+			</td>
+			<td style="padding: 5px 0">
+<span class="TableContent Documentation"></span>			</td>
+		</tr>
+	</table>
+	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+		<tr>
+			<td class="TableCellSpaceHolder1PxTall">
+			</td>
+		</tr>
+		<tr>
+			<td class="TableFooter">
+			</td>
+		</tr>
+	</table>
+	<div style="height: 20px">
+	</div>
+	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+		<tr>
+			<td class="FooterLine">
+			</td>
+		</tr>
+	</table>
+	<div class="HeaderText">
+		diagramadeclaseswariosoft	</div>
+</body>
+</html>
