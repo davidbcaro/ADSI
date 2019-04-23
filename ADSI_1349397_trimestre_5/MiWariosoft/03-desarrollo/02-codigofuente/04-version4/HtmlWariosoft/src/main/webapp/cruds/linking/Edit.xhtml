@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="LinkingEditDlg" widgetVar="LinkingEditDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.EditLinkingTitle}">
+            <h:form id="LinkingEditForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{linkingController.selected != null}">
+                        <p:outputLabel value="#{bundle.EditLinkingLabel_typeLinking}" for="typeLinking" />
+                        <p:inputText id="typeLinking" value="#{linkingController.selected.typeLinking}" title="#{bundle.EditLinkingTitle_typeLinking}" required="true" requiredMessage="#{bundle.EditLinkingRequiredMessage_typeLinking}"/>
+                        <p:outputLabel value="#{bundle.EditLinkingLabel_hours}" for="hours" />
+                        <p:inputText id="hours" value="#{linkingController.selected.hours}" title="#{bundle.EditLinkingTitle_hours}" required="true" requiredMessage="#{bundle.EditLinkingRequiredMessage_hours}"/>
+                        <p:outputLabel value="#{bundle.EditLinkingLabel_state}" for="state" />
+                        <p:selectBooleanCheckbox id="state" value="#{linkingController.selected.state}" required="true" requiredMessage="#{bundle.EditLinkingRequiredMessage_state}"/>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{linkingController.update}" value="#{bundle.Save}" update="display,:LinkingListForm:datalist,:growl" oncomplete="handleSubmit(args, 'LinkingEditDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="LinkingEditDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

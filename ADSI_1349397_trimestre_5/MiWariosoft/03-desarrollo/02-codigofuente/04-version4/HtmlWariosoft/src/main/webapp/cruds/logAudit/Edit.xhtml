@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="LogAuditEditDlg" widgetVar="LogAuditEditDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.EditLogAuditTitle}">
+            <h:form id="LogAuditEditForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{logAuditController.selected != null}">
+                        <p:outputLabel value="#{bundle.EditLogAuditLabel_idLog}" for="idLog" />
+                        <p:inputText id="idLog" value="#{logAuditController.selected.idLog}" title="#{bundle.EditLogAuditTitle_idLog}" required="true" requiredMessage="#{bundle.EditLogAuditRequiredMessage_idLog}"/>
+                        <p:outputLabel value="#{bundle.EditLogAuditLabel_level}" for="level" />
+                        <p:inputText id="level" value="#{logAuditController.selected.level}" title="#{bundle.EditLogAuditTitle_level}" />
+                        <p:outputLabel value="#{bundle.EditLogAuditLabel_logName}" for="logName" />
+                        <p:inputText id="logName" value="#{logAuditController.selected.logName}" title="#{bundle.EditLogAuditTitle_logName}" />
+                        <p:outputLabel value="#{bundle.EditLogAuditLabel_message}" for="message" />
+                        <p:inputTextarea rows="4" cols="30" id="message" value="#{logAuditController.selected.message}" title="#{bundle.EditLogAuditTitle_message}" />
+                        <p:outputLabel value="#{bundle.EditLogAuditLabel_date}" for="date" />
+                        <p:calendar id="date" pattern="MM/dd/yyyy HH:mm:ss" value="#{logAuditController.selected.date}" title="#{bundle.EditLogAuditTitle_date}"  showOn="button"/>
+                        <p:outputLabel value="#{bundle.EditLogAuditLabel_user}" for="user" />
+                        <p:inputText id="user" value="#{logAuditController.selected.user}" title="#{bundle.EditLogAuditTitle_user}" />
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{logAuditController.update}" value="#{bundle.Save}" update="display,:LogAuditListForm:datalist,:growl" oncomplete="handleSubmit(args, 'LogAuditEditDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="LogAuditEditDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

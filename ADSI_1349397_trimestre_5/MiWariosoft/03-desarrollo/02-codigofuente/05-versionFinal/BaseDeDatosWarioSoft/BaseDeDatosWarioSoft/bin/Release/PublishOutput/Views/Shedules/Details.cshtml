@@ -1,0 +1,154 @@
+﻿@model BaseDeDatosWarioSoft.Models.Shedule
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Shedule</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Environment.EnviromentNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Environment.EnviromentNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Group.NumberGroup)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Group.NumberGroup)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Headquarters.NameHeadquarters)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Headquarters.NameHeadquarters)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Modality.nameModality)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Modality.nameModality)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User.documentNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.documentNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Observaciones)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Observaciones)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StartHour)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StartHour)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.endHour)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.endHour)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.InitialDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InitialDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EndDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EndDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Monday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Monday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tuesday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tuesday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Wednesday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Wednesday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Thursday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Thursday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Friday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Friday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Saturday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Saturday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sunday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sunday)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdShedule }) |
+    @Html.ActionLink("Back to List", "Index", new { }, new { @class = "btn btn-primary" })
+</p>

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<BaseDeDatosWarioSoft.Models.WorkingDay>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Jornada</h2>
+
+<p>
+    @Html.ActionLink("Crear nueva jornada", "Create", new { }, new { @class = "btn btn-success" })
+</p>
+<div class="table-responsive">
+
+    <table class="table table-condensed" style="border-radius: 6px; background-color: #2999a5">
+        <thead>
+            <tr>
+                <th>
+                    <center>@Html.DisplayNameFor(model => model.desciption)</center>
+                </th>
+                <th></th>
+            </tr>
+        <thead>
+            @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <center>@Html.DisplayFor(modelItem => item.desciption)</center>
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { id = item.IdWorkingDay }, new { @class = "btn btn-warning btn-xs btn-block" })
+                    @Html.ActionLink("Detalles", "Details", new { id = item.IdWorkingDay }, new { @class = "btn btn-info btn-xs btn-block" })
+                    @Html.ActionLink("Borrar", "Delete", new { id = item.IdWorkingDay }, new { @class = "btn btn-danger btn-xs btn-block" })
+                </td>
+            </tr>
+    }
+
+    </table>
+    </div>

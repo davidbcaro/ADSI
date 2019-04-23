@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:head>
+        <title><ui:insert name="title">Default Title</ui:insert></title>
+        <h:outputStylesheet library="css" name="jsfcrud.css"/>
+        <h:outputScript library="js" name="jsfcrud.js"/>
+    </h:head>
+
+    <h:body>
+
+        <p:growl id="growl" life="3000" />
+
+        <p:layout fullPage="true">
+            <p:layoutUnit position="north" size="65" header="#{bundle.AppName}">
+                <h:form id="menuForm">
+                    <p:menubar>
+                        <p:menuitem value="#{bundle.Home}" outcome="/index" icon="ui-icon-home"/>
+                        <p:submenu label="#{bundle.Maintenance}">
+                            <p:menuitem value="Activity" outcome="/cruds/activity/List.xhtml" />
+                            <p:menuitem value="Availability" outcome="/cruds/availability/List.xhtml" />
+                            <p:menuitem value="Client" outcome="/cruds/client/List.xhtml" />
+                            <p:menuitem value="Competition" outcome="/cruds/competition/List.xhtml" />
+                            <p:menuitem value="CurrentQuarter" outcome="/cruds/currentQuarter/List.xhtml" />
+                            <p:menuitem value="Day" outcome="/cruds/day/List.xhtml" />
+                            <p:menuitem value="Document" outcome="/cruds/document/List.xhtml" />
+                            <p:menuitem value="Environment" outcome="/cruds/environment/List.xhtml" />
+                            <p:menuitem value="Headquarters" outcome="/cruds/headquarters/List.xhtml" />
+                            <p:menuitem value="LearningOutcome" outcome="/cruds/learningOutcome/List.xhtml" />
+                            <p:menuitem value="Linking" outcome="/cruds/linking/List.xhtml" />
+                            <p:menuitem value="LogAudit" outcome="/cruds/logAudit/List.xhtml" />
+                            <p:menuitem value="LogError" outcome="/cruds/logError/List.xhtml" />
+                            <p:menuitem value="Modality" outcome="/cruds/modality/List.xhtml" />
+                            <p:menuitem value="NumberGroup" outcome="/cruds/numberGroup/List.xhtml" />
+                            <p:menuitem value="NumberGroupHasTrimester" outcome="/cruds/numberGroupHasTrimester/List.xhtml" />
+                            <p:menuitem value="Phase" outcome="/cruds/phase/List.xhtml" />
+                            <p:menuitem value="Program" outcome="/cruds/program/List.xhtml" />
+                            <p:menuitem value="Project" outcome="/cruds/project/List.xhtml" />
+                            <p:menuitem value="Role" outcome="/cruds/role/List.xhtml" />
+                            <p:menuitem value="RoleHasClient" outcome="/cruds/roleHasClient/List.xhtml" />
+                            <p:menuitem value="Schedule" outcome="/cruds/schedule/List.xhtml" />
+                            <p:menuitem value="ServerEmail" outcome="/cruds/serverEmail/List.xhtml" />
+                            <p:menuitem value="Specialty" outcome="/cruds/specialty/List.xhtml" />
+                            <p:menuitem value="StateNumberGroup" outcome="/cruds/stateNumberGroup/List.xhtml" />
+                            <p:menuitem value="Teacher" outcome="/cruds/teacher/List.xhtml" />
+                            <p:menuitem value="TrainingLevel" outcome="/cruds/trainingLevel/List.xhtml" />
+                            <p:menuitem value="Trimester" outcome="/cruds/trimester/List.xhtml" />
+                            <p:menuitem value="User" outcome="/cruds/user/List.xhtml" />
+                            <p:menuitem value="Version" outcome="/cruds/version/List.xhtml" />
+                            <p:menuitem value="WorkingDay" outcome="/cruds/workingDay/List.xhtml" />
+                        </p:submenu>
+                    </p:menubar>
+                </h:form>
+            </p:layoutUnit>
+
+            <p:layoutUnit position="south" size="60">
+                <ui:insert name="footer"/>
+            </p:layoutUnit>
+
+            <p:layoutUnit position="center">
+                <ui:insert name="body"/>
+            </p:layoutUnit>
+
+        </p:layout>
+
+    </h:body>
+
+</html>

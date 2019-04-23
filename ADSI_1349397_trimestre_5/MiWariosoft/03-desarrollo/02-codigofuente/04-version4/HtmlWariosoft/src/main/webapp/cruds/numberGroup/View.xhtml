@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="NumberGroupViewDlg" widgetVar="NumberGroupViewDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.ViewNumberGroupTitle}">
+            <h:form id="NumberGroupViewForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{numberGroupController.selected != null}">
+                        <h:outputText value="#{bundle.ViewNumberGroupLabel_numberGroup}"/>
+                        <h:outputText value="#{numberGroupController.selected.numberGroup}" title="#{bundle.ViewNumberGroupTitle_numberGroup}"/>
+                        <h:outputText value="#{bundle.ViewNumberGroupLabel_startDate}"/>
+                        <h:outputText value="#{numberGroupController.selected.startDate}" title="#{bundle.ViewNumberGroupTitle_startDate}">
+                            <f:convertDateTime pattern="MM/dd/yyyy" />
+                        </h:outputText>
+                        <h:outputText value="#{bundle.ViewNumberGroupLabel_endDate}"/>
+                        <h:outputText value="#{numberGroupController.selected.endDate}" title="#{bundle.ViewNumberGroupTitle_endDate}">
+                            <f:convertDateTime pattern="MM/dd/yyyy" />
+                        </h:outputText>
+                        <h:outputText value="#{bundle.ViewNumberGroupLabel_route}"/>
+                        <h:outputText value="#{numberGroupController.selected.route}" title="#{bundle.ViewNumberGroupTitle_route}"/>
+                        <h:outputText value="#{bundle.ViewNumberGroupLabel_program}"/>
+                        <h:outputText value="#{numberGroupController.selected.program}" title="#{bundle.ViewNumberGroupTitle_program}"/>
+                        <h:outputText value="#{bundle.ViewNumberGroupLabel_nameState}"/>
+                        <h:outputText value="#{numberGroupController.selected.nameState}" title="#{bundle.ViewNumberGroupTitle_nameState}"/>
+                    </p:panelGrid>
+                    <p:commandButton value="#{bundle.Close}" onclick="NumberGroupViewDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

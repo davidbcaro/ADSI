@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="TeacherCreateDlg" widgetVar="TeacherCreateDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.CreateTeacherTitle}">
+            <h:form id="TeacherCreateForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{teacherController.selected != null}">
+                        <p:outputLabel value="#{bundle.CreateTeacherLabel_client}" for="client" />
+                        <p:selectOneMenu id="client" value="#{teacherController.selected.client}" required="true" requiredMessage="#{bundle.EditTeacherRequiredMessage_client}">
+                            <f:selectItems value="#{clientController.itemsAvailableSelectOne}"
+                                           var="clientItem"
+                                           itemValue="#{clientItem}"/>
+                        </p:selectOneMenu>
+                        <p:outputLabel value="#{bundle.CreateTeacherLabel_nameSpecialty}" for="nameSpecialty" />
+                        <p:selectOneMenu id="nameSpecialty" value="#{teacherController.selected.nameSpecialty}" required="true" requiredMessage="#{bundle.EditTeacherRequiredMessage_nameSpecialty}">
+                            <f:selectItems value="#{specialtyController.itemsAvailableSelectOne}"
+                                           var="nameSpecialtyItem"
+                                           itemValue="#{nameSpecialtyItem}"/>
+                        </p:selectOneMenu>
+                        <p:outputLabel value="#{bundle.CreateTeacherLabel_typeLinking}" for="typeLinking" />
+                        <p:selectOneMenu id="typeLinking" value="#{teacherController.selected.typeLinking}" required="true" requiredMessage="#{bundle.EditTeacherRequiredMessage_typeLinking}">
+                            <f:selectItems value="#{linkingController.itemsAvailableSelectOne}"
+                                           var="typeLinkingItem"
+                                           itemValue="#{typeLinkingItem}"/>
+                        </p:selectOneMenu>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{teacherController.create}" value="#{bundle.Save}" update="display,:TeacherListForm:datalist,:growl" oncomplete="handleSubmit(args,'TeacherCreateDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="TeacherCreateDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

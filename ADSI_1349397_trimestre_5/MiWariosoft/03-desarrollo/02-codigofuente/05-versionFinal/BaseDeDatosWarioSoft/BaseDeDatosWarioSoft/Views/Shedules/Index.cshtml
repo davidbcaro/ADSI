@@ -1,0 +1,111 @@
+﻿@model IEnumerable<BaseDeDatosWarioSoft.Models.Shedule>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Horarios</h2>
+
+<p>
+    @Html.ActionLink("Crear nuevo horario", "Create", new { }, new { @class = "btn btn-success" })
+</p>
+
+
+@using (Html.BeginForm())
+{
+    <p>
+        Buscar por Instructor, Ambiente, Ficha : @Html.TextBox("SearchString")
+        <input type="submit" value="Search" />
+    </p>
+}
+<div class="table-responsive">
+    <table class="table table-condensed" style="border-radius: 6px; background-color: #2999a5">
+
+        <thead>
+            <tr>
+                <th>
+                    <center>  @Html.DisplayNameFor(model => model.Environment.EnviromentNumber)</center>
+                </th>
+                <th>
+                    <center> @Html.DisplayNameFor(model => model.Group.NumberGroup)</center></th>
+                <th>
+                    <center> @Html.DisplayNameFor(model => model.Headquarters.NameHeadquarters)</center></th>
+                <th>
+                    <center> @Html.DisplayNameFor(model => model.Modality.nameModality)</center></th>
+                <th>
+                    <center> @Html.DisplayNameFor(model => model.User.FullName)</center></th>
+                <th>
+                    <center>  @Html.DisplayNameFor(model => model.Observaciones)</center></th>
+                <th>
+                    <center>@Html.DisplayNameFor(model => model.StartHour)</center></th>
+                <th>
+                    <center> @Html.DisplayNameFor(model => model.endHour)</center></th>
+                <th>
+                    <center> @Html.DisplayNameFor(model => model.InitialDate)</center></th>
+                <th>
+                    <center> @Html.DisplayNameFor(model => model.EndDate)</center></th>
+                <th>
+                    <center>@Html.DisplayNameFor(model => model.Monday)</center></th>
+                <th>
+                    <center> @Html.DisplayNameFor(model => model.Tuesday)</center></th>
+                <th>
+                    <center>@Html.DisplayNameFor(model => model.Wednesday)</center></th>
+                <th>
+                    <center> @Html.DisplayNameFor(model => model.Thursday)</center></th>
+                <th>
+                    <center> @Html.DisplayNameFor(model => model.Friday)</center></th>
+                <th>
+                    <center> @Html.DisplayNameFor(model => model.Saturday)</center></th>
+                <th>
+                    <center> @Html.DisplayNameFor(model => model.Sunday)</center></th>
+                <th></th>
+            </tr>
+        <thead>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <center> @Html.DisplayFor(modelItem => item.Environment.EnviromentNumber)</center></td>
+                    <td>
+                        <center>@Html.DisplayFor(modelItem => item.Group.NumberGroup)</center></td>
+                    <td>
+                        <center>@Html.DisplayFor(modelItem => item.Headquarters.NameHeadquarters)</center></td>
+                    <td>
+                        <center> @Html.DisplayFor(modelItem => item.Modality.nameModality)</center></td>
+                    <td>
+                        <center>@Html.DisplayFor(modelItem => item.User.FullName)</center></td>
+                    <td>
+                        <center>@Html.DisplayFor(modelItem => item.Observaciones)</center></td>
+                    <td>
+                        <center>@Html.DisplayFor(modelItem => item.StartHour)</center></td>
+                    <td>
+                        <center>@Html.DisplayFor(modelItem => item.endHour)</center></td>
+                    <td>
+                        <center> @Html.DisplayFor(modelItem => item.InitialDate)</center></td>
+                    <td>
+                        <center> @Html.DisplayFor(modelItem => item.EndDate)</center></td>
+                    <td>
+                        <center> @Html.DisplayFor(modelItem => item.Monday)</center></td>
+                    <td>
+                        <center> @Html.DisplayFor(modelItem => item.Tuesday)</center></td>
+                    <td>
+                        <center>@Html.DisplayFor(modelItem => item.Wednesday)</center></td>
+                    <td>
+                        <center> @Html.DisplayFor(modelItem => item.Thursday)</center></td>
+                    <td>
+                        <center> @Html.DisplayFor(modelItem => item.Friday)</center></td>
+                    <td>
+                        <center> @Html.DisplayFor(modelItem => item.Saturday)</center></td>
+                    <td>
+                        <center> @Html.DisplayFor(modelItem => item.Sunday)</center></td>
+                    <td>
+                        <center>
+                            @Html.ActionLink("Editar", "Edit", new { id = item.IdShedule }, new { @class = "btn btn-warning btn-xs btn-block" }) 
+                            @Html.ActionLink("Detalles", "Details", new { id = item.IdShedule }, new { @class = "btn btn-info btn-xs btn-block" }) 
+                            @Html.ActionLink("Borrar", "Delete", new { id = item.IdShedule }, new { @class = "btn btn-danger btn-xs btn-block" })
+                        </center></td>
+                </tr>
+            }
+
+</table>
+</div>

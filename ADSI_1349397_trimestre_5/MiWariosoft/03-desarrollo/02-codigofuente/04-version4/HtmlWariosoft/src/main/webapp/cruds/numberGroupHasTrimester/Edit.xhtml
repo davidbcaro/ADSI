@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="NumberGroupHasTrimesterEditDlg" widgetVar="NumberGroupHasTrimesterEditDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.EditNumberGroupHasTrimesterTitle}">
+            <h:form id="NumberGroupHasTrimesterEditForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{numberGroupHasTrimesterController.selected != null}">
+                        <p:outputLabel value="#{bundle.EditNumberGroupHasTrimesterLabel_numberGroup1}" for="numberGroup1" />
+                        <p:selectOneMenu id="numberGroup1" value="#{numberGroupHasTrimesterController.selected.numberGroup1}" required="true" requiredMessage="#{bundle.EditNumberGroupHasTrimesterRequiredMessage_numberGroup1}">
+                            <f:selectItem itemLabel="#{bundle.SelectOneMessage}"/>
+                            <f:selectItems value="#{numberGroupController.itemsAvailableSelectOne}"
+                                           var="numberGroup1Item"
+                                           itemValue="#{numberGroup1Item}"/>
+                        </p:selectOneMenu>
+                        <p:outputLabel value="#{bundle.EditNumberGroupHasTrimesterLabel_trimester}" for="trimester" />
+                        <p:selectOneMenu id="trimester" value="#{numberGroupHasTrimesterController.selected.trimester}" required="true" requiredMessage="#{bundle.EditNumberGroupHasTrimesterRequiredMessage_trimester}">
+                            <f:selectItem itemLabel="#{bundle.SelectOneMessage}"/>
+                            <f:selectItems value="#{trimesterController.itemsAvailableSelectOne}"
+                                           var="trimesterItem"
+                                           itemValue="#{trimesterItem}"/>
+                        </p:selectOneMenu>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{numberGroupHasTrimesterController.update}" value="#{bundle.Save}" update="display,:NumberGroupHasTrimesterListForm:datalist,:growl" oncomplete="handleSubmit(args, 'NumberGroupHasTrimesterEditDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="NumberGroupHasTrimesterEditDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

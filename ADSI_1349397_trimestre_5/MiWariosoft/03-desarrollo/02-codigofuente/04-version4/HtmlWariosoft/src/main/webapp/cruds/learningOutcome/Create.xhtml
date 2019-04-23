@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="LearningOutcomeCreateDlg" widgetVar="LearningOutcomeCreateDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.CreateLearningOutcomeTitle}">
+            <h:form id="LearningOutcomeCreateForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{learningOutcomeController.selected != null}">
+                        <p:outputLabel value="#{bundle.CreateLearningOutcomeLabel_learningOutcomePK_learningOutcomeCode}" for="learningOutcomePK_learningOutcomeCode" />
+                        <p:inputText id="learningOutcomePK_learningOutcomeCode" value="#{learningOutcomeController.selected.learningOutcomePK.learningOutcomeCode}" title="#{bundle.CreateLearningOutcomeTitle_learningOutcomePK_learningOutcomeCode}" required="true" requiredMessage="#{bundle.CreateLearningOutcomeRequiredMessage_learningOutcomePK_learningOutcomeCode}"/>
+                        <p:outputLabel value="#{bundle.CreateLearningOutcomeLabel_description}" for="description" />
+                        <p:inputText id="description" value="#{learningOutcomeController.selected.description}" title="#{bundle.CreateLearningOutcomeTitle_description}" required="true" requiredMessage="#{bundle.CreateLearningOutcomeRequiredMessage_description}"/>
+                        <p:outputLabel value="#{bundle.CreateLearningOutcomeLabel_competition}" for="competition" />
+                        <p:selectOneMenu id="competition" value="#{learningOutcomeController.selected.competition}" required="true" requiredMessage="#{bundle.EditLearningOutcomeRequiredMessage_competition}">
+                            <f:selectItems value="#{competitionController.itemsAvailableSelectOne}"
+                                           var="competitionItem"
+                                           itemValue="#{competitionItem}"/>
+                        </p:selectOneMenu>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{learningOutcomeController.create}" value="#{bundle.Save}" update="display,:LearningOutcomeListForm:datalist,:growl" oncomplete="handleSubmit(args,'LearningOutcomeCreateDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="LearningOutcomeCreateDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

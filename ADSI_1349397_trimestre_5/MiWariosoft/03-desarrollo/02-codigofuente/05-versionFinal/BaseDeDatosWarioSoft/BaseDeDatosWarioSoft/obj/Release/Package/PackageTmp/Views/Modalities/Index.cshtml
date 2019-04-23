@@ -1,0 +1,39 @@
+﻿@model IEnumerable<BaseDeDatosWarioSoft.Models.Modality>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Modalidades</h2>
+
+<p>
+    @Html.ActionLink("Crear nueva modalidad", "Create", new { }, new { @class = "btn btn-success" })
+</p>
+<div class="table-responsive">
+    <table class="table table-condensed" style="border-radius: 6px; background-color: #2999a5">
+
+        <thead>
+            <tr>
+                <th>
+                  <center>@Html.DisplayNameFor(model => model.nameModality)</center>  
+                </th>
+                <th></th>
+            </tr>
+        <thead>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <center>@Html.DisplayFor(modelItem => item.nameModality)</center> 
+                    </td>
+                    <td>
+                        <center>
+                            @Html.ActionLink("Editar", "Edit", new { id = item.IdModality }, new { @class = "btn btn-warning btn-xs btn-block" }) 
+                            @Html.ActionLink("Detalles", "Details", new { id = item.IdModality }, new { @class = "btn btn-info btn-xs btn-block" }) 
+                            @Html.ActionLink("Borrar", "Delete", new { id = item.IdModality }, new { @class = "btn btn-danger btn-xs btn-block" })
+                        </center> </td>
+                </tr>
+            }
+
+</table>
+    </div>

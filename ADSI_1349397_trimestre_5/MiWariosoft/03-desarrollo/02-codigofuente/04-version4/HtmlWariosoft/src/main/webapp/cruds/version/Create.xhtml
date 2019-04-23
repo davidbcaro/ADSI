@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="VersionCreateDlg" widgetVar="VersionCreateDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.CreateVersionTitle}">
+            <h:form id="VersionCreateForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{versionController.selected != null}">
+                        <p:outputLabel value="#{bundle.CreateVersionLabel_versionPK_idVersion}" for="versionPK_idVersion" />
+                        <p:inputText id="versionPK_idVersion" value="#{versionController.selected.versionPK.idVersion}" title="#{bundle.CreateVersionTitle_versionPK_idVersion}" required="true" requiredMessage="#{bundle.CreateVersionRequiredMessage_versionPK_idVersion}"/>
+                        <p:outputLabel value="#{bundle.CreateVersionLabel_active}" for="active" />
+                        <p:selectBooleanCheckbox id="active" value="#{versionController.selected.active}" />
+                        <p:outputLabel value="#{bundle.CreateVersionLabel_currentQuarter}" for="currentQuarter" />
+                        <p:selectOneMenu id="currentQuarter" value="#{versionController.selected.currentQuarter}" required="true" requiredMessage="#{bundle.EditVersionRequiredMessage_currentQuarter}">
+                            <f:selectItems value="#{currentQuarterController.itemsAvailableSelectOne}"
+                                           var="currentQuarterItem"
+                                           itemValue="#{currentQuarterItem}"/>
+                        </p:selectOneMenu>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{versionController.create}" value="#{bundle.Save}" update="display,:VersionListForm:datalist,:growl" oncomplete="handleSubmit(args,'VersionCreateDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="VersionCreateDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

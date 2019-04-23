@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="ServerEmailCreateDlg" widgetVar="ServerEmailCreateDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.CreateServerEmailTitle}">
+            <h:form id="ServerEmailCreateForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{serverEmailController.selected != null}">
+                        <p:outputLabel value="#{bundle.CreateServerEmailLabel_email}" for="email" />
+                        <p:inputText id="email" value="#{serverEmailController.selected.email}" title="#{bundle.CreateServerEmailTitle_email}" required="true" requiredMessage="#{bundle.CreateServerEmailRequiredMessage_email}"/>
+                        <p:outputLabel value="#{bundle.CreateServerEmailLabel_password}" for="password" />
+                        <p:inputText id="password" value="#{serverEmailController.selected.password}" title="#{bundle.CreateServerEmailTitle_password}" required="true" requiredMessage="#{bundle.CreateServerEmailRequiredMessage_password}"/>
+                        <p:outputLabel value="#{bundle.CreateServerEmailLabel_smtpHost}" for="smtpHost" />
+                        <p:inputText id="smtpHost" value="#{serverEmailController.selected.smtpHost}" title="#{bundle.CreateServerEmailTitle_smtpHost}" required="true" requiredMessage="#{bundle.CreateServerEmailRequiredMessage_smtpHost}"/>
+                        <p:outputLabel value="#{bundle.CreateServerEmailLabel_smtpPort}" for="smtpPort" />
+                        <p:inputText id="smtpPort" value="#{serverEmailController.selected.smtpPort}" title="#{bundle.CreateServerEmailTitle_smtpPort}" required="true" requiredMessage="#{bundle.CreateServerEmailRequiredMessage_smtpPort}"/>
+                        <p:outputLabel value="#{bundle.CreateServerEmailLabel_smtpStartTlsEnable}" for="smtpStartTlsEnable" />
+                        <p:selectBooleanCheckbox id="smtpStartTlsEnable" value="#{serverEmailController.selected.smtpStartTlsEnable}" required="true" requiredMessage="#{bundle.EditServerEmailRequiredMessage_smtpStartTlsEnable}"/>
+                        <p:outputLabel value="#{bundle.CreateServerEmailLabel_smtpAuth}" for="smtpAuth" />
+                        <p:selectBooleanCheckbox id="smtpAuth" value="#{serverEmailController.selected.smtpAuth}" required="true" requiredMessage="#{bundle.EditServerEmailRequiredMessage_smtpAuth}"/>
+                        <p:outputLabel value="#{bundle.CreateServerEmailLabel_affairRecovery}" for="affairRecovery" />
+                        <p:inputText id="affairRecovery" value="#{serverEmailController.selected.affairRecovery}" title="#{bundle.CreateServerEmailTitle_affairRecovery}" />
+                        <p:outputLabel value="#{bundle.CreateServerEmailLabel_recoveryCase}" for="recoveryCase" />
+                        <p:inputText id="recoveryCase" value="#{serverEmailController.selected.recoveryCase}" title="#{bundle.CreateServerEmailTitle_recoveryCase}" />
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{serverEmailController.create}" value="#{bundle.Save}" update="display,:ServerEmailListForm:datalist,:growl" oncomplete="handleSubmit(args,'ServerEmailCreateDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="ServerEmailCreateDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

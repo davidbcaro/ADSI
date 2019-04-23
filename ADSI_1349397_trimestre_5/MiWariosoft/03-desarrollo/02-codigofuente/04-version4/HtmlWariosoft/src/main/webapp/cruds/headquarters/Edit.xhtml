@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="HeadquartersEditDlg" widgetVar="HeadquartersEditDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.EditHeadquartersTitle}">
+            <h:form id="HeadquartersEditForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{headquartersController.selected != null}">
+                        <p:outputLabel value="#{bundle.EditHeadquartersLabel_nameHeadquarters}" for="nameHeadquarters" />
+                        <p:inputText id="nameHeadquarters" value="#{headquartersController.selected.nameHeadquarters}" title="#{bundle.EditHeadquartersTitle_nameHeadquarters}" required="true" requiredMessage="#{bundle.EditHeadquartersRequiredMessage_nameHeadquarters}"/>
+                        <p:outputLabel value="#{bundle.EditHeadquartersLabel_address}" for="address" />
+                        <p:inputText id="address" value="#{headquartersController.selected.address}" title="#{bundle.EditHeadquartersTitle_address}" required="true" requiredMessage="#{bundle.EditHeadquartersRequiredMessage_address}"/>
+                        <p:outputLabel value="#{bundle.EditHeadquartersLabel_state}" for="state" />
+                        <p:selectBooleanCheckbox id="state" value="#{headquartersController.selected.state}" />
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{headquartersController.update}" value="#{bundle.Save}" update="display,:HeadquartersListForm:datalist,:growl" oncomplete="handleSubmit(args, 'HeadquartersEditDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="HeadquartersEditDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

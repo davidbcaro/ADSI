@@ -1,0 +1,102 @@
+﻿@model IEnumerable<BaseDeDatosWarioSoft.Models.User>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Instructor</h2>
+
+<p>
+    @Html.ActionLink("Crear nuevo instructor", "Create", new { }, new { @class = "btn btn-success" })
+</p>
+@using (Html.BeginForm())
+{
+    <p>
+        Busque por cualquier campo del instructor: @Html.TextBox("SearchString")
+        <input type="submit" value="Search" />
+    </p>
+}
+<div class="table-responsive">
+
+    <table class="table table-condensed" style="border-radius: 6px; background-color: #2999a5" >
+        <thead>
+            <tr>
+                <th>
+                    <center>  @Html.DisplayNameFor(model => model.Linkage.TypeLinkage) </center></th>
+                <th>
+                    <center>  @Html.DisplayNameFor(model => model.Specialty.Description)</center></th>
+                <th>
+                    <center>  @Html.DisplayNameFor(model => model.TypeDocument.NameTP)</center></th>
+                <th>
+                    <center>  @Html.DisplayNameFor(model => model.documentNumber)</center></th>
+                <th>
+                    <center>    @Html.DisplayNameFor(model => model.FirstName)</center></th>
+                <th>
+                    <center>   @Html.DisplayNameFor(model => model.SecondName)</center></th>
+                <th>
+                    <center>   @Html.DisplayNameFor(model => model.FirstLastName)</center></th>
+                <th>
+                    <center>  @Html.DisplayNameFor(model => model.SecondLastName)</center></th>
+                <th>
+                    <center> Foto</center></th>
+                <th>
+                    <center> @Html.DisplayNameFor(model => model.Email)</center>
+                </th>
+                <th>
+                    <center> @Html.DisplayNameFor(model => model.State)</center></th>
+                <th>
+                    <center> @Html.DisplayNameFor(model => model.UserName)</center></th>
+            </tr>
+        </thead>
+
+
+        @foreach (var item in Model)
+            {
+            <tr>
+
+                <td>
+                    <center> @Html.DisplayFor(modelItem => item.Linkage.TypeLinkage) </center></td>
+                <td>
+                    <center>@Html.DisplayFor(modelItem => item.Specialty.Description)</center></td>
+                <td>
+                    <center> @Html.DisplayFor(modelItem => item.TypeDocument.NameTP)</center></td>
+                <td>
+                    <center> @Html.DisplayFor(modelItem => item.documentNumber)</center></td>
+                <td>
+                    <center> @Html.DisplayFor(modelItem => item.FirstName)</center></td>
+                <td>
+                    <center> @Html.DisplayFor(modelItem => item.SecondName)</center></td>
+                <td>
+                   <center> @Html.DisplayFor(modelItem => item.FirstLastName)</center>
+                </td>
+                <td>
+                    <center> @Html.DisplayFor(modelItem => item.SecondLastName)</center></td>
+                <td>
+                    <center>
+                        @if (!string.IsNullOrEmpty(item.Photo))
+                {
+                            <img src="@Url.Content(item.Photo)" alt="Image"
+                                 style="width:100px;height:150px;max-width: 100%; height: auto;" />
+                        }
+                    </center>
+                </td>
+                <td>
+                    <center> @Html.DisplayFor(modelItem => item.Email)</center></td>
+                <td>
+                    <center> @Html.DisplayFor(modelItem => item.State)</center></td>
+                <td>
+                    <center> @Html.DisplayFor(modelItem => item.UserName)</center></td>
+                <td>
+                    <center>
+                        @Html.ActionLink("Editar", "Edit", new { id = item.UserID }, new { @class = "btn btn-warning btn-xs btn-block" })
+                        @Html.ActionLink("Detalles", "Details", new { id = item.UserID }, new { @class = "btn btn-info btn-xs btn-block" })
+                        @Html.ActionLink("Borrar", "Delete", new { id = item.UserID }, new { @class = "btn btn-danger btn-xs btn-block" })
+                    </center>
+                </td>
+      
+            </tr>
+        }
+
+    </table>
+
+    </div>

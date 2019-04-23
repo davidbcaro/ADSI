@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.sena.wariosoftjpa.controller.dao.mysql.RoleImplTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.283 sec

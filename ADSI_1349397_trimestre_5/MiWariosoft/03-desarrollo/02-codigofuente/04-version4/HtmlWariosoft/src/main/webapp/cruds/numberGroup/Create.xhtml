@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="NumberGroupCreateDlg" widgetVar="NumberGroupCreateDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.CreateNumberGroupTitle}">
+            <h:form id="NumberGroupCreateForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{numberGroupController.selected != null}">
+                        <p:outputLabel value="#{bundle.CreateNumberGroupLabel_numberGroup}" for="numberGroup" />
+                        <p:inputText id="numberGroup" value="#{numberGroupController.selected.numberGroup}" title="#{bundle.CreateNumberGroupTitle_numberGroup}" required="true" requiredMessage="#{bundle.CreateNumberGroupRequiredMessage_numberGroup}"/>
+                        <p:outputLabel value="#{bundle.CreateNumberGroupLabel_startDate}" for="startDate" />
+                        <p:calendar id="startDate" pattern="MM/dd/yyyy" value="#{numberGroupController.selected.startDate}" title="#{bundle.EditNumberGroupTitle_startDate}" required="true" requiredMessage="#{bundle.EditNumberGroupRequiredMessage_startDate}" showOn="button"/>
+                        <p:outputLabel value="#{bundle.CreateNumberGroupLabel_endDate}" for="endDate" />
+                        <p:calendar id="endDate" pattern="MM/dd/yyyy" value="#{numberGroupController.selected.endDate}" title="#{bundle.EditNumberGroupTitle_endDate}" required="true" requiredMessage="#{bundle.EditNumberGroupRequiredMessage_endDate}" showOn="button"/>
+                        <p:outputLabel value="#{bundle.CreateNumberGroupLabel_route}" for="route" />
+                        <p:inputText id="route" value="#{numberGroupController.selected.route}" title="#{bundle.CreateNumberGroupTitle_route}" required="true" requiredMessage="#{bundle.CreateNumberGroupRequiredMessage_route}"/>
+                        <p:outputLabel value="#{bundle.CreateNumberGroupLabel_program}" for="program" />
+                        <p:selectOneMenu id="program" value="#{numberGroupController.selected.program}" required="true" requiredMessage="#{bundle.EditNumberGroupRequiredMessage_program}">
+                            <f:selectItems value="#{programController.itemsAvailableSelectOne}"
+                                           var="programItem"
+                                           itemValue="#{programItem}"/>
+                        </p:selectOneMenu>
+                        <p:outputLabel value="#{bundle.CreateNumberGroupLabel_nameState}" for="nameState" />
+                        <p:selectOneMenu id="nameState" value="#{numberGroupController.selected.nameState}" required="true" requiredMessage="#{bundle.EditNumberGroupRequiredMessage_nameState}">
+                            <f:selectItems value="#{stateNumberGroupController.itemsAvailableSelectOne}"
+                                           var="nameStateItem"
+                                           itemValue="#{nameStateItem}"/>
+                        </p:selectOneMenu>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{numberGroupController.create}" value="#{bundle.Save}" update="display,:NumberGroupListForm:datalist,:growl" oncomplete="handleSubmit(args,'NumberGroupCreateDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="NumberGroupCreateDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

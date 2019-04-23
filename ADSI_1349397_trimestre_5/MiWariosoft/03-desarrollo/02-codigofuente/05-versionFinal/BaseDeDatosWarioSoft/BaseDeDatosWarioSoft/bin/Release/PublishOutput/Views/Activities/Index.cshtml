@@ -1,0 +1,40 @@
+﻿@model IEnumerable<BaseDeDatosWarioSoft.Models.Activity>
+
+        @{
+            ViewBag.Title = "Index";
+        }
+
+        <h2>Index</h2>
+
+        <p>
+            @Html.ActionLink("Create New", "Create", new { }, new { @class = "btn btn-success" })
+        </p>
+        <div class="table-responsive">
+            <table class="table table-condensed" style="border-radius: 6px; background-color: #2999a5">
+
+                <thead>
+                    <tr>
+                        <th>
+                            <center> @Html.DisplayNameFor(model => model.nameActivity)</center>
+                        </th>
+                        <th></th>
+                    </tr>
+
+                    @foreach (var item in Model)
+            {
+                        <tr>
+                            <td>
+                                <center> @Html.DisplayFor(modelItem => item.nameActivity)</center>
+                            </td>
+                            <td>
+                                <center>
+                                    @Html.ActionLink("Edit", "Edit", new { id = item.IdActivity }, new { @class = "btn btn-warning btn-xs btn-block" })
+                                    @Html.ActionLink("Details", "Details", new { id = item.IdActivity }, new { @class = "btn btn-info btn-xs btn-block" })
+                                    @Html.ActionLink("Delete", "Delete", new { id = item.IdActivity }, new { @class = "btn btn-danger btn-xs btn-block" })
+                                </center>
+                            </td>
+                        </tr>
+                    }
+
+            </table>
+        </div>

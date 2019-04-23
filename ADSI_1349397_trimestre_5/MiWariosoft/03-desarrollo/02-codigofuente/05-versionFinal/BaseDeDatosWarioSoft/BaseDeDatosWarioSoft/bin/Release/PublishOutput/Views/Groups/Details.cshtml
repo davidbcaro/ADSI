@@ -1,0 +1,90 @@
+﻿@model BaseDeDatosWarioSoft.Models.Group
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Group</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Competition.CodeCompetition)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Competition.CodeCompetition)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Program.CodeProgram)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Program.CodeProgram)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Project.CodeProject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Project.CodeProject)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Trimester.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Trimester.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Version.NameVersion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Version.NameVersion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WorkingDay.desciption)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WorkingDay.desciption)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberGroup)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumberGroup)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.InitialDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InitialDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EndDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EndDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdGroup }) |
+    @Html.ActionLink("Back to List", "Index", new { }, new { @class = "btn btn-primary" })
+</p>

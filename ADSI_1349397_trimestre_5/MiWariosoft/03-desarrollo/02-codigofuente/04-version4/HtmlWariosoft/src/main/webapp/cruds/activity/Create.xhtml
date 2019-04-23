@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="ActivityCreateDlg" widgetVar="ActivityCreateDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.CreateActivityTitle}">
+            <h:form id="ActivityCreateForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{activityController.selected != null}">
+                        <p:outputLabel value="#{bundle.CreateActivityLabel_activityPK_idActivity}" for="activityPK_idActivity" />
+                        <p:inputText id="activityPK_idActivity" value="#{activityController.selected.activityPK.idActivity}" title="#{bundle.CreateActivityTitle_activityPK_idActivity}" required="true" requiredMessage="#{bundle.CreateActivityRequiredMessage_activityPK_idActivity}"/>
+                        <p:outputLabel value="#{bundle.CreateActivityLabel_nameActivity}" for="nameActivity" />
+                        <p:inputText id="nameActivity" value="#{activityController.selected.nameActivity}" title="#{bundle.CreateActivityTitle_nameActivity}" required="true" requiredMessage="#{bundle.CreateActivityRequiredMessage_nameActivity}"/>
+                        <p:outputLabel value="#{bundle.CreateActivityLabel_phase}" for="phase" />
+                        <p:selectOneMenu id="phase" value="#{activityController.selected.phase}" required="true" requiredMessage="#{bundle.EditActivityRequiredMessage_phase}">
+                            <f:selectItems value="#{phaseController.itemsAvailableSelectOne}"
+                                           var="phaseItem"
+                                           itemValue="#{phaseItem}"/>
+                        </p:selectOneMenu>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{activityController.create}" value="#{bundle.Save}" update="display,:ActivityListForm:datalist,:growl" oncomplete="handleSubmit(args,'ActivityCreateDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="ActivityCreateDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

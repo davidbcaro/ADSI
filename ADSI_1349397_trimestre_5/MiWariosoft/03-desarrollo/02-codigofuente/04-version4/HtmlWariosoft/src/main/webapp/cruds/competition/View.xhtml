@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="CompetitionViewDlg" widgetVar="CompetitionViewDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.ViewCompetitionTitle}">
+            <h:form id="CompetitionViewForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{competitionController.selected != null}">
+                        <h:outputText value="#{bundle.ViewCompetitionLabel_competitionPK_competitionCode}"/>
+                        <h:outputText value="#{competitionController.selected.competitionPK.competitionCode}" title="#{bundle.ViewCompetitionTitle_competitionPK_competitionCode}"/>
+                        <h:outputText value="#{bundle.ViewCompetitionLabel_description}"/>
+                        <h:outputText value="#{competitionController.selected.description}" title="#{bundle.ViewCompetitionTitle_description}"/>
+                        <h:outputText value="#{bundle.ViewCompetitionLabel_program}"/>
+                        <h:outputText value="#{competitionController.selected.program}" title="#{bundle.ViewCompetitionTitle_program}"/>
+                    </p:panelGrid>
+                    <p:commandButton value="#{bundle.Close}" onclick="CompetitionViewDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

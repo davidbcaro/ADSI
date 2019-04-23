@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="TrainingLevelEditDlg" widgetVar="TrainingLevelEditDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.EditTrainingLevelTitle}">
+            <h:form id="TrainingLevelEditForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{trainingLevelController.selected != null}">
+                        <p:outputLabel value="#{bundle.EditTrainingLevelLabel_trainingLevel}" for="trainingLevel" />
+                        <p:inputText id="trainingLevel" value="#{trainingLevelController.selected.trainingLevel}" title="#{bundle.EditTrainingLevelTitle_trainingLevel}" required="true" requiredMessage="#{bundle.EditTrainingLevelRequiredMessage_trainingLevel}"/>
+                        <p:outputLabel value="#{bundle.EditTrainingLevelLabel_state}" for="state" />
+                        <p:selectBooleanCheckbox id="state" value="#{trainingLevelController.selected.state}" required="true" requiredMessage="#{bundle.EditTrainingLevelRequiredMessage_state}"/>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{trainingLevelController.update}" value="#{bundle.Save}" update="display,:TrainingLevelListForm:datalist,:growl" oncomplete="handleSubmit(args, 'TrainingLevelEditDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="TrainingLevelEditDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

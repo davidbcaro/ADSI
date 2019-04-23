@@ -1,0 +1,166 @@
+﻿@model BaseDeDatosWarioSoft.Models.Shedule
+<br>
+<br>
+<div class="formu">
+    <div class="formui">
+        @{
+            ViewBag.Title = "Delete";
+        }
+
+        <h2>Borrar</h2>
+
+        
+        <div>
+            <h4>Horario</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Environment.EnviromentNumber)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Environment.EnviromentNumber)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Group.NumberGroup)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Group.NumberGroup)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Headquarters.NameHeadquarters)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Headquarters.NameHeadquarters)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Modality.nameModality)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Modality.nameModality)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.User.documentNumber)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.User.documentNumber)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Observaciones)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Observaciones)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.StartHour)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.StartHour)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.endHour)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.endHour)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.InitialDate)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.InitialDate)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.EndDate)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.EndDate)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Monday)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Monday)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Tuesday)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Tuesday)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Wednesday)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Wednesday)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Thursday)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Thursday)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Friday)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Friday)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Saturday)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Saturday)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Sunday)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Sunday)
+                </dd>
+
+            </dl>
+            <h3>¿Está seguro de querer borrar esto?</h3>
+            @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Borrar" class="btn btn-danger" /> |
+            @Html.ActionLink("Volver a la lista", "Index", new { }, new { @class = "btn btn-primary" })
+        </div>
+}
+        </div>
+        </div>
+</div>

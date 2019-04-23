@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="RoleHasClientEditDlg" widgetVar="RoleHasClientEditDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.EditRoleHasClientTitle}">
+            <h:form id="RoleHasClientEditForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{roleHasClientController.selected != null}">
+                        <p:outputLabel value="#{bundle.EditRoleHasClientLabel_state}" for="state" />
+                        <p:selectBooleanCheckbox id="state" value="#{roleHasClientController.selected.state}" />
+                        <p:outputLabel value="#{bundle.EditRoleHasClientLabel_role}" for="role" />
+                        <p:selectOneMenu id="role" value="#{roleHasClientController.selected.role}" required="true" requiredMessage="#{bundle.EditRoleHasClientRequiredMessage_role}">
+                            <f:selectItem itemLabel="#{bundle.SelectOneMessage}"/>
+                            <f:selectItems value="#{roleController.itemsAvailableSelectOne}"
+                                           var="roleItem"
+                                           itemValue="#{roleItem}"/>
+                        </p:selectOneMenu>
+                        <p:outputLabel value="#{bundle.EditRoleHasClientLabel_client}" for="client" />
+                        <p:selectOneMenu id="client" value="#{roleHasClientController.selected.client}" required="true" requiredMessage="#{bundle.EditRoleHasClientRequiredMessage_client}">
+                            <f:selectItem itemLabel="#{bundle.SelectOneMessage}"/>
+                            <f:selectItems value="#{clientController.itemsAvailableSelectOne}"
+                                           var="clientItem"
+                                           itemValue="#{clientItem}"/>
+                        </p:selectOneMenu>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{roleHasClientController.update}" value="#{bundle.Save}" update="display,:RoleHasClientListForm:datalist,:growl" oncomplete="handleSubmit(args, 'RoleHasClientEditDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="RoleHasClientEditDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

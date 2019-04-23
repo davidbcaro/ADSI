@@ -1,0 +1,126 @@
+﻿@model BaseDeDatosWarioSoft.Models.User
+<br>
+<br>
+<div class="formu">
+    <div class="formui">
+        @{
+            ViewBag.Title = "Delete";
+        }
+
+        <h2>Borrar</h2>
+
+       
+        <div>
+            <h4>Instructor</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Linkage.TypeLinkage)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Linkage.TypeLinkage)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Specialty.Description)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Specialty.Description)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.TypeDocument.NameTP)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.TypeDocument.NameTP)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.documentNumber)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.documentNumber)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.FirstName)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.FirstName)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.SecondName)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.SecondName)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.FirstLastName)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.FirstLastName)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.SecondLastName)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.SecondLastName)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Photo)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Photo)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Email)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Email)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.State)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.State)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.UserName)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.UserName)
+                </dd>
+
+            </dl>
+            <h3>¿Está seguro de querer borrar esto?</h3>
+            @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Borrar" class="btn btn-danger" /> |
+            @Html.ActionLink("Volver a la lista", "Index", new { }, new { @class = "btn btn-primary" })
+        </div>
+}
+        </div>
+</div>
+</div>

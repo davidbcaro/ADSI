@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="CurrentQuarterCreateDlg" widgetVar="CurrentQuarterCreateDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.CreateCurrentQuarterTitle}">
+            <h:form id="CurrentQuarterCreateForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{currentQuarterController.selected != null}">
+                        <p:outputLabel value="#{bundle.CreateCurrentQuarterLabel_idCurrentQuarter}" for="idCurrentQuarter" />
+                        <p:inputText id="idCurrentQuarter" value="#{currentQuarterController.selected.idCurrentQuarter}" title="#{bundle.CreateCurrentQuarterTitle_idCurrentQuarter}" required="true" requiredMessage="#{bundle.CreateCurrentQuarterRequiredMessage_idCurrentQuarter}"/>
+                        <p:outputLabel value="#{bundle.CreateCurrentQuarterLabel_startDate}" for="startDate" />
+                        <p:calendar id="startDate" pattern="MM/dd/yyyy" value="#{currentQuarterController.selected.startDate}" title="#{bundle.EditCurrentQuarterTitle_startDate}"  showOn="button"/>
+                        <p:outputLabel value="#{bundle.CreateCurrentQuarterLabel_endDate}" for="endDate" />
+                        <p:calendar id="endDate" pattern="MM/dd/yyyy" value="#{currentQuarterController.selected.endDate}" title="#{bundle.EditCurrentQuarterTitle_endDate}"  showOn="button"/>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{currentQuarterController.create}" value="#{bundle.Save}" update="display,:CurrentQuarterListForm:datalist,:growl" oncomplete="handleSubmit(args,'CurrentQuarterCreateDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="CurrentQuarterCreateDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

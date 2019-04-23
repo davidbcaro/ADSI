@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="ProgramViewDlg" widgetVar="ProgramViewDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.ViewProgramTitle}">
+            <h:form id="ProgramViewForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{programController.selected != null}">
+                        <h:outputText value="#{bundle.ViewProgramLabel_programPK_programCode}"/>
+                        <h:outputText value="#{programController.selected.programPK.programCode}" title="#{bundle.ViewProgramTitle_programPK_programCode}"/>
+                        <h:outputText value="#{bundle.ViewProgramLabel_programPK_version}"/>
+                        <h:outputText value="#{programController.selected.programPK.version}" title="#{bundle.ViewProgramTitle_programPK_version}"/>
+                        <h:outputText value="#{bundle.ViewProgramLabel_name}"/>
+                        <h:outputText value="#{programController.selected.name}" title="#{bundle.ViewProgramTitle_name}"/>
+                        <h:outputText value="#{bundle.ViewProgramLabel_initials}"/>
+                        <h:outputText value="#{programController.selected.initials}" title="#{bundle.ViewProgramTitle_initials}"/>
+                        <h:outputText value="#{bundle.ViewProgramLabel_state}"/>
+                        <p:selectBooleanCheckbox value="#{programController.selected.state}" disabled="true"/>
+                        <h:outputText value="#{bundle.ViewProgramLabel_trainingLevel}"/>
+                        <h:outputText value="#{programController.selected.trainingLevel}" title="#{bundle.ViewProgramTitle_trainingLevel}"/>
+                    </p:panelGrid>
+                    <p:commandButton value="#{bundle.Close}" onclick="ProgramViewDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

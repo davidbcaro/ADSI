@@ -1,0 +1,31 @@
+﻿@model BaseDeDatosWarioSoft.Models.WorkingDay
+<br>
+<br>
+<div class="formu">
+    <div class="formui">
+        @{
+            ViewBag.Title = "Details";
+        }
+
+        <h2>Detalles</h2>
+
+        <div>
+            <h4>Jornada</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.desciption)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.desciption)
+                </dd>
+
+            </dl>
+        </div>
+        <p>
+            @Html.ActionLink("Editar", "Edit", new { id = Model.IdWorkingDay }, new { @class = "btn btn-warning" })
+            @Html.ActionLink("Volver a la lista", "Index", new { }, new { @class = "btn btn-primary" })
+        </p>
+        </div>
+</div>

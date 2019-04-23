@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="ProjectCreateDlg" widgetVar="ProjectCreateDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.CreateProjectTitle}">
+            <h:form id="ProjectCreateForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{projectController.selected != null}">
+                        <p:outputLabel value="#{bundle.CreateProjectLabel_projectCode}" for="projectCode" />
+                        <p:inputText id="projectCode" value="#{projectController.selected.projectCode}" title="#{bundle.CreateProjectTitle_projectCode}" required="true" requiredMessage="#{bundle.CreateProjectRequiredMessage_projectCode}"/>
+                        <p:outputLabel value="#{bundle.CreateProjectLabel_nameProject}" for="nameProject" />
+                        <p:inputText id="nameProject" value="#{projectController.selected.nameProject}" title="#{bundle.CreateProjectTitle_nameProject}" required="true" requiredMessage="#{bundle.CreateProjectRequiredMessage_nameProject}"/>
+                        <p:outputLabel value="#{bundle.CreateProjectLabel_state}" for="state" />
+                        <p:selectBooleanCheckbox id="state" value="#{projectController.selected.state}" required="true" requiredMessage="#{bundle.EditProjectRequiredMessage_state}"/>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{projectController.create}" value="#{bundle.Save}" update="display,:ProjectListForm:datalist,:growl" oncomplete="handleSubmit(args,'ProjectCreateDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="ProjectCreateDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

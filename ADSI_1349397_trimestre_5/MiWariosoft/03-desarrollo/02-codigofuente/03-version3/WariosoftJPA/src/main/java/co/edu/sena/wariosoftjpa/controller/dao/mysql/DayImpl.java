@@ -1,0 +1,88 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package co.edu.sena.wariosoftjpa.controller.dao.mysql;
+
+import co.edu.sena.wariosoftjpa.controller.dao.DayDAO;
+import co.edu.sena.wariosoftjpa.model.jpa.entities.Day;
+import java.util.List;
+import javax.persistence.PersistenceException;
+import javax.persistence.Query;
+
+/**
+ *
+ * @author Brayan
+ */
+public class DayImpl extends AbstractDAO<Day> implements DayDAO<Day>{
+
+    public DayImpl(Class<Day> entityClass) {
+        super(entityClass);
+    }
+
+    @Override
+    public List<Day> findByNameDay(String nameDay) {
+        try {
+            this.getEntityManager();
+            Query query = this.em.createNamedQuery("Day.findByNameDay");
+            query.setParameter("nameDay", nameDay);
+            return query.getResultList();
+        } catch (PersistenceException e) {
+            System.out.println("Exception:" + e.getMessage());
+        }
+       return null;
+    }
+
+    @Override
+    public List<Day> findByState(boolean state) {
+        try {
+            this.getEntityManager();
+            Query query = this.em.createNamedQuery("Day.findByState");
+            query.setParameter("state", state);
+            return query.getResultList();
+        } catch (PersistenceException e) {
+            System.out.println("Exception:" + e.getMessage());
+        }
+       return null;
+    }
+
+    @Override
+    public List<Day> findByLikeNameDay(String nameDay) {
+        try {
+            this.getEntityManager();
+            Query query = this.em.createNamedQuery("Day.findByLikeNameDay");
+            query.setParameter("nameDay", nameDay);
+            return query.getResultList();
+        } catch (PersistenceException e) {
+            System.out.println("Exception:" + e.getMessage());
+        }
+       return null;
+    }
+
+    @Override
+    public int updatePk(String llaveNueva, String llaveVieja) {
+        try {
+            this.getEntityManager();
+            
+            if(this.find(llaveVieja)!=null){
+            
+            Query query = this.em.createNamedQuery("Day.updatePk");
+            query.setParameter("documentoNuevo", llaveNueva );
+            query.setParameter("documentoViejo", llaveVieja );
+            this.em.getTransaction().begin();
+            int res =query.executeUpdate();
+            this.em.getTransaction().commit();
+            return res;
+            }else{
+                return 0;
+            }
+            
+        } catch (PersistenceException e) {
+            System.out.println("Exception:" + e.getMessage());
+        }
+    
+        return 0;
+    }
+    
+}

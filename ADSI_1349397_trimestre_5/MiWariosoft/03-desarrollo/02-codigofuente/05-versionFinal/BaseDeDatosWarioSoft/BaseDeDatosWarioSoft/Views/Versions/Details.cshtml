@@ -1,0 +1,31 @@
+﻿@model BaseDeDatosWarioSoft.Models.Version
+<br>
+<br>
+<div class="formu">
+    <div class="formui">
+        @{
+            ViewBag.Title = "Details";
+        }
+
+        <h2>Detalles</h2>
+
+        <div>
+            <h4>Versión</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.NameVersion)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.NameVersion)
+                </dd>
+
+            </dl>
+        </div>
+        <p>
+            @Html.ActionLink("Editar", "Edit", new { id = Model.IdVersion }, new { @class = "btn btn-warning" })
+            @Html.ActionLink("Volver a la lista", "Index", new { }, new { @class = "btn btn-primary" })
+        </p>
+        </div>
+</div>

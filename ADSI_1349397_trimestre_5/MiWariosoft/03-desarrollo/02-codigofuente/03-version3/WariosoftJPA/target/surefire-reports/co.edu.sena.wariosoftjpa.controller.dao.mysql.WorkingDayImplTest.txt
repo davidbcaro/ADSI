@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.sena.wariosoftjpa.controller.dao.mysql.WorkingDayImplTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.404 sec

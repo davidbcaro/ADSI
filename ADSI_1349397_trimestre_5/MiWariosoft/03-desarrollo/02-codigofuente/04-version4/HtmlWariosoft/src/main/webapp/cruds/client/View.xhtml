@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="ClientViewDlg" widgetVar="ClientViewDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.ViewClientTitle}">
+            <h:form id="ClientViewForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{clientController.selected != null}">
+                        <h:outputText value="#{bundle.ViewClientLabel_clientPK_documentNumber}"/>
+                        <h:outputText value="#{clientController.selected.clientPK.documentNumber}" title="#{bundle.ViewClientTitle_clientPK_documentNumber}"/>
+                        <h:outputText value="#{bundle.ViewClientLabel_firstName}"/>
+                        <h:outputText value="#{clientController.selected.firstName}" title="#{bundle.ViewClientTitle_firstName}"/>
+                        <h:outputText value="#{bundle.ViewClientLabel_secondName}"/>
+                        <h:outputText value="#{clientController.selected.secondName}" title="#{bundle.ViewClientTitle_secondName}"/>
+                        <h:outputText value="#{bundle.ViewClientLabel_firstLastname}"/>
+                        <h:outputText value="#{clientController.selected.firstLastname}" title="#{bundle.ViewClientTitle_firstLastname}"/>
+                        <h:outputText value="#{bundle.ViewClientLabel_secondLastname}"/>
+                        <h:outputText value="#{clientController.selected.secondLastname}" title="#{bundle.ViewClientTitle_secondLastname}"/>
+                        <h:outputText value="#{bundle.ViewClientLabel_photo}"/>
+                        <h:outputText value="#{clientController.selected.photo}" title="#{bundle.ViewClientTitle_photo}"/>
+                        <h:outputText value="#{bundle.ViewClientLabel_teacher}"/>
+                        <h:outputText value="#{clientController.selected.teacher}" title="#{bundle.ViewClientTitle_teacher}"/>
+                        <h:outputText value="#{bundle.ViewClientLabel_document}"/>
+                        <h:outputText value="#{clientController.selected.document}" title="#{bundle.ViewClientTitle_document}"/>
+                        <h:outputText value="#{bundle.ViewClientLabel_user}"/>
+                        <h:outputText value="#{clientController.selected.user}" title="#{bundle.ViewClientTitle_user}"/>
+                    </p:panelGrid>
+                    <p:commandButton value="#{bundle.Close}" onclick="ClientViewDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

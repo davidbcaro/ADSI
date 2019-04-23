@@ -1,0 +1,46 @@
+﻿@model IEnumerable<BaseDeDatosWarioSoft.Models.TrainingLevel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Niveles de formación</h2>
+
+<p>
+    @Html.ActionLink("Crear nuevo nivel de formacion", "Create", new { }, new { @class = "btn btn-success" })
+</p>
+<div class="table-responsive">
+
+    <table class="table table-condensed" style="border-radius: 6px; background-color: #2999a5">
+        <thead>
+            <tr>
+                <th>
+                    <center>@Html.DisplayNameFor(model => model.Description)</center>
+                </th>
+                <th>
+                    <center>@Html.DisplayNameFor(model => model.State)</center>
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+            @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <center>@Html.DisplayFor(modelItem => item.Description)</center>
+                </td>
+                <td>
+                    <center>@Html.DisplayFor(modelItem => item.State)</center>
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { id = item.IdTrainingLevel }, new { @class = "btn btn-warning btn-xs btn-block" }) 
+                    @Html.ActionLink("Detalles", "Details", new { id = item.IdTrainingLevel }, new { @class = "btn btn-info btn-xs btn-block" }) 
+                    @Html.ActionLink("Borrar", "Delete", new { id = item.IdTrainingLevel }, new { @class = "btn btn-danger btn-xs btn-block" })
+                </td>
+            </tr>
+    }
+
+
+    </table>
+
+    </div>

@@ -1,0 +1,70 @@
+﻿@model BaseDeDatosWarioSoft.Models.Competition
+<br>
+<br>
+<div class="formu">
+    <div class="formui">
+        @{
+            ViewBag.Title = "Delete";
+        }
+
+        <h2>Borrar</h2>
+
+        
+        <div>
+            <h4>Competencia</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.LearningOutcome.Description)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.LearningOutcome.Description)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Phases.name)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Phases.name)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.CodeCompetition)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.CodeCompetition)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.RouteCompetition)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.RouteCompetition)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Description)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+
+            </dl>
+            <h3>¿Está seguro que querer eliminar esto?</h3>
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Borrar" class="btn btn-danger" /> |
+                @Html.ActionLink("Volver a la lista", "Index", new { }, new { @class = "btn btn-primary" })
+            </div>
+            }
+        </div>
+    </div>
+</div>        

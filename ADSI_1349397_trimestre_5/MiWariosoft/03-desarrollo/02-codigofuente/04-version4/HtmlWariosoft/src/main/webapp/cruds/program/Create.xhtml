@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="ProgramCreateDlg" widgetVar="ProgramCreateDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.CreateProgramTitle}">
+            <h:form id="ProgramCreateForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{programController.selected != null}">
+                        <p:outputLabel value="#{bundle.CreateProgramLabel_programPK_programCode}" for="programPK_programCode" />
+                        <p:inputText id="programPK_programCode" value="#{programController.selected.programPK.programCode}" title="#{bundle.CreateProgramTitle_programPK_programCode}" required="true" requiredMessage="#{bundle.CreateProgramRequiredMessage_programPK_programCode}"/>
+                        <p:outputLabel value="#{bundle.CreateProgramLabel_programPK_version}" for="programPK_version" />
+                        <p:inputText id="programPK_version" value="#{programController.selected.programPK.version}" title="#{bundle.CreateProgramTitle_programPK_version}" required="true" requiredMessage="#{bundle.CreateProgramRequiredMessage_programPK_version}"/>
+                        <p:outputLabel value="#{bundle.CreateProgramLabel_name}" for="name" />
+                        <p:inputText id="name" value="#{programController.selected.name}" title="#{bundle.CreateProgramTitle_name}" required="true" requiredMessage="#{bundle.CreateProgramRequiredMessage_name}"/>
+                        <p:outputLabel value="#{bundle.CreateProgramLabel_initials}" for="initials" />
+                        <p:inputText id="initials" value="#{programController.selected.initials}" title="#{bundle.CreateProgramTitle_initials}" required="true" requiredMessage="#{bundle.CreateProgramRequiredMessage_initials}"/>
+                        <p:outputLabel value="#{bundle.CreateProgramLabel_state}" for="state" />
+                        <p:selectBooleanCheckbox id="state" value="#{programController.selected.state}" />
+                        <p:outputLabel value="#{bundle.CreateProgramLabel_trainingLevel}" for="trainingLevel" />
+                        <p:selectOneMenu id="trainingLevel" value="#{programController.selected.trainingLevel}" required="true" requiredMessage="#{bundle.EditProgramRequiredMessage_trainingLevel}">
+                            <f:selectItems value="#{trainingLevelController.itemsAvailableSelectOne}"
+                                           var="trainingLevelItem"
+                                           itemValue="#{trainingLevelItem}"/>
+                        </p:selectOneMenu>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{programController.create}" value="#{bundle.Save}" update="display,:ProgramListForm:datalist,:growl" oncomplete="handleSubmit(args,'ProgramCreateDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="ProgramCreateDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="PhaseViewDlg" widgetVar="PhaseViewDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.ViewPhaseTitle}">
+            <h:form id="PhaseViewForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{phaseController.selected != null}">
+                        <h:outputText value="#{bundle.ViewPhaseLabel_phasePK_namePhase}"/>
+                        <h:outputText value="#{phaseController.selected.phasePK.namePhase}" title="#{bundle.ViewPhaseTitle_phasePK_namePhase}"/>
+                        <h:outputText value="#{bundle.ViewPhaseLabel_state}"/>
+                        <p:selectBooleanCheckbox value="#{phaseController.selected.state}" disabled="true"/>
+                        <h:outputText value="#{bundle.ViewPhaseLabel_project}"/>
+                        <h:outputText value="#{phaseController.selected.project}" title="#{bundle.ViewPhaseTitle_project}"/>
+                    </p:panelGrid>
+                    <p:commandButton value="#{bundle.Close}" onclick="PhaseViewDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

@@ -1,0 +1,31 @@
+﻿@model BaseDeDatosWarioSoft.Models.Activity
+<br>
+<br>
+<div class="formu">
+    <div class="formui">
+        @{
+            ViewBag.Title = "Details";
+        }
+
+        <h2>Detalles</h2>
+
+        <div>
+            <h4>Actividad</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.nameActivity)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.nameActivity)
+                </dd>
+
+            </dl>
+        </div>
+        <p>
+            @Html.ActionLink("Editar", "Edit", new { id = Model.IdActivity }, new { @class = "btn btn-warning" }) |
+          @Html.ActionLink("Volver a la lista", "Index", new { }, new { @class = "btn btn-primary" })
+        </p>
+        </div>
+</div>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="EnvironmentEditDlg" widgetVar="EnvironmentEditDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.EditEnvironmentTitle}">
+            <h:form id="EnvironmentEditForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{environmentController.selected != null}">
+                        <p:outputLabel value="#{bundle.EditEnvironmentLabel_environmentPK_numberEnvironment}" for="environmentPK_numberEnvironment" />
+                        <p:inputText id="environmentPK_numberEnvironment" value="#{environmentController.selected.environmentPK.numberEnvironment}" title="#{bundle.EditEnvironmentTitle_environmentPK_numberEnvironment}" required="true" requiredMessage="#{bundle.EditEnvironmentRequiredMessage_environmentPK_numberEnvironment}"/>
+                        <p:outputLabel value="#{bundle.EditEnvironmentLabel_description}" for="description" />
+                        <p:inputText id="description" value="#{environmentController.selected.description}" title="#{bundle.EditEnvironmentTitle_description}" />
+                        <p:outputLabel value="#{bundle.EditEnvironmentLabel_state}" for="state" />
+                        <p:selectBooleanCheckbox id="state" value="#{environmentController.selected.state}" />
+                        <p:outputLabel value="#{bundle.EditEnvironmentLabel_headquarters}" for="headquarters" />
+                        <p:selectOneMenu id="headquarters" value="#{environmentController.selected.headquarters}" required="true" requiredMessage="#{bundle.EditEnvironmentRequiredMessage_headquarters}">
+                            <f:selectItem itemLabel="#{bundle.SelectOneMessage}"/>
+                            <f:selectItems value="#{headquartersController.itemsAvailableSelectOne}"
+                                           var="headquartersItem"
+                                           itemValue="#{headquartersItem}"/>
+                        </p:selectOneMenu>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{environmentController.update}" value="#{bundle.Save}" update="display,:EnvironmentListForm:datalist,:growl" oncomplete="handleSubmit(args, 'EnvironmentEditDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="EnvironmentEditDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

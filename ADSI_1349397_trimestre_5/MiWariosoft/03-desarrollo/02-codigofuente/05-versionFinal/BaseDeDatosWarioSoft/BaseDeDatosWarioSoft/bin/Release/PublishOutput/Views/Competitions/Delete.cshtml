@@ -1,0 +1,70 @@
+﻿@model BaseDeDatosWarioSoft.Models.Competition
+<br>
+<br>
+<div class="formu">
+    <div class="formui">
+        @{
+            ViewBag.Title = "Delete";
+        }
+
+        <h2>Delete</h2>
+
+        <h3>Are you sure you want to delete this?</h3>
+        <div>
+            <h4>Competition</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.LearningOutcome.Description)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.LearningOutcome.Description)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Phases.name)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Phases.name)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.CodeCompetition)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.CodeCompetition)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.RouteCompetition)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.RouteCompetition)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Description)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+
+            </dl>
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-danger" /> |
+                @Html.ActionLink("Back to List", "Index", new { }, new { @class = "btn btn-primary" })
+            </div>
+            }
+        </div>
+    </div>
+</div>        

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="ScheduleViewDlg" widgetVar="ScheduleViewDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.ViewScheduleTitle}">
+            <h:form id="ScheduleViewForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{scheduleController.selected != null}">
+                        <h:outputText value="#{bundle.ViewScheduleLabel_startTime}"/>
+                        <h:outputText value="#{scheduleController.selected.startTime}" title="#{bundle.ViewScheduleTitle_startTime}"/>
+                        <h:outputText value="#{bundle.ViewScheduleLabel_endTime}"/>
+                        <h:outputText value="#{scheduleController.selected.endTime}" title="#{bundle.ViewScheduleTitle_endTime}"/>
+                        <h:outputText value="#{bundle.ViewScheduleLabel_day}"/>
+                        <h:outputText value="#{scheduleController.selected.day}" title="#{bundle.ViewScheduleTitle_day}"/>
+                        <h:outputText value="#{bundle.ViewScheduleLabel_environment}"/>
+                        <h:outputText value="#{scheduleController.selected.environment}" title="#{bundle.ViewScheduleTitle_environment}"/>
+                        <h:outputText value="#{bundle.ViewScheduleLabel_nameModality}"/>
+                        <h:outputText value="#{scheduleController.selected.nameModality}" title="#{bundle.ViewScheduleTitle_nameModality}"/>
+                        <h:outputText value="#{bundle.ViewScheduleLabel_numberGroupHasTrimester}"/>
+                        <h:outputText value="#{scheduleController.selected.numberGroupHasTrimester}" title="#{bundle.ViewScheduleTitle_numberGroupHasTrimester}"/>
+                        <h:outputText value="#{bundle.ViewScheduleLabel_teacher}"/>
+                        <h:outputText value="#{scheduleController.selected.teacher}" title="#{bundle.ViewScheduleTitle_teacher}"/>
+                        <h:outputText value="#{bundle.ViewScheduleLabel_version}"/>
+                        <h:outputText value="#{scheduleController.selected.version}" title="#{bundle.ViewScheduleTitle_version}"/>
+                    </p:panelGrid>
+                    <p:commandButton value="#{bundle.Close}" onclick="ScheduleViewDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

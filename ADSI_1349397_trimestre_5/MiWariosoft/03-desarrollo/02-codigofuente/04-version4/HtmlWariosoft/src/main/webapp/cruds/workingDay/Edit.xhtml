@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="WorkingDayEditDlg" widgetVar="WorkingDayEditDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.EditWorkingDayTitle}">
+            <h:form id="WorkingDayEditForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{workingDayController.selected != null}">
+                        <p:outputLabel value="#{bundle.EditWorkingDayLabel_initialsWorkingDay}" for="initialsWorkingDay" />
+                        <p:inputText id="initialsWorkingDay" value="#{workingDayController.selected.initialsWorkingDay}" title="#{bundle.EditWorkingDayTitle_initialsWorkingDay}" required="true" requiredMessage="#{bundle.EditWorkingDayRequiredMessage_initialsWorkingDay}"/>
+                        <p:outputLabel value="#{bundle.EditWorkingDayLabel_name}" for="name" />
+                        <p:inputText id="name" value="#{workingDayController.selected.name}" title="#{bundle.EditWorkingDayTitle_name}" required="true" requiredMessage="#{bundle.EditWorkingDayRequiredMessage_name}"/>
+                        <p:outputLabel value="#{bundle.EditWorkingDayLabel_description}" for="description" />
+                        <p:inputText id="description" value="#{workingDayController.selected.description}" title="#{bundle.EditWorkingDayTitle_description}" />
+                        <p:outputLabel value="#{bundle.EditWorkingDayLabel_image}" for="image" />
+                        <p:inputTextarea rows="4" cols="30" id="image" value="#{workingDayController.selected.image}" title="#{bundle.EditWorkingDayTitle_image}" />
+                        <p:outputLabel value="#{bundle.EditWorkingDayLabel_state}" for="state" />
+                        <p:selectBooleanCheckbox id="state" value="#{workingDayController.selected.state}" />
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{workingDayController.update}" value="#{bundle.Save}" update="display,:WorkingDayListForm:datalist,:growl" oncomplete="handleSubmit(args, 'WorkingDayEditDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="WorkingDayEditDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="TrimesterEditDlg" widgetVar="TrimesterEditDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.EditTrimesterTitle}">
+            <h:form id="TrimesterEditForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{trimesterController.selected != null}">
+                        <p:outputLabel value="#{bundle.EditTrimesterLabel_trimesterPK_nameTrimester}" for="trimesterPK_nameTrimester" />
+                        <p:inputText id="trimesterPK_nameTrimester" value="#{trimesterController.selected.trimesterPK.nameTrimester}" title="#{bundle.EditTrimesterTitle_trimesterPK_nameTrimester}" required="true" requiredMessage="#{bundle.EditTrimesterRequiredMessage_trimesterPK_nameTrimester}"/>
+                        <p:outputLabel value="#{bundle.EditTrimesterLabel_trainingLevel1}" for="trainingLevel1" />
+                        <p:selectOneMenu id="trainingLevel1" value="#{trimesterController.selected.trainingLevel1}" required="true" requiredMessage="#{bundle.EditTrimesterRequiredMessage_trainingLevel1}">
+                            <f:selectItem itemLabel="#{bundle.SelectOneMessage}"/>
+                            <f:selectItems value="#{trainingLevelController.itemsAvailableSelectOne}"
+                                           var="trainingLevel1Item"
+                                           itemValue="#{trainingLevel1Item}"/>
+                        </p:selectOneMenu>
+                        <p:outputLabel value="#{bundle.EditTrimesterLabel_workingDay}" for="workingDay" />
+                        <p:selectOneMenu id="workingDay" value="#{trimesterController.selected.workingDay}" required="true" requiredMessage="#{bundle.EditTrimesterRequiredMessage_workingDay}">
+                            <f:selectItem itemLabel="#{bundle.SelectOneMessage}"/>
+                            <f:selectItems value="#{workingDayController.itemsAvailableSelectOne}"
+                                           var="workingDayItem"
+                                           itemValue="#{workingDayItem}"/>
+                        </p:selectOneMenu>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{trimesterController.update}" value="#{bundle.Save}" update="display,:TrimesterListForm:datalist,:growl" oncomplete="handleSubmit(args, 'TrimesterEditDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="TrimesterEditDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>
