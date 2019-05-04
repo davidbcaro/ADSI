@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Tidsplan.Models.TrainingProgram>
+
+@{
+    ViewBag.Title = "Programa de Formación";
+}
+
+<h2>Programa de Formación</h2>
+
+<p>
+    @Html.ActionLink("Crear Nuevo", "Create", null, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.idCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.toUpper)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.version)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.toUpper2)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.idCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.toUpper)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.version)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.toUpper2)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.idTrainingProgram }, new { @class = "btn btn-warning" })
+                @Html.ActionLink("Detalles", "Details", new { id = item.idTrainingProgram }, new { @class = "btn btn-info" })  
+                @Html.ActionLink("Borrar", "Delete", new { id = item.idTrainingProgram }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    }
+
+</table>

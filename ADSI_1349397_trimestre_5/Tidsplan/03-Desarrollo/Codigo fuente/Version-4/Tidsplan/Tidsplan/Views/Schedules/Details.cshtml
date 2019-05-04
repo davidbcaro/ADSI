@@ -1,0 +1,162 @@
+﻿@model Tidsplan.Models.Schedule
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Schedule</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.environmentt.numberEnvironment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.environmentt.numberEnvironment)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.group.numberGroup)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.group.numberGroup)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.headquartes.nameHeadquartes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.headquartes.nameHeadquartes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.instructor.documentNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.instructor.documentNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.trimester.nameTrimester)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.trimester.nameTrimester)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.version)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.version)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.workingDay.initials)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.workingDay.initials)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.startDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.startDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.endHDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.endHDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.startHour)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.startHour)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.endHour)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.endHour)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.lunes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lunes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.martes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.martes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.miercoles)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.miercoles)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.jueves)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.jueves)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.viernes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.viernes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sabado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sabado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.domingo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.domingo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.scheduleID }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Volver a la lista", "Index", null, new { @class = "btn btn-primary" })
+</p>

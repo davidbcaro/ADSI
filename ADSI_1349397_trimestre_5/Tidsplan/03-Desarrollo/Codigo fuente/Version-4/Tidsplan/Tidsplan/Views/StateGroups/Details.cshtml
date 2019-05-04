@@ -1,0 +1,26 @@
+﻿@model Tidsplan.Models.StateGroup
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Estado de la Ficha</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nameState)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nameState)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.stateGroupID }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Volver a la lista", "Index", null, new { @class = "btn btn-primary" })
+</p>

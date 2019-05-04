@@ -1,0 +1,44 @@
+﻿@model Tidsplan.Models.Headquartes
+
+@{
+    ViewBag.Title = "Borrar";
+}
+
+<h2>Borrar</h2>
+
+<h3>¿Esta seguro que quiere borrar esto?</h3>
+<div>
+    <h4>Sede</h4>
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nameHeadquartes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nameHeadquartes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.address)
+        </dd>
+
+       
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Borrar" class="btn btn-danger" /> 
+            @Html.ActionLink("Volver a la lista", "Index", null, new { @class = "btn btn-primary" })
+        </div>
+    }
+</div>

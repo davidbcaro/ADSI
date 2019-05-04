@@ -1,0 +1,30 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+    @Html.AntiForgeryToken()
+        <div class="navbar-inverse  btn-responsive tabla">
+                <table class="" >
+                    <ul class="nav ">
+                        <li>
+                            @Html.ActionLink("Hola " + User.Identity.GetUserName() + "!", null, null, routeValues: null, htmlAttributes: new { @class = "" })
+                        </li>
+                        <li>                           
+                            @Html.ActionLink("Cuenta", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+                        </li>
+                        <li><a href="javascript:document.getElementById('logoutForm').submit()">Salir</a></li>
+
+                    </ul>
+            </table>
+    </div>
+   
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+       <li>@Html.ActionLink("Iniciar sesión", "Login", "Account", routeValues: null, htmlAttributes: new { @class = "btn-link btn-responsive imagena navbar-ini imagena" })</li>
+    </ul>
+   
+}

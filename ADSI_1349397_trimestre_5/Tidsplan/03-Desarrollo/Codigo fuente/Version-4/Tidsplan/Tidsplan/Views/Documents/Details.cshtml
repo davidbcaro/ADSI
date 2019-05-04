@@ -1,0 +1,34 @@
+﻿@model Tidsplan.Models.Document
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Documento</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.idDocument)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idDocument)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.typeDocument)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.typeDocument)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.documentID }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Volver a la lista", "Index", null, new { @class = "btn btn-primary" })
+</p>

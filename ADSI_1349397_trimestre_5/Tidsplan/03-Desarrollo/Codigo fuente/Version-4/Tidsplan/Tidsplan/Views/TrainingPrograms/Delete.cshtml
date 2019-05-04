@@ -1,0 +1,58 @@
+﻿@model Tidsplan.Models.TrainingProgram
+
+@{
+    ViewBag.Title = "Borrar";
+}
+
+<h2>Borrar</h2>
+
+<h3>¿Esta seguro que quiere borrar esto?</h3>
+<div>
+    <h4>Programa de Formación</h4>
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.idCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nameProgram)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nameProgram)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.version)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.version)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.initials)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.initials)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Borrar" class="btn btn-danger" /> 
+            @Html.ActionLink("Volver a la lista", "Index", null, new { @class = "btn btn-primary" })
+        </div>
+    }
+</div>

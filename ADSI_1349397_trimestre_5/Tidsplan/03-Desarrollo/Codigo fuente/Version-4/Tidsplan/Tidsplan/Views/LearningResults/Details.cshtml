@@ -1,0 +1,34 @@
+﻿@model Tidsplan.Models.LearningResult
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Resultado de Aprendizaje</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.idCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.description)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.idLearningResults }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Volver a la lista", "Index", null, new { @class = "btn btn-primary" })
+</p>

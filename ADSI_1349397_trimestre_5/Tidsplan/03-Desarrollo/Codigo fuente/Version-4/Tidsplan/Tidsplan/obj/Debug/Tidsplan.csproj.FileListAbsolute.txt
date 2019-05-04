@@ -1,0 +1,545 @@
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\ApplicationInsights.config
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\roslyn\csc.exe
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\roslyn\vbc.exe
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\roslyn\VBCSCompiler.exe
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Tidsplan.dll.config
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Tidsplan.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Tidsplan.pdb
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Antlr3.Runtime.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\EntityFramework.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\EntityFramework.SqlServer.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.AI.Web.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.ApplicationInsights.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Newtonsoft.Json.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Owin.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Net.Http.Formatting.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.Helpers.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.Http.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.Http.WebHost.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.Mvc.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.Optimization.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.Razor.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.WebPages.Deployment.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.WebPages.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.WebPages.Razor.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\WebGrease.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.AI.Web.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.ApplicationInsights.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.Helpers.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.Mvc.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.Optimization.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.Razor.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.WebPages.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.WebPages.Deployment.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.WebPages.Razor.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Antlr3.Runtime.pdb
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Newtonsoft.Json.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Net.Http.Formatting.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.Http.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\System.Web.Http.WebHost.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\EntityFramework.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\EntityFramework.SqlServer.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\obj\Debug\Tidsplan.csprojResolveAssemblyReference.cache
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\obj\Debug\Tidsplan.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan\obj\Debug\Tidsplan.pdb
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\ApplicationInsights.config
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\csc.exe
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\vbc.exe
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\VBCSCompiler.exe
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Tidsplan.dll.config
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Tidsplan.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Tidsplan.pdb
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Antlr3.Runtime.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.SqlServer.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.Web.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.ApplicationInsights.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Newtonsoft.Json.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Owin.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Net.Http.Formatting.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Helpers.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.WebHost.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Mvc.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Optimization.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Razor.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Deployment.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Razor.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\WebGrease.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.Web.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.ApplicationInsights.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Helpers.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Mvc.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Optimization.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Razor.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Deployment.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Razor.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Antlr3.Runtime.pdb
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Newtonsoft.Json.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Net.Http.Formatting.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.WebHost.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.SqlServer.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\obj\Debug\Tidsplan.csprojResolveAssemblyReference.cache
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\obj\Debug\Tidsplan.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\obj\Debug\Tidsplan.pdb
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\ApplicationInsights.config
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\csc.exe
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\vbc.exe
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\VBCSCompiler.exe
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Tidsplan.dll.config
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Tidsplan.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Tidsplan.pdb
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Antlr3.Runtime.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.SqlServer.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.Web.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.ApplicationInsights.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Newtonsoft.Json.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Owin.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Net.Http.Formatting.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Helpers.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.WebHost.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Mvc.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Optimization.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Razor.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Deployment.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Razor.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\WebGrease.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.Web.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.ApplicationInsights.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Helpers.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Mvc.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Optimization.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Razor.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Deployment.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Razor.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Antlr3.Runtime.pdb
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Newtonsoft.Json.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Net.Http.Formatting.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.WebHost.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.SqlServer.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\obj\Debug\Tidsplan.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\obj\Debug\Tidsplan.pdb
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\ApplicationInsights.config
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\csc.exe
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\vbc.exe
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\VBCSCompiler.exe
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Tidsplan.dll.config
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Tidsplan.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Tidsplan.pdb
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Antlr3.Runtime.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.SqlServer.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.Web.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.ApplicationInsights.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Newtonsoft.Json.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Owin.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Net.Http.Formatting.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Helpers.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.WebHost.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Mvc.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Optimization.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Razor.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Razor.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\WebGrease.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.Web.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.ApplicationInsights.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Helpers.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Mvc.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Optimization.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Razor.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Razor.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Antlr3.Runtime.pdb
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Newtonsoft.Json.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Net.Http.Formatting.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.WebHost.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.SqlServer.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\obj\Debug\Tidsplan.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\obj\Debug\Tidsplan.pdb
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\obj\Debug\Tidsplan.csprojResolveAssemblyReference.cache
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\ApplicationInsights.config
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\csc.exe
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\vbc.exe
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\VBCSCompiler.exe
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Tidsplan.dll.config
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Tidsplan.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Tidsplan.pdb
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Antlr3.Runtime.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.SqlServer.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.Web.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.ApplicationInsights.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Newtonsoft.Json.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Owin.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Net.Http.Formatting.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Helpers.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.WebHost.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Mvc.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Optimization.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Razor.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Deployment.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Razor.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\WebGrease.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.Web.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.ApplicationInsights.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Helpers.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Mvc.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Optimization.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Razor.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Deployment.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Razor.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Antlr3.Runtime.pdb
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Newtonsoft.Json.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Net.Http.Formatting.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.WebHost.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.SqlServer.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\obj\Debug\Tidsplan.csprojResolveAssemblyReference.cache
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\obj\Debug\Tidsplan.dll
+C:\Users\SOPORTE\Desktop\jjjjj\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\obj\Debug\Tidsplan.pdb
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\ApplicationInsights.config
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\csc.exe
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\vbc.exe
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\VBCSCompiler.exe
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Tidsplan.dll.config
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Tidsplan.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Tidsplan.pdb
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Antlr3.Runtime.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.SqlServer.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.Web.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.ApplicationInsights.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Newtonsoft.Json.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Owin.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Net.Http.Formatting.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Helpers.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.WebHost.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Mvc.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Optimization.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Razor.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Razor.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\WebGrease.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.Web.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.ApplicationInsights.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Helpers.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Mvc.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Optimization.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Razor.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.WebPages.Razor.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Antlr3.Runtime.pdb
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Newtonsoft.Json.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Net.Http.Formatting.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\System.Web.Http.WebHost.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\EntityFramework.SqlServer.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\obj\Debug\Tidsplan.csprojResolveAssemblyReference.cache
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\obj\Debug\Tidsplan.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\obj\Debug\Tidsplan.pdb
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\CrystalDecisions.ReportSource.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\CrystalDecisions.Shared.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\bin\stdole.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\obj\Debug\Tidsplan.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan\obj\Debug\Tidsplan.pdb

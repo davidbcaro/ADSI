@@ -1,0 +1,42 @@
+﻿@model Tidsplan.Models.Competition
+
+@{
+    ViewBag.Title = "Borrar";
+}
+
+<h2>Borrar</h2>
+
+<h3>¿Está seguro que quiere borrar esto?</h3>
+<div>
+    <h4>Competencia</h4>
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.description)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Borrar" class="btn btn-default" /> 
+            @Html.ActionLink("Volver a la lista", "Index", null, new { @class = "btn btn-primary" })
+        </div>
+    }
+</div>

@@ -1,0 +1,106 @@
+﻿@model Tidsplan.Models.Instructor
+
+@{
+    ViewBag.Title = "Borrar";
+}
+
+<h2>Borrar</h2>
+
+<h3>¿Esta seguro que quiere borrar esto?</h3>
+<div>
+    <h4>Instructor</h4>
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.document.idDocument)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.document.idDocument)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.employment.typeEmploymentRelationship)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.employment.typeEmploymentRelationship)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.speciality.nameSpeciality)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.speciality.nameSpeciality)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.documentNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.documentNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.firstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.firstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.secondName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.secondName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.surname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.surname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.secondSurname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.secondSurname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.photo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.photo)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Borrar" class="btn btn-danger" /> 
+            @Html.ActionLink("Volver a la lista", "Index", null, new { @class = "btn btn-primary" })
+        </div>
+    }
+</div>

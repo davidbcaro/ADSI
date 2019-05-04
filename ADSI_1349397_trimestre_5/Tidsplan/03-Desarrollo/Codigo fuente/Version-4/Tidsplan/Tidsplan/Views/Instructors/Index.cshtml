@@ -1,0 +1,104 @@
+﻿@model IEnumerable<Tidsplan.Models.Instructor>
+
+
+
+@{
+    ViewBag.Title = "Instructor";
+}
+
+<h2>Instructor</h2>
+@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+<p>
+    @Html.ActionLink("Crear Nuevo", "Create", null, new { @class = "btn btn-primary" })
+</p>
+
+@using (Html.BeginForm())
+
+{
+   
+    <p>
+        Buscar por: @Html.TextBox("SearchString")
+        <input type="submit" value="Buscar" class="color" />
+
+    </p>
+}
+<table class="table body" >
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.document.idDocument)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.employment.typeEmploymentRelationship)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.speciality.nameSpeciality)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.documentNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.toUpper2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.toUpper3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.toUpper4)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.toUpper5)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.photo)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.document.idDocument)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.employment.typeEmploymentRelationship)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.speciality.nameSpeciality)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.documentNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.toUpper2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.toUpper3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.toUpper4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.toUpper5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @if (!string.IsNullOrEmpty(item.photo))
+                {
+                    <img src="@Url.Content(item.photo)" alt="Image" style="width:100px; height:150px; max-width: 100%; height: auto;" />
+                }
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.instructorID }, new { @class = "btn btn-warning" }) 
+                @Html.ActionLink("Detalles", "Details", new { id = item.instructorID }, new { @class = "btn btn-info" })  
+                @Html.ActionLink("Borrar", "Delete", new { id = item.instructorID }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    }
+
+</table>

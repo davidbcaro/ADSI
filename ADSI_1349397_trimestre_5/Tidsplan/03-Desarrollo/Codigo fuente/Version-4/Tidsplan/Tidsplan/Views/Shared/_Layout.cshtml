@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de inicio - TIDSPLAN</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="icon" href="~/Content/Photos/Tidsplan.ico" />
+</head>
+<body>
+
+    <div class="navbar titulo ">
+        <div>
+            <img src="~/Content/Photos/tidsplan.png" width="200" class="logo" />
+            <div>
+                @Html.ActionLink("TIDSPLAN", "Index", "Home", new { area = "" }, new { @class = "navbar-brand btn-link btn-responsive imagena" })
+                @Html.Partial("_LoginPartial")
+
+            </div>
+        </div>
+    </div>            
+            <br />
+            <br /><br /><br />
+            <br />
+            <br />
+
+
+
+
+
+
+
+            <div class="row affix-row">
+                <div class="col-sm-3 col-md-2 affix-sidebar">
+
+                    <div class="navbar navbar-default" role="navigation">
+                        <br />
+                        <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                            <ul class="nav navbar-nav" id="sidenav01">
+                                <li class="active">
+                                    <div class="btn-group">
+                                        <a href="#" class="btn btn-success dropdown-toggle grow color" data-toggle="dropdown">Instructor <span class="caret"></span></a>
+
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>@Html.ActionLink("Documento", "Index", "Documents")</li>
+                                            <li>@Html.ActionLink("Vinculación", "Index", "EmploymentRelationships")</li>
+                                            <li>@Html.ActionLink("Ambiente", "Index", "Environmentts")</li>
+                                            <li>@Html.ActionLink("Sede", "Index", "Headquartes")</li>
+                                            <li>@Html.ActionLink("Especialidad", "Index", "Specialities")</li>
+                                            <li>@Html.ActionLink("Jornada", "Index", "WorkingDays")</li>
+                                        </ul>
+                                    </div>
+
+
+                                <li>
+                                    <br />
+                                    <div class="btn-group">
+                                        <a href="#" class="btn btn-success dropdown-toggle grow color" data-toggle="dropdown" width="100px">
+                                            Trimestre <span class="caret"></span>
+                                        </a>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>@Html.ActionLink("Estado de la Ficha", "Index", "StateGroups")</li>
+                                            <li>@Html.ActionLink("Actividad", "Index", "Activities") </li>
+                                            <li>@Html.ActionLink("Competencia", "Index", "Competitions")</li>
+                                            <li>@Html.ActionLink("Nivel de Formación", "Index", "FormationLevels")</li>
+                                            <li>@Html.ActionLink("Resultado de Aprendizaje", "Index", "LearningResults")</li>
+                                            <li>@Html.ActionLink("Proyecto", "Index", "Projects")</li>
+                                            <li>@Html.ActionLink("Fase del Proyecto", "Index", "ProjectPhases")</li>
+                                            <li>@Html.ActionLink("Programa de Formación", "Index", "TrainingPrograms")</li>
+                                        </ul>
+
+                                    </div>
+
+
+                                </li>
+
+
+
+
+                                <li>
+                                    <br />
+                                    <div class="btn-group">
+                                        <a href="#" class="btn btn-success dropdown-toggle grow color" data-toggle="dropdown">
+                                            Horario <span class="caret"></span>
+                                        </a>
+
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>@Html.ActionLink("Instructor", "Index", "Instructors")</li>
+                                            <li>@Html.ActionLink("Grupo", "Index", "Groups")</li>
+                                            <li>@Html.ActionLink("Horarios", "Index", "Schedules")</li>
+                                            <li>@Html.ActionLink("Trimestre", "Index", "Trimesters")</li>
+                                            <li>@Html.ActionLink("Disponibilidad", "Index", "Disponibilities")</li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <br />
+                                    <p>
+
+                                        <a class="btn btn-success grow color" href="http://electricidadelectronicaytelecomu.blogspot.com.co/">Blog del CEET &raquo;</a>
+                                    </p>
+                                </li>
+
+
+
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+            <div class="col-sm-12 col-md-10 affix-content">
+
+                <div class="container body-content">
+                    @RenderBody()
+
+                    <footer>
+                        @DateTime.Now.Year - Tidsplan
+                    </footer>
+                </div>
+
+
+            </div>
+
+
+
+            
+
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+</body>
+</html>

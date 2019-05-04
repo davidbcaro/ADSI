@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Tidsplan.Models.Activity>
+
+@{
+    ViewBag.Title = "Actividad";
+}
+
+<h2>Actividad</h2>
+
+<p>
+    @Html.ActionLink("Crear Nueva", "Create" ,null,  new { @class= "btn btn-primary"})
+</p>
+<table  class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.idActivity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.toUpper)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.idActivity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.toUpper)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.idActivities, }, new { @class="btn btn-warning"} ) 
+            @Html.ActionLink("Detalles", "Details", new { id=item.idActivities }, new { @class = "btn btn-info" })     
+            @Html.ActionLink("Borrar", "Delete", new { id=item.idActivities }, new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>

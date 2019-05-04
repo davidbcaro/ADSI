@@ -1,0 +1,98 @@
+﻿@model Tidsplan.Models.Trimester
+
+@{
+    ViewBag.Title = "Borrar";
+}
+
+<h2>Borrar</h2>
+
+<h3>¿Esta seguro que quiere borrar esto?</h3>
+<div>
+    <h4>Trimestre</h4>
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.activities.idActivity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.activities.idActivity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.competitions.code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.competitions.code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.formationLevels.LevelFormation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.formationLevels.LevelFormation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.groups.numberGroup)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.groups.numberGroup)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.learningResults.idCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.learningResults.idCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.projectPhases.namePhase)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.projectPhases.namePhase)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.projects.code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.projects.code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.trainingPrograms.idCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.trainingPrograms.idCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nameTrimester)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nameTrimester)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Borrar" class="btn btn-danger" /> 
+            @Html.ActionLink("Volver a la lista", "Index", null, new { @class = "btn btn-primary" })
+        </div>
+    }
+</div>

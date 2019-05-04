@@ -1,0 +1,26 @@
+﻿@model Tidsplan.Models.FormationLevel
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Nivel de Formación</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.LevelFormation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LevelFormation)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.idFormationLvel }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Volver a la lista", "Index", null, new { @class = "btn btn-primary" })
+</p>

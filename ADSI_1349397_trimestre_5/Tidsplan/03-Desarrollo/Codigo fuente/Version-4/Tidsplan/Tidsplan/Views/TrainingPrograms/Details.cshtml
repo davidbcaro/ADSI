@@ -1,0 +1,50 @@
+﻿@model Tidsplan.Models.TrainingProgram
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Programa de Formación</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.idCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nameProgram)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nameProgram)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.version)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.version)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.initials)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.initials)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.idTrainingProgram }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Volver a la lista", "Index", null, new { @class = "btn btn-primary" })
+</p>

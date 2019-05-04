@@ -1,0 +1,145 @@
+﻿@model IEnumerable<Tidsplan.Models.Schedule>
+
+@{
+    ViewBag.Title = "Horario";
+}
+
+<h2>Horario</h2>
+
+<p>
+    @Html.ActionLink("Crear Nuevo", "Create", null, new { @class = "btn btn-primary" })
+</p>
+@using (Html.BeginForm())
+
+{
+
+    <p>
+        Buscar por: @Html.TextBox("SearchString")
+        <input type="button" value="Buscar"class="color" />
+
+    </p>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.environmentt.numberEnvironment)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.group.numberGroup)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.headquartes.nameHeadquartes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.instructor.documentNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.trimester.nameTrimester)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.version)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.workingDay.initials)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.startDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.endHDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.startHour)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.endHour)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lunes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.martes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.miercoles)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.jueves)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.viernes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sabado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.domingo)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.environmentt.numberEnvironment)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.group.numberGroup)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.headquartes.nameHeadquartes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.instructor.documentNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.trimester.nameTrimester)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.version)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.workingDay.initials)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.startDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.endHDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.startHour)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.endHour)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lunes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.martes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.miercoles)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.jueves)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.viernes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sabado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.domingo)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id = item.scheduleID }, new { @class = "btn btn-warning" }) 
+            @Html.ActionLink("Detalles", "Details", new { id = item.scheduleID }, new { @class = "btn btn-info" }) 
+            @Html.ActionLink("Borrar", "Delete", new { id=item.scheduleID }, new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>

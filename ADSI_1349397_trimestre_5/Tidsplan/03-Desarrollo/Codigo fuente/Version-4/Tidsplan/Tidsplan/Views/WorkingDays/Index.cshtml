@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Tidsplan.Models.WorkingDay>
+
+@{
+    ViewBag.Title = "Jornada";
+}
+
+<h2>Jornada</h2>
+
+<p>
+    @Html.ActionLink("Crear nuevo", "Create", null, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.toUpper)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.toUpper2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.toUpper3)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.toUpper)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.toUpper2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.toUpper3)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id = item.workingDayID }, new { @class = "btn btn-warning" }) 
+            @Html.ActionLink("Detalles", "Details", new { id = item.workingDayID }, new { @class = "btn btn-info" })    
+            @Html.ActionLink("Borrar", "Delete", new { id=item.workingDayID }, new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>

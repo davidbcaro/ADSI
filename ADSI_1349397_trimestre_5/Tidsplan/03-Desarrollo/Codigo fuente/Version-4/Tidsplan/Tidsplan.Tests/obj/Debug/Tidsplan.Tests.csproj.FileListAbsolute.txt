@@ -1,0 +1,406 @@
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.dll.config
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.pdb
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Owin.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\EntityFramework.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.pdb
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\EntityFramework.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.csprojResolveAssemblyReference.cache
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.dll
+C:\Users\SOPORTE\Desktop\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.pdb
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.dll.config
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.pdb
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Owin.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\EntityFramework.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.pdb
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\EntityFramework.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.csprojResolveAssemblyReference.cache
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.pdb
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.dll.config
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.pdb
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Owin.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\EntityFramework.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.pdb
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\EntityFramework.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.csprojResolveAssemblyReference.cache
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.dll
+C:\Users\SOPORTE\Source\Repos\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.pdb
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.dll.config
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.pdb
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Owin.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\EntityFramework.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.pdb
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.dll.config
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\EntityFramework.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.csprojResolveAssemblyReference.cache
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.dll
+C:\Users\LOGISTICA COLOMBIA\Documents\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.pdb
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.dll.config
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.pdb
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Owin.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\EntityFramework.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.pdb
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.dll.config
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\EntityFramework.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.csprojResolveAssemblyReference.cache
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.pdb
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\LOGISTICA COLOMBIA\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\stdole.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\SOPORTE\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.dll.config
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.Tests.pdb
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Owin.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\EntityFramework.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\stdole.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.pdb
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Tidsplan.dll.config
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\EntityFramework.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.csprojAssemblyReference.cache
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.csproj.CopyComplete
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.dll
+C:\Users\USER\Documents\JOBS\SENA\2. FICHAS\TRIMESTRE I\1. ADSI V 1349397\PROYECTO APRENDICES\Tidsplan\03-Desarrollo\Codigo fuente\Version-4\Tidsplan\Tidsplan.Tests\obj\Debug\Tidsplan.Tests.pdb

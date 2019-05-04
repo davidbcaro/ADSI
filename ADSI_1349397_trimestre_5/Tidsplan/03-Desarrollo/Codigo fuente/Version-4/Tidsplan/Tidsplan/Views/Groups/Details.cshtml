@@ -1,0 +1,58 @@
+﻿@model Tidsplan.Models.Group
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Grupo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.stateGroup.nameState)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.stateGroup.nameState)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.numberGroup)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numberGroup)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.startDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.startDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.endDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.endDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.route)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.route)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.groupID }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Volver a la lista", "Index", null, new { @class = "btn btn-primary" })
+</p>

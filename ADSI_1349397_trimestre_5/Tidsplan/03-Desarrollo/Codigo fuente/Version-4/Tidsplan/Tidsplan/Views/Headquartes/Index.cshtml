@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Tidsplan.Models.Headquartes>
+
+@{
+    ViewBag.Title = "Sede";
+}
+
+<h2>Sede</h2>
+
+<p>
+    @Html.ActionLink("Crear Nuevo", "Create", null, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.toUpper)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.toUpper2)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.toUpper)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.toUpper2)
+            </td>
+
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.headquartesID }, new { @class = "btn btn-warning" }) 
+                @Html.ActionLink("Detalles", "Details", new { id = item.headquartesID }, new { @class = "btn btn-info" })  
+                @Html.ActionLink("Borrar", "Delete", new { id = item.headquartesID }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,93 @@
+﻿@model IEnumerable<Tidsplan.Models.Trimester>
+
+@{
+    ViewBag.Title = "Trimestre";
+}
+
+<h2>Trimestre</h2>
+
+<p>
+
+    @Html.ActionLink("Crear Nuevo", "Create", null, new { @class = "btn btn-primary" })
+</p>
+
+
+@using (Html.BeginForm())
+{
+    <p>
+        Buscar por: @Html.TextBox("SearchString")
+        <input type="submit" value="Buscar" class="color"/>
+
+    </p>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.activities.idActivity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.competitions.code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.formationLevels.LevelFormation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.groups.numberGroup)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.learningResults.idCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.projectPhases.namePhase)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.projects.code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.trainingPrograms.idCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.toUpper)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.activities.idActivity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.competitions.code)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.formationLevels.LevelFormation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.groups.numberGroup)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.learningResults.idCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.projectPhases.namePhase)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.projects.code)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.trainingPrograms.idCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.toUpper)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.trimesterID }, new { @class = "btn btn-warning" }) 
+                @Html.ActionLink("Detalles", "Details", new { id = item.trimesterID }, new { @class = "btn btn-info" })
+                @Html.ActionLink("Borrar", "Delete", new { id = item.trimesterID }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e3db233-2769-4382-9efc-4d8c356c5c88" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03-Desarrollo/Codigo fuente/Version-2/Tidsplan/.idea/workspace.xml" afterPath="$PROJECT_DIR$/03-Desarrollo/Codigo fuente/Version-2/Tidsplan/.idea/workspace.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MysqlProjectDAOTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlProjectDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-680">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MysqlProjectPhaseDAOTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlProjectPhaseDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MysqlActivityDAOTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlActivityDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MysqlFormationLevelDAOTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlFormationLevelDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-136">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MysqlSpecialityDAOTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlSpecialityDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MysqlRoleDAOTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlRoleDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MysqlCustomerDAOTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlCustomerDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="39" column="43" lean-forward="false" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MysqlDocumentDAOTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlDocumentDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/modelo/dto/ProjectDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/ClienteDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/ClienteDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/ProjectPkDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/ProjectDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/dtopk/ProjectPkDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/dao/ProjectDAO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/factory/dao/mysql/MysqlProjectDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/mysql/MysqlClienteDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/ProjectDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/dao/mysql/MysqlProjectDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/as" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/interfaceDAO/ProjectDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/interfaceDAOfactory/ProjectDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/interfaceDAO/ProjectPhase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/ProjectPhase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/interfaceDAOfactory/ProjectPhaseDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/mysql/MysqlProjectDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/mysql/MysqlProjectPhaseDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/interfaceDAO/ProjectPhaseDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/ProjectPhaseDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/dtopk/ProjectPhasePkDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlProjectDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/interfaceDAO/SpecialityDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/SpecialityDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlSpecialityDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/mysql/MysqlDocumentDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/mysql/MysqlSpecialityDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/interfaceDAOfactory/SpecialityDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/dtopk/ActivityPkDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/ActivityDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/interfaceDAO/ActivityDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlProjectPhaseDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/interfaceDAOfactory/ActivityFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/mysql/MysqlActivityDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/interfaceDAOfactory/ActivityDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlSpecialityDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlActivityDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/dtopk/FormatLevelPkDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/FormationLevelDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/interfaceDAO/FormationLevelDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/interfaceDAOfactory/FormationLevelDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/mysql/MysqlFormationLevelDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlFormationLevelDAO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlFormationLevelDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/util/ResourceManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlActivityDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlProjectDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlProjectPhaseDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlDocumentDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlCustomerDAOTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="false" />
+      <autoscrollFromSource ProjectPane="false" />
+      <sortByType ProjectPane="false" />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+              <item name="tisdplandao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+              <item name="tisdplandao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+              <item name="tisdplandao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+              <item name="tisdplandao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaceDAO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+              <item name="tisdplandao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+              <item name="tisdplandao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+              <item name="tisdplandao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+              <item name="tisdplandao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaceDAOfactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+              <item name="tisdplandao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+              <item name="tisdplandao" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+              <item name="tisdplandao" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+              <item name="tisdplandao" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="dtopk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+              <item name="tisdplandao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+              <item name="tisdplandao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+              <item name="tisdplandao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tidsplan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tidsplan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="sena" type="462c0819:PsiDirectoryNode" />
+              <item name="tisdplandao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="co.edu.sena.tisdplandao.controller.dao.mysql" />
+      <recent name="co.edu.sena.tisdplandao.controller.factory.dao.mysql" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="co.edu.sena.tisdplandao.controller.factory" />
+      <recent name="co.edu.sena.tisdplandao.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1349397\Desktop\Tidsplaan\03-Desarrollo\Codigo fuente\Version-2\Tidsplan\src\test\java\co\edu\sena\tisdplandao\controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.edu.sena.tisdplandao.controller.factory.mysql" />
+      <recent name="co.edu.sena.tisdplandao.controller.factory.interfaceDAOfactory" />
+      <recent name="co.edu.sena.tisdplandao.controller.dao.mysql" />
+      <recent name="co.edu.sena.tisdplandao.controller.dao.interfaceDAO" />
+      <recent name="co.edu.sena.tisdplandao.model.dto" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="co.edu.sena.tisdplandao.controller.dao.mysql" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MysqlDocumentDAOTest">
+    <configuration name="MysqlCustomerDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="co.edu.sena.tisdplandao.controller.dao.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Tidsplan" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="co.edu.sena.tisdplandao.controller.dao.mysql" />
+      <option name="MAIN_CLASS_NAME" value="co.edu.sena.tisdplandao.controller.dao.mysql.MysqlCustomerDAOTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MysqlCustomerDAOTest.test1insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="co.edu.sena.tisdplandao.controller.dao.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Tidsplan" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="co.edu.sena.tisdplandao.controller.dao.mysql" />
+      <option name="MAIN_CLASS_NAME" value="co.edu.sena.tisdplandao.controller.dao.mysql.MysqlCustomerDAOTest" />
+      <option name="METHOD_NAME" value="test1insert" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MysqlDocumentDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="co.edu.sena.tisdplandao.controller.dao.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Tidsplan" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="co.edu.sena.tisdplandao.controller.dao.mysql" />
+      <option name="MAIN_CLASS_NAME" value="co.edu.sena.tisdplandao.controller.dao.mysql.MysqlDocumentDAOTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MysqlRoleDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="co.edu.sena.tisdplandao.controller.dao.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Tidsplan" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="co.edu.sena.tisdplandao.controller.dao.mysql" />
+      <option name="MAIN_CLASS_NAME" value="co.edu.sena.tisdplandao.controller.dao.mysql.MysqlRoleDAOTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MysqlSpecialityDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="co.edu.sena.tisdplandao.controller.dao.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Tidsplan" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="co.edu.sena.tisdplandao.controller.dao.mysql" />
+      <option name="MAIN_CLASS_NAME" value="co.edu.sena.tisdplandao.controller.dao.mysql.MysqlSpecialityDAOTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MysqlSpecialityDAOTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MysqlRoleDAOTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MysqlDocumentDAOTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MysqlCustomerDAOTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MysqlCustomerDAOTest.test1insert" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MysqlDocumentDAOTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MysqlCustomerDAOTest.test1insert" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MysqlCustomerDAOTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MysqlRoleDAOTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MysqlSpecialityDAOTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e3db233-2769-4382-9efc-4d8c356c5c88" name="Default" comment="" />
+      <created>1508243740683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508243740683</updated>
+      <workItem from="1508243745284" duration="6598000" />
+      <workItem from="1508250778002" duration="2048000" />
+      <workItem from="1508252867894" duration="604000" />
+      <workItem from="1508253517123" duration="5692000" />
+      <workItem from="1508326131918" duration="18874000" />
+      <workItem from="1508411814436" duration="1295000" />
+      <workItem from="1508420186951" duration="5439000" />
+      <workItem from="1508425647542" duration="6205000" />
+      <workItem from="1508498482901" duration="19613000" />
+      <workItem from="1508770864200" duration="608000" />
+      <workItem from="1508858126735" duration="1624000" />
+      <workItem from="1508930969754" duration="1553000" />
+      <workItem from="1508941147530" duration="987000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MysqlCustomerDAOTest - 2017.10.25 at 09h 30m 32s.xml">
+      <configuration name="MysqlCustomerDAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MysqlCustomerDAOTest - 2017.10.25 at 09h 32m 21s.xml">
+      <configuration name="MysqlCustomerDAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MysqlCustomerDAOTest - 2017.10.25 at 09h 33m 05s.xml">
+      <configuration name="MysqlCustomerDAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MysqlCustomerDAOTest_test1insert - 2017.10.25 at 09h 31m 28s.xml">
+      <configuration name="MysqlCustomerDAOTest.test1insert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MysqlCustomerDAOTest_test1insert - 2017.10.25 at 09h 33m 38s.xml">
+      <configuration name="MysqlCustomerDAOTest.test1insert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MysqlCustomerDAOTest_test1insert - 2017.10.25 at 09h 34m 15s.xml">
+      <configuration name="MysqlCustomerDAOTest.test1insert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MysqlDocumentDAOTest - 2017.10.25 at 09h 30m 27s.xml">
+      <configuration name="MysqlDocumentDAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MysqlDocumentDAOTest - 2017.10.25 at 09h 32m 16s.xml">
+      <configuration name="MysqlDocumentDAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MysqlDocumentDAOTest - 2017.10.25 at 09h 33m 00s.xml">
+      <configuration name="MysqlDocumentDAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MysqlDocumentDAOTest - 2017.10.25 at 09h 35m 24s.xml">
+      <configuration name="MysqlDocumentDAOTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="71143000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32676518" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33438987" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3827534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3961965" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlActivityDAOTest.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlActivityDAOTest.java</url>
+          <line>76</line>
+          <properties class="co.edu.sena.tisdplandao.controller.dao.mysql.MysqlActivityDAOTest" method="Test3findPk">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="13" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlSpecialityDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/SpecialityDTO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/mysql/MysqlProjectPhaseDAOFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/mysql/MysqlSpecialityDAOFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/interfaceDAOfactory/SpecialityDAOFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/DocumentDTO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/ProjectPhaseDTO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/interfaceDAO/ProjectDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/interfaceDAO/RoleDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlRoleDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/interfaceDAOfactory/RoleDAOFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/mysql/MysqlRoleDAOFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/RoleDTO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlProjectPhaseDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/interfaceDAOfactory/DocumentDAOFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/interfaceDAOfactory/ActivityFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/interfaceDAOfactory/ProjectPhaseDAOFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/mysql/MysqlDocumentDAOFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/interfaceDAOfactory/ActivityDAOFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/dtopk/ProjectPhasePkDTO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/CustomerDTO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/dtopk/ActivityPkDTO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/mysql/MysqlActivityDAOFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/ActivityDTO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/mysql/MysqlCustomerDAOFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/interfaceDAO/ActivityDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/interfaceDAO/CustomerDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlActivityDAO.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/dtopk/FormatLevelPkDTO.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/mysql/MysqlProjectDAOFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/interfaceDAO/FormationLevelDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/FormationLevelDTO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/mysql/MysqlFormationLevelDAOFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/factory/interfaceDAOfactory/FormationLevelDAOFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlDocumentDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlProjectDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlFormationLevelDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlCustomerDAO.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/controller/dao/util/ResourceManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/edu/sena/tisdplandao/model/dto/ProjectDTO.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlProjectPhaseDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlActivityDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlSpecialityDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlRoleDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlProjectDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlFormationLevelDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlCustomerDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="39" column="43" lean-forward="false" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/edu/sena/tisdplandao/controller/dao/mysql/MysqlDocumentDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Tidsplan</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

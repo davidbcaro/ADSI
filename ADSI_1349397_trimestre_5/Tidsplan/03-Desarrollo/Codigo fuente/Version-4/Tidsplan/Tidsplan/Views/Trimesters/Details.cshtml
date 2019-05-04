@@ -1,0 +1,90 @@
+﻿@model Tidsplan.Models.Trimester
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Trimestre</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.activities.idActivity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.activities.idActivity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.competitions.code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.competitions.code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.formationLevels.LevelFormation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.formationLevels.LevelFormation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.groups.numberGroup)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.groups.numberGroup)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.learningResults.idCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.learningResults.idCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.projectPhases.namePhase)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.projectPhases.namePhase)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.projects.code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.projects.code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.trainingPrograms.idCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.trainingPrograms.idCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nameTrimester)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nameTrimester)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.trimesterID }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Volver a la lista", "Index", null, new { @class = "btn btn-primary" })
+</p>

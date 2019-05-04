@@ -1,0 +1,98 @@
+﻿@model Tidsplan.Models.Disponibility
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Disponibilidad</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Instructor.documentNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Instructor.documentNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.startHour)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.startHour)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.endHour)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.endHour)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.lunes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lunes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.martes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.martes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.miercoles)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.miercoles)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.jueves)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.jueves)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.viernes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.viernes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sabado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sabado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.domingo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.domingo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.idDisponibility }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Volver a la lista", "Index", null, new { @class = "btn btn-primary" })
+</p>
