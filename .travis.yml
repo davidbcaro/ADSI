@@ -1,2 +1,4 @@
-Language: java
-Jdk: oraclejdk8
+language: ruby
+rvm:
+ - 2.2
+ - jruby
